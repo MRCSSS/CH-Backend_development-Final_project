@@ -36,7 +36,7 @@ prodsRouter.put('/:id', adminOnly , async (req, res)=>{
 
 prodsRouter.delete('/:id', adminOnly , async (req, res)=>{
     await prods.deleteById(req.params.id)
-    res.status(200).json({ msg: 'Deleted!' });
+    res.status(200).json({ msg: 'Product deleted!' });
 });
 
 prodsRouter.get('*', async (request, response) => {

@@ -6,31 +6,41 @@ import { ContainerFile } from '../container/ContFile.js';
 const cartRouter = Router();
 
 /* ------------------------- BASE DE DATOS -------------------------- */
-const cart = new ContainerFile('./db/DB_Carts.json');
+const carts = new ContainerFile('./db/DB_Carts.json');
 const prods = new ContainerFile('./db/DB_Products.json');
 
 /* ------------------------------ RUTAS -----------------------------*/
 cartRouter.post('/', async (req, res)=>{
-    res.status(201).json({ id: await cart.save({ products: [] }) });
+    res.status(201).json({ id: await carts.save({ productos: [] }) });
 });
 
 cartRouter.delete('/:id', async (req, res)=>{
-    res.status(200).json(await prods.deleteById(req.params.id));
+    await carts.deleteById(req.params.id)
+    res.status(200).json({ msg: 'Cart deleted!' });
 });
 
 cartRouter.get('/:id/productos', async (req, res)=>{
-    // const product = await cont.getById(req.params.id)
-    // res.status(200).json(product);
+    const cartSelected = await carts.getById(req.params.id)
+    res.status(200).json({ products: cartSelected.productos });
 });
 
 cartRouter.post('/:id/productos', async (req, res)=>{
-    // const newID = await cont.save(req.body);
-    // const newProduct = {...req.body, id:newID}
-    // res.status(201).json({msg: 'Agregado!', data: newProduct});
+    const cartSelected = await carts.getById(req.params.id)
+    const prodSelected = await prods.getById(req.body.id)
+    cartSelected.productos.push(prodSelected)
+    res.status(200).json(await carts.update(cartSelected, req.params.id));
 });
 
 cartRouter.delete('/:id/productos/:id_prod', async (req, res)=>{
-    const prodsInCart = await cart.getById
+    const cartSelected = await carts.getById(req.params.id)
+    const index = cartSelected.productos.findIndex(prod => prod.id == req.params.id_prod)
+    
+    if (index != -1) {
+        cartSelected.productos.splice(index, 1)
+        res.status(200).json({ msg: 'Product in cart deleted!', description: await carts.update(cartSelected, req.params.id)})
+    }
+    res.status(204).json({ msg: '', description: '' })
+    
 });
 
 cartRouter.get('*', async (request, response) => {
