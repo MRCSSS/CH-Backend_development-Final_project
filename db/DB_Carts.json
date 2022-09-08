@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "timestamp": "DD/MM/YY zz HH:mm:ss",
+        "productos": [
+            {
+                "id": 1,
+                "timestamp": "DD/MM/YY zz HH:mm:ss",
+                "nombre": "name1",
+                "descripcion": "description1",
+                "código": "code1",
+                "foto": "url.id1",
+                "precio": 1, 
+                "stock": 1
+            },
+            {
+                "id": 2,
+                "timestamp": "DD/MM/YY zz HH:mm:ss",
+                "nombre": "name2",
+                "descripcion": "description2",
+                "código": "code2",
+                "foto": "url.id2",
+                "precio": 2, 
+                "stock": 2
+            }        
+        ]
+    }
+]
