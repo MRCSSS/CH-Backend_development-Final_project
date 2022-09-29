@@ -1,6 +1,14 @@
+/* ---------------------- MODULOS IMPORTADOS ------------------------ */
+import * as dotenv from 'dotenv';
+
+/* ----------------- CONF DE VARIABLES DE ENTORNO ------------------- */
+dotenv.config();
+
+/* -------------------- DECLARACIÓN DE VARIABLES -------------------- */
 let productsDao;
 let cartsDao;
 
+/* ------------------- DECLARACIÓN DE DB ELEGIDA -------------------- */
 switch (process.env.DB_TYPE) {
     case 'json':
         const { default: ProductsDaoFile } = await import('./products/ProductsDaoFile.js');
@@ -55,7 +63,7 @@ switch (process.env.DB_TYPE) {
         cartsDao = new CartsDaoMemory();
         
         break;
-
 }
 
+/* ---------------------- MODULOS EXPORTADOS ------------------------ */
 export { productsDao, cartsDao };

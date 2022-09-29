@@ -1,8 +1,9 @@
+/* ---------------------- MODULOS IMPORTADOS ------------------------ */
 import { promises as fs } from 'fs';
-import config from '../config.js';
 import moment from 'moment';
 
-export default class ContMemory {
+/* ------------------------ CLASE CONTENEDOR ------------------------ */
+class ContMemory {
     constructor(path) {
         this.path = path;
     }
@@ -86,3 +87,6 @@ export default class ContMemory {
         }
     }
 }
+
+/* ---------------------- MODULOS EXPORTADOS ------------------------ */
+export default ContMemory;

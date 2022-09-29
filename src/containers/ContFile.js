@@ -1,10 +1,12 @@
+/* ---------------------- MODULOS IMPORTADOS ------------------------ */
 import { promises as fs } from 'fs';
 import config from '../config.js';
 import moment from 'moment';
 
-export default class ContFile {
+/* ------------------------ CLASE CONTENEDOR ------------------------ */
+class ContFile {
     constructor(path) {
-        this.path = `${config.path}/${path}`;
+        this.path = `${config.fileSystem.path}/${path}`;
     }
 
     async getAll() {
@@ -86,3 +88,6 @@ export default class ContFile {
         }
     }
 }
+
+/* ---------------------- MODULOS EXPORTADOS ------------------------ */
+export default ContFile;

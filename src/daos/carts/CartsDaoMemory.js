@@ -1,5 +1,6 @@
 import ContMemory from '../../containers/ContMemory.js';
 
+/* ------------------------ CLASE CONTENEDOR ------------------------ */
 class CartsDaoMemory extends ContMemory {
     constructor() {
         super('DB_Carts.json');
@@ -10,4 +11,5 @@ class CartsDaoMemory extends ContMemory {
     }
 }
 
+/* ---------------------- MODULOS EXPORTADOS ------------------------ */
 export default CartsDaoMemory;

@@ -1,3 +1,4 @@
+/* ------------------- OBJETO CONFIGURADOR DE DB -------------------- */
 export default {
     fileSystem: {
         path: './db'

@@ -1,11 +1,9 @@
 /* ---------------------------- MODULOS ----------------------------- */
 import { Router } from 'express';
 import { config } from '../utils/config.js';
-import * as dotenv from 'dotenv';
 import { productsDao as prods } from '../daos/index.js';
 
 /* -------------------------- INSTANCIAS  --------------------------- */
-dotenv.config();
 const prodsRouter = Router();
 
 /* ------------------------ ADMIN ACCESS MW ------------------------- */
@@ -41,4 +39,5 @@ prodsRouter.get('*', async (request, response) => {
     response.status(404).send({ code: 404, msg: 'Page not found!!' });
 });
 
+/* ---------------------- MODULOS EXPORTADOS ------------------------ */
 export default prodsRouter;

@@ -1,5 +1,7 @@
+/* ---------------------- MODULOS IMPORTADOS ------------------------ */
 import ContFile from '../../containers/ContFile.js';
 
+/* ------------------------ CLASE CONTENEDOR ------------------------ */
 class CartsDaoFile extends ContFile {
     constructor() {
         super('DB_Carts.json');
@@ -10,4 +12,5 @@ class CartsDaoFile extends ContFile {
     }
 }
 
+/* ---------------------- MODULOS EXPORTADOS ------------------------ */
 export default CartsDaoFile;

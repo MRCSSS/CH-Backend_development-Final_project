@@ -1,10 +1,8 @@
 /* ---------------------------- MODULOS ----------------------------- */
 import { Router } from 'express';
-import * as dotenv from 'dotenv';
 import { productsDao as prods, cartsDao as carts} from '../daos/index.js';
 
 /* -------------------------- INSTANCIAS  --------------------------- */
-dotenv.config();
 const cartsRouter = Router();
 
 /* ------------------------------ RUTAS -----------------------------*/
@@ -50,4 +48,5 @@ cartsRouter.get('*', async (request, response) => {
     response.status(404).send('404 - Page not found!!');
 });
 
+/* ---------------------- MODULOS EXPORTADOS ------------------------ */
 export default cartsRouter;

@@ -1,10 +1,12 @@
+/* ---------------------- MODULOS IMPORTADOS ------------------------ */
 import mongoose from 'mongoose';
 import config from '../config.js';
 import moment from 'moment';
 
 await mongoose.connect(config.mongodb.cnxStr, config.mongodb.options);
 
-export default class ContMongoDB {
+/* ------------------------ CLASE CONTENEDOR ------------------------ */
+class ContMongoDB {
     constructor(collectionName, squema) {
         this.collection = mongoose.model(collectionName, squema);
     }
@@ -93,3 +95,6 @@ export default class ContMongoDB {
         }
     }
 }
+
+/* ---------------------- MODULOS EXPORTADOS ------------------------ */
+export default ContMongoDB;

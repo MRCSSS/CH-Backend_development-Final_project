@@ -1,8 +1,10 @@
+/* ---------------------- MODULOS IMPORTADOS ------------------------ */
 import { promises as fs } from 'fs';
 import config from '../config.js';
 import moment from 'moment';
 
-export default class ContFirebase {
+/* ------------------------ CLASE CONTENEDOR ------------------------ */
+class ContFirebase {
     constructor(path) {
         this.path = path;
     }
@@ -86,3 +88,6 @@ export default class ContFirebase {
         }
     }
 }
+
+/* ---------------------- MODULOS EXPORTADOS ------------------------ */
+export default ContFirebase;
