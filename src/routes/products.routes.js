@@ -1,13 +1,12 @@
 /* ---------------------------- MODULOS ----------------------------- */
 import { Router } from 'express';
-import { ContainerFile } from '../container/ContFile.js';
 import { config } from '../utils/config.js';
+import * as dotenv from 'dotenv';
+import { productsDao as prods } from '../daos/index.js';
 
 /* -------------------------- INSTANCIAS  --------------------------- */
+dotenv.config();
 const prodsRouter = Router();
-
-/* ------------------------- BASE DE DATOS -------------------------- */
-const prods = new ContainerFile('./db/DB_Products.json');
 
 /* ------------------------ ADMIN ACCESS MW ------------------------- */
 const isAdmin = config.isAdmin;
@@ -35,8 +34,7 @@ prodsRouter.put('/:id', adminOnly , async (req, res)=>{
 });
 
 prodsRouter.delete('/:id', adminOnly , async (req, res)=>{
-    await prods.deleteById(req.params.id)
-    res.status(200).json({ msg: 'Product deleted!' });
+    res.status(200).json( await prods.deleteById(req.params.id) );
 });
 
 prodsRouter.get('*', async (request, response) => {
