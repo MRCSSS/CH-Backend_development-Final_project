@@ -4,18 +4,15 @@ import moment from 'moment';
 
 /* ------------------------ CLASE CONTENEDOR ------------------------ */
 class ContMemory {
-    constructor(path) {
-        this.path = path;
+    constructor(containerType, container) {
+        this.contType = containerType;
+        this.container = container;
     }
 
     async getAll() {
-        try {
-            const prods = await fs.readFile(this.path, 'utf8');
-            return JSON.parse(prods);
-        } catch (error) {
-            console.log(`Could not read file at "${this.path}": `, error);
-            return [];
-        }
+        contType = this.contType;
+        
+        return this.contType;
     }
 
     async getById(id) {

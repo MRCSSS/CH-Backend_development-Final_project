@@ -1,9 +1,12 @@
 import ContMongoDB from '../../containers/ContMongoDB.js';
 
+/* ------------------------ CLASE CONTENEDOR ------------------------ */
 class CartsDaoMongoDB extends ContMongoDB {
     constructor() {
         super('carts', {
-            products: { type: [], required: true }
+            timestamp: { type: String, required: true },
+            productos: { type: [], required: true },
+            id: { type: String, required: true }
         });
     }
 
@@ -12,4 +15,5 @@ class CartsDaoMongoDB extends ContMongoDB {
     }
 }
 
+/* ---------------------- MODULOS EXPORTADOS ------------------------ */
 export default CartsDaoMongoDB;

@@ -3,7 +3,7 @@ import ContMemory from '../../containers/ContMemory.js';
 /* ------------------------ CLASE CONTENEDOR ------------------------ */
 class CartsDaoMemory extends ContMemory {
     constructor() {
-        super('DB_Carts.json');
+        super('carts', {carts: {}});
     }
 
     async save( cart= { products: [] }) {

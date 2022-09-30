@@ -35,7 +35,7 @@ cartsRouter.post('/:id/productos', async (req, res)=>{
 cartsRouter.delete('/:id/productos/:id_prod', async (req, res)=>{
     const cartSelected = await carts.getById(req.params.id)
     const index = cartSelected.productos.findIndex(prod => prod.id == req.params.id_prod)
-    
+        
     if (index != -1) {
         cartSelected.productos.splice(index, 1)
         res.status(200).json({ msg: 'Product in cart deleted!', description: await carts.update(cartSelected, req.params.id)})

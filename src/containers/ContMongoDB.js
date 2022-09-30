@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 import config from '../config.js';
 import moment from 'moment';
 
-await mongoose.connect(config.mongodb.cnxStr, config.mongodb.options);
+await mongoose.connect(config.mongodb.cnxStr);
 
 /* ------------------------ CLASE CONTENEDOR ------------------------ */
 class ContMongoDB {
@@ -13,85 +13,61 @@ class ContMongoDB {
 
     async getAll() {
         try {
-            const prods = await fs.readFile(this.path, 'utf8');
-            return JSON.parse(prods);
+            let docs = await this.collection.find({});
+            return docs;
         } catch (error) {
-            console.log(`Could not read file at "${this.path}": `, error);
-            return [];
+            throw new Error(`getAll() error: ${error}`);
         }
     }
 
     async getById(id) {
         try {
-            const objects = await this.collection.find({ '_id': id }, { __});
-            const foundObj = objects.find(obj => obj.id == id)
-    
-            return foundObj != '' ? foundObj : {'Error': `Could not find the product "id: ${id}"`}
+            const object = await this.collection.find({ '_id': id });
+
+            if ( object.length != 0 ) {
+                return object;
+            } else {
+                throw new Error(`deleteById(id) error: doc not found`);
+            }
     
         } catch (error) {
             throw new Error(`getById error: ${error}`)
         }
     }
 
-    async save(prod) {
-        console.log(prod)
-
-        const prods = await this.getAll();
-        let newID;
-
-        if (prods.length === 0) {
-            newID = 1;
-        } else {
-            newID = prods[prods.length-1].id+1;
-        }
-
-        const newObj = { ...prod, timestamp: moment().format('DD/MM/YY HH:mm:ss'), id:newID };
-        prods.push(newObj);
-
-
+    async save(obj) {
         try {
-            await fs.writeFile(this.path, JSON.stringify(prods, null, 2));
-            return newID;
+            let newObj = await this.collection.create({ ...obj, timestamp: moment().format('DD/MM/YY HH:mm:ss') });
+            return newObj._id;
         } catch (error) {
-            throw new Error({error:'Error al guardar: ', description: error})
+            throw new Error(`save(obj) error: ${error}`);
         }
     }
         
     async deleteById(id) {
         try {
-            const objects = await this.getAll();
-            const filteredObj = objects.filter(obj => obj.id != id);
-            filteredObj !== '' ? await fs.writeFile(this.path, JSON.stringify(filteredObj, null, 2)) : console.log('deleteById(id): ', 'id doesn\'t found.');
+            await this.collection.deleteOne({ '_id': id });
         } catch (error) {
-            console.log('deleteById(id): ', error);
+            throw new Error(`deleteById(id) error: ${error}`)
         }
     }
 
-    async deleteAll() {
+    // async deleteAll() {
+    //     try {
+
+    //     } catch (error) {
+    //         console.log('deleteAll(): ', error);
+    //     }
+    // }
+
+    async update(obj, id) {
         try {
-            await fs.writeFile(this.path, JSON.stringify([], null, 2))
+            let beforObj = await this.collection.find({ '_id': id });
+
+            await this.collection.replaceOne({ '_id': id }, obj);
+            return { msg: 'Updated!', data: { 'before': beforObj, 'after': obj } }
         } catch (error) {
-            console.log('deleteAll(): ', error);
-        }
-    }
-
-    async update(prod, id) {
-        const products = await this.getAll();
-        const filteredObj = products.filter(prod => prod.id == id);
-
-        if ( filteredObj ) {
-            const prodUpdated = { ...prod, timestamp: moment().format('DD/MM/YY HH:mm:ss'), id: id }
-            const updated = products.map(prod => prod.id == id ? prodUpdated : prod)
-            
-            try {
-                await fs.writeFile(this.path, JSON.stringify(updated, null, 2))
-                return { msg: 'Updated!', data: { 'before': filteredObj, 'after': prodUpdated } }
-            } catch (error) {
-                throw new Error({ error:'Update error: ', description: error })
-            }
-    
-        } else {
-            return { msg:'Update error', description:'producto no encontrado' };
+            throw new Error(`Update error: ${error}`);
         }
     }
 }

@@ -1,90 +1,95 @@
 /* ---------------------- MODULOS IMPORTADOS ------------------------ */
-import { promises as fs } from 'fs';
+import admin from 'firebase-admin';
 import config from '../config.js';
 import moment from 'moment';
 
+admin.initializeApp({
+  credential: admin.credential.cert(config.firebase)
+});
+
+const firebaseDB = admin.firestore();
+
 /* ------------------------ CLASE CONTENEDOR ------------------------ */
 class ContFirebase {
-    constructor(path) {
-        this.path = path;
+    constructor(collectionName) {
+        this.collection = firebaseDB.collection(collectionName);
     }
 
     async getAll() {
         try {
-            const prods = await fs.readFile(this.path, 'utf8');
-            return JSON.parse(prods);
+            const objects = []
+            const snapshot = await this.collection.get();
+
+            snapshot.forEach(doc => {
+                objects.push({ id: doc.id, ...doc.data() })
+            })
+
+            return objects;
         } catch (error) {
-            console.log(`Could not read file at "${this.path}": `, error);
-            return [];
+            throw new Error(`getAll() error: ${error}`);
         }
     }
 
     async getById(id) {
-        const objects = await this.getAll();
-        const foundObj = objects.find(obj => obj.id == id)
+        try {
+            const doc = await this.collection.doc(id).get();
 
-        return foundObj != '' ? foundObj : {'Error': `Could not find the product "id: ${id}"`}
+            if ( doc.exists ) {
+                return { ...doc.data(), id: id }
+            } else {
+                throw new Error(`getById(id) error: doc not found`);
+            }
+        } catch (error) {
+            throw new Error(`getById(id) error: ${error}`);
+        }
     }
 
-    async save(prod) {
-        console.log(prod)
-
-        const prods = await this.getAll();
-        let newID;
-
-        if (prods.length === 0) {
-            newID = 1;
-        } else {
-            newID = prods[prods.length-1].id+1;
-        }
-
-        const newObj = { ...prod, timestamp: moment().format('DD/MM/YY HH:mm:ss'), id:newID };
-        prods.push(newObj);
-
-
+    async save(obj) {
         try {
-            await fs.writeFile(this.path, JSON.stringify(prods, null, 2));
-            return newID;
+            const saved = await this.collection.add({ ...obj, timestamp: moment().format('DD/MM/YY HH:mm:ss') });
+            return saved.id;
         } catch (error) {
-            throw new Error({error:'Error al guardar: ', description: error})
+            throw new Error(`save(obj) error: ${error}`);
         }
     }
         
     async deleteById(id) {
         try {
-            const objects = await this.getAll();
-            const filteredObj = objects.filter(obj => obj.id != id);
-            filteredObj !== '' ? await fs.writeFile(this.path, JSON.stringify(filteredObj, null, 2)) : console.log('deleteById(id): ', 'id doesn\'t found.');
+            const doc = await this.collection.doc(id).get();
+
+            if ( doc.exists ) {
+                await this.collection.doc(id).delete();
+            } else {
+                throw new Error(`deleteById(id) error: doc not found`);
+            }
         } catch (error) {
-            console.log('deleteById(id): ', error);
+            throw new Error(`deleteById(id) error: ${error}`);
         }
     }
 
-    async deleteAll() {
-        try {
-            await fs.writeFile(this.path, JSON.stringify([], null, 2))
-        } catch (error) {
-            console.log('deleteAll(): ', error);
-        }
-    }
+    // async deleteAll() {
+    //     try {
+
+    //     } catch (error) {
+    //         console.log('deleteAll(): ', error);
+    //     }
+    // }
 
     async update(prod, id) {
-        const products = await this.getAll();
-        const filteredObj = products.filter(prod => prod.id == id);
-
-        if ( filteredObj ) {
-            const prodUpdated = { ...prod, timestamp: moment().format('DD/MM/YY HH:mm:ss'), id: id }
-            const updated = products.map(prod => prod.id == id ? prodUpdated : prod)
+        try {
+            const doc = await this.collection.doc(id).get();
             
-            try {
-                await fs.writeFile(this.path, JSON.stringify(updated, null, 2))
-                return { msg: 'Updated!', data: { 'before': filteredObj, 'after': prodUpdated } }
-            } catch (error) {
-                throw new Error({ error:'Update error: ', description: error })
+            if ( doc.exists ) {
+                let docRef = this.collection.doc(`${id}`);
+                await docRef.update({ ...prod });
+                let docAfter = await this.collection.doc(id).get();
+
+                return { msg: 'Updated!', data: { 'before': doc.data(), 'after': docAfter.data() } }
+            } else {
+                throw new Error(`update(prod, id) error: doc not found`);
             }
-    
-        } else {
-            return { msg:'Update error', description:'producto no encontrado' };
+        } catch (error) {
+            throw new Error(`update(prod, id) error: ${error}`);
         }
     }
 }
