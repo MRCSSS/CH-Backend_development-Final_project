@@ -1,5 +1,5 @@
 /* ---------------------- MODULOS IMPORTADOS ------------------------ */
-import app from './server.js'
+import app from './src/server.js'
 
 /* ---------------------------- SERVIDOR ---------------------------- */
 const PORT = 8080;
