@@ -1,6 +1,6 @@
 /* ---------------------- MODULOS IMPORTADOS ------------------------ */
 import { promises as fs } from 'fs';
-import config from '../config.js';
+import { config } from '../utils/config.js';
 import moment from 'moment';
 
 /* ------------------------ CLASE CONTENEDOR ------------------------ */

@@ -7,7 +7,8 @@ import { productsDao as prods } from '../daos/index.js';
 const prodsRouter = Router();
 
 /* ------------------------ ADMIN ACCESS MW ------------------------- */
-const isAdmin = config.isAdmin;
+// const isAdmin = config.isAdmin;
+const isAdmin = true;
 function adminOnly( req, res, next ) {
     !isAdmin ? 
     res.status(403).json({ code: 403, msg: `Forbbiden Access`, data: { method: req.method, path: `${req.baseUrl}${req.url}` } }) :

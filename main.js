@@ -1,12 +1,22 @@
-/* ---------------------- MODULOS IMPORTADOS ------------------------ */
-import app from './src/server.js'
+/* ====================== MODULOS IMPORTADOS ======================== */
+import minimist from "minimist";                // Manejo de argumentos iniciales
+import app from './src/server.js';                  // Archivo de Servidor
+import { config, logger } from './src/utils/config.js';     // Archivo de Configuración
 
-/* ---------------------------- SERVIDOR ---------------------------- */
-const PORT = 8080;
-const server = app.listen(PORT, () => {
-    console.log(`Server listening: http://localhost:${PORT}`);
-})
+/* ========================== INSTANCIANDO ========================== */
+const options = {   // Opciones de configuración de minimist
+    alias: {
+        port: 'p',
+    },
+    default: {
+        port: config.port,
+    }
+};
+const args = minimist(process.argv.slice(2), options); // Obtención de argumentos con minimist
 
-server.on('error', err => {
-    console.log(`Server error: ${err}`);
-})
+/* ============================ SERVIDOR ============================ */
+const server = app.listen(args.port, () => {    // Configurando acciones de servidor en escucha
+    logger.info(`PID worker: ${process.pid} - Server listening at PORT: ${args.port}`);
+});
+
+server.on('error', err => { logger.error(`Server error: ${err}`); });   // Iniciando servidor

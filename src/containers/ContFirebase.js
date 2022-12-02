@@ -1,6 +1,6 @@
 /* ---------------------- MODULOS IMPORTADOS ------------------------ */
 import admin from 'firebase-admin';
-import config from '../config.js';
+import { config } from '../utils/config.js';
 import moment from 'moment';
 
 admin.initializeApp({

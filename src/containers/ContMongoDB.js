@@ -1,9 +1,9 @@
 /* ---------------------- MODULOS IMPORTADOS ------------------------ */
 import mongoose from 'mongoose';
-import config from '../config.js';
+import { config } from '../utils/config.js';
 import moment from 'moment';
 
-await mongoose.connect(config.mongodb.cnxStr);
+await mongoose.connect(config.mongoDB.url);
 
 /* ------------------------ CLASE CONTENEDOR ------------------------ */
 class ContMongoDB {
