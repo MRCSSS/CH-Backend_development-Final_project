@@ -2,8 +2,10 @@
   "name": "finalProject",
   "version": "1.0.0",
   "description": "CODERHOUSE-Programacion backend-Proyecto final_Marcos Solis Santiago",
+  "type": "module",
   "main": "main.js",
   "scripts": {
+    "start": "node main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -26,6 +28,5 @@
   },
   "devDependencies": {
     "morgan": "^1.10.0"
-  },
-  "type": "module"
+  }
 }
