@@ -1,6 +1,6 @@
 /* ---------------------- MODULOS IMPORTADOS ------------------------ */
 import { promises as fs } from 'fs';
-import { config } from '../utils/config.js';
+import { config, logger } from '../utils/config.js';
 import moment from 'moment';
 
 /* ------------------------ CLASE CONTENEDOR ------------------------ */
@@ -14,15 +14,26 @@ class ContFile {
             const prods = await fs.readFile(this.path, 'utf8');
             return JSON.parse(prods);
         } catch (error) {
-            console.log(`Could not read file at "${this.path}": `, error);
+            logger.error(`{ method: 'getAll()', '${error}' }`);
             return [];
         }
     }
 
     async getById(id) {
+        try {
+
+        } catch (err) {
+            
+        }
         const objects = await this.getAll();
         const foundObj = objects.find(obj => obj.id == id)
 
+        if (foundObj != '') {
+            return foundObj;
+        } else {
+            logger.error(`{ method: 'getById(id)', '${error}' }`);
+            return 
+        }
         return foundObj != '' ? foundObj : {'Error': `Could not find the product "id: ${id}"`}
     }
 

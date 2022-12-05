@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(27, 27, 27);
+}
+
+body .jumbotron {
+    background-color: rgb(155, 155, 155);
+}
+
+textarea {
+    resize: none;
+}

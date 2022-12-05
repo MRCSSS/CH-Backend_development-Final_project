@@ -4,24 +4,38 @@
       <br>
       <form class="form" action="/register" method="post" role="form" autocomplete="off">
             <div class="form-group">
-                <label for="username"><b>Nombre de usuario:</b></label>
-                <input id="username" class="form-control" type="text" name="username" required>
-            </div>
-            <div class="form-group">
-                <label for="password"><b>Contraseña:</b></label>
-                <input id="password" class="form-control" type="password" name="password" required>
+                <label for="name"><b>Nombre:</b></label>
+                <input id="name" class="form-control" type="text" name="name" pattern="[A-Za-z\s]+" required>
             </div>
             <div class="form-group">
                 <label for="email"><b>Correo electrónico:</b></label>
                 <input id="email" class="form-control" type="email" name="email" required>
             </div>
-            <div class="form-group text-right">
-                <button class="btn btn-info mt-2 mb-2" type="submit" value="Login">Registrarse</button>
+            <div class="form-group">
+                <label for="address"><b>Dirección:</b></label>
+                <input id="address" class="form-control" type="text" name="address" required>
+            </div>
+            <div class="form-group">
+                <label for="age"><b>Edad:</b></label>
+                <input id="age" class="form-control" type="number" name="age" min="1" max="150" maxlength="3" required>
+            </div>
+            <div class="form-group">
+                <label for="password"><b>Contraseña:</b></label>
+                <input id="password" class="form-control" type="password" name="password" required>
+                <small id="passwordHelpInline" class="text-muted">Mínimo 8 caracteres</small>
+            </div>
+            <div class="form-group">
+                <label for="phone"><b>Teléfono:</b></label>
+                <input id="phone" class="form-control" type="tel" name="phone" required>
+            </div>
+            <div class="form-group text-center">
+                <button class="btn btn-info mt-2 mb-2 px-5" type="submit" value="Login">Registrarse</button>
             </div>
         </form>
         <hr>
-        <div class="text-left">
-            <button class="btn btn-secondary my-0" onclick="location.href = '/login'">Ir a Login</button>
+        <div class="text-center" role="" >
+            <p>Ya estoy registrado. </p>
+            <button class="btn btn-link m-0 p-0" onclick="location.href = '/login'">Ir a Login</button>
         </div>
     </div>
 </div>

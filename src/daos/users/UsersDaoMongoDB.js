@@ -8,17 +8,17 @@ class UsersDaoMongoDB extends ContMongoDB {
         super('users', {
             name:       { type: String, required: true },
             email:      { type: String, required: true },
-            password:   { type: String, required: true },
             address:    { type: String, required: true },
             age:        { type: Number, required: true },
+            password:   { type: String, required: true },
             phone:      { type: String, required: true },
-            photo:      { type: String, required: true },
+            // photo:      { type: String, required: true },
         });
     }
 
-    async searchUser(name) {
+    async searchUser(email) {
         try {
-            const object = await this.collection.find({ 'name': name });
+            const object = await this.collection.find({ 'email': email });
             return object.length != 0 ? object[0] : null
         } catch (error) {
             logger.error(`{ error: '${error}' }`);

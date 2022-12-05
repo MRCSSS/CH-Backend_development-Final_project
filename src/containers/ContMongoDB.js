@@ -1,6 +1,6 @@
 /* ---------------------- MODULOS IMPORTADOS ------------------------ */
 import mongoose from 'mongoose';
-import { config } from '../utils/config.js';
+import { config, logger } from '../utils/config.js';
 import moment from 'moment';
 
 await mongoose.connect(config.mongoDB.url);
@@ -16,7 +16,7 @@ class ContMongoDB {
             let docs = await this.collection.find({});
             return docs;
         } catch (error) {
-            throw new Error(`getAll() error: ${error}`);
+            logger.error(`{ method: 'getAll()', error: '${error}' }`);
         }
     }
 
@@ -27,20 +27,19 @@ class ContMongoDB {
             if ( object.length != 0 ) {
                 return object;
             } else {
-                throw new Error(`deleteById(id) error: doc not found`);
+                logger.error(`{ method: 'getById(id):collection.find', error: '${error}' }`);
             }
-    
         } catch (error) {
-            throw new Error(`getById error: ${error}`)
+            logger.error(`{ method: 'getById(id)', error: '${error}' }`);
         }
     }
 
     async save(obj) {
         try {
             let newObj = await this.collection.create({ ...obj, timestamp: moment().format('DD/MM/YY HH:mm:ss') });
-            return newObj._id;
+            // return newObj._id;
         } catch (error) {
-            throw new Error(`save(obj) error: ${error}`);
+            logger.error(`{ method: 'save(obj)', '${error}' }`);
         }
     }
         
@@ -48,17 +47,9 @@ class ContMongoDB {
         try {
             await this.collection.deleteOne({ '_id': id });
         } catch (error) {
-            throw new Error(`deleteById(id) error: ${error}`)
+            logger.error(`{ method: 'deleteById(id)', error: '${error}' }`);
         }
     }
-
-    // async deleteAll() {
-    //     try {
-
-    //     } catch (error) {
-    //         console.log('deleteAll(): ', error);
-    //     }
-    // }
 
     async update(obj, id) {
         try {
@@ -67,7 +58,7 @@ class ContMongoDB {
             await this.collection.replaceOne({ '_id': id }, obj);
             return { msg: 'Updated!', data: { 'before': beforObj, 'after': obj } }
         } catch (error) {
-            throw new Error(`Update error: ${error}`);
+            logger.error(`{ method: 'update(obj, id)', error: '${error}' }`);
         }
     }
 }

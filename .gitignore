@@ -1,6 +1,7 @@
 # dependencies
 /node_modules
 notex.txt
+/public/sass
 # /.pnp
 # .pnp.js
 

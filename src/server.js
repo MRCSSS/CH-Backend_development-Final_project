@@ -10,11 +10,10 @@ import path from 'path';                                // Módulo para trabajar
 import { usersDao } from './daos/index.js';                 // Archivo principal de DAOs
 import cartsRouter from './routes/cart.routes.js';          // Archivo de Ruta de Carts
 import prodsRouter from './routes/products.routes.js';      // Archivo de Ruta de Products
-import register from './routes/register.routes.js';         // Archivo de Ruta de Register
 import { config, logger } from './utils/config.js';         // Archivo de configuración
 
 /* ========================== INSTANCIANDO ========================== */
-const app = express();  // Instanciando Express 
+const app = express();  // Instanciando Express (Creando aplicación)
 const exphbs = create({ // Instanciando Handlebars con configuración
     defaultLayout: null,
     extname: 'hbs'
@@ -23,17 +22,18 @@ const MongoStore = connectMongo.create({    // Instanciando Conexión a MondoDB 
     mongoUrl: config.mongoDB.url,
     ttl: 10 *60 // Minutos *60
 })
-
+    
 /* ========================== MIDDLEWARES =========================== */
-app.use(express.json());
-app.use(express.urlencoded({ extended: true}));
+app.use(express.json());    // Method in-built, reconoce el request object como JSON.
+app.use(express.urlencoded({ extended: true}));    // Method in-built, reconoce el request object como strings o arreglos.
+app.use(express.static('public'));  // Asigna carpeta pública estática
     /* --------------------- Session Setup --------------------- */
-app.use(session({
-    store: MongoStore,
-    secret: config.mongoDB.key,
-    resave: false,
-    saveUninitialized: false,
-    rolling: true
+app.use(session({   // Parámetros de la sesion
+    store: MongoStore,  // Conexión a MongoDB
+    secret: config.mongoDB.key, // Clave usada para identificar cookie de ID de sesión
+    resave: false,  // Forza a la sesion a guardarse sin interacción
+    saveUninitialized: false,   // Forza guardar sesion no inicializada
+    rolling: true   // Forza a cookie de identificador de sesion reiniciar con cada interacción
 }))
     /* ----------------- Session Authorization ----------------- */
 function auth(req, res, next) {
@@ -43,14 +43,14 @@ function auth(req, res, next) {
     return res.redirect('/');
 }
     /* ----------------------- Passport ------------------------ */
-passport.use(new Strategy(
-    async function(username, password, done) {
-        const user = await usersDao.searchUser(username);
+passport.use(new Strategy(  // Middleware con estratégia local
+    async function(email, password, done) {
+        const user = await usersDao.searchUser(email);
 
         if (user === null) {
             return done(null, false);
         } else {
-            const match = await bcrypt.compare(password, user.password);
+            const match = await bcrypt.compare(password, user.password);    // Compara contraseñas, usa encriptado
 
             if(!match){
                 return done(null, false);
@@ -59,25 +59,23 @@ passport.use(new Strategy(
         }
     }
 ));
-passport.serializeUser((user, done)=>{
-    done(null, user.username);
+passport.serializeUser((user, done)=>{  // Serializa usuario a datos de sesión
+    done(null, user.email);
 });
-passport.deserializeUser( async (username, done)=>{
-    const user = await usersDao.searchUser(username);
+passport.deserializeUser( async (email, done)=>{ // Deserializa usuario de sesión
+    const user = await usersDao.searchUser(email);
     done(null, user);
 });
-app.use(passport.initialize());
-app.use(passport.session());
+app.use(passport.initialize()); // Inicia passport en la app
+app.use(passport.session());    // Cambia usuario de request object en cada sesión
     /* ------------------ Motor de Plantillas ------------------ */
 // Registra la instancia de Handlebars en la app Express
 app.engine('hbs', exphbs.engine);
 app.set('views', path.join(process.cwd(), 'src/views'));
 app.set('view engine', 'hbs');
-
 /* ============================== RUTAS ============================= */
 app.use('/api/productos', prodsRouter);
 app.use('/api/carrito', cartsRouter);
-app.use('/register', register);
 
 app.get('/', (req, res) => {
     logger.info(`{ url: '${req.baseUrl}${req.url}', method: '${req.method}' }`);
@@ -88,9 +86,35 @@ app.get('/', (req, res) => {
     }
 })
 
+app.get('/register', (req, res) => {
+    logger.info(`{ url: '${req.baseUrl}${req.url}', method: '${req.method}' }`);
+    res.render('partials/register', {layout: 'register'});
+});
+
+app.post('/register', async (req, res)=>{
+    logger.info(`{ url: '${req.baseUrl}${req.url}', method: '${req.method}' }`);
+    const {name, email, age, password, phone, address } = req.body;
+    const userExists = await usersDao.searchUser(email);
+
+    if (userExists !== null) {
+        res.render('partials/register-error', {layout: 'register'});
+    } else {
+        const newUser = {
+            name,
+            password: await bcrypt.hash(password, 10),
+            email,
+            age,
+            address,
+            phone
+        };
+        await usersDao.save(newUser);
+        res.redirect('../login');
+    }
+})
+
 app.get('/home', auth, async (req, res) => {
     logger.info(`{ url: '${req.baseUrl}${req.url}', method: '${req.method}' }`);
-    const user = await usersDao.searchUser(req.session.passport.user);
+    const user = await usersDao.searchUser(req.session.passport.email);
     res.render('partials/home', {layout: 'home', user: user.username , email: user.email});
 });
 
@@ -114,7 +138,7 @@ app.get('/login-error', (req, res)=>{
 
 app.get('/logout', async (req, res)=> {
     logger.info(`{ url: '${req.baseUrl}${req.url}', method: '${req.method}' }`);
-    const user = await usersDao.searchUser(req.session.passport.user);
+    const user = await usersDao.searchUser(req.session.passport.email);
 
     req.session.destroy(err=>{
         if (err) {

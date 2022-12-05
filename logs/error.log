@@ -1,0 +1,13 @@
+{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., phone: Path `phone` is required., age: Path `age` is required., address: Path `address` is required., name: Path `name` is required.' }"}
+{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., phone: Path `phone` is required., age: Path `age` is required., address: Path `address` is required., name: Path `name` is required.' }"}
+{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., phone: Path `phone` is required., age: Path `age` is required., address: Path `address` is required., name: Path `name` is required.' }"}
+{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., phone: Path `phone` is required., age: Path `age` is required., address: Path `address` is required., name: Path `name` is required.' }"}
+{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., phone: Path `phone` is required., age: Path `age` is required., address: Path `address` is required., name: Path `name` is required.' }"}
+{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., phone: Path `phone` is required., age: Path `age` is required., address: Path `address` is required., name: Path `name` is required.' }"}
+{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., phone: Path `phone` is required., address: Path `address` is required., name: Path `name` is required.' }"}
+{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., phone: Path `phone` is required., address: Path `address` is required., name: Path `name` is required.' }"}
+{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., phone: Path `phone` is required., name: Path `name` is required.' }"}
+{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., phone: Path `phone` is required., name: Path `name` is required.' }"}
+{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., name: Path `name` is required.' }"}
+{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: name: Path `name` is required.' }"}
+{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: name: Path `name` is required.' }"}
