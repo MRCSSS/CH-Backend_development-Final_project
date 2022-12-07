@@ -5,8 +5,8 @@ const socket = io();
 socket.on('serv-prods', async (data) => {
     await renderProducts(data).then(html => {
         document.getElementById('prods_table').innerHTML = html;
-    })
-})
+    });
+});
 
 /* --------------------------- HANDLEBARS ---------------------------*/
 async function renderProducts (data) {
@@ -16,8 +16,8 @@ async function renderProducts (data) {
             const template = Handlebars.compile(temp);
             const html = template( {data} );
 
-            return html
-        })
+            return html;
+        });
 }
 
 /* --------------------------- FUNCIONES ----------------------------*/
@@ -30,11 +30,7 @@ function addProduct() {
         title: inputTitle.value,
         price: inputPrice.value,
         thumbnail: inputThumbnail.value
-    }
+    };
 
     socket.emit('client-prods', prod)
-}
-
-function logout() {
-    window.location.href = "/logout";
 }

@@ -26,14 +26,18 @@ const sqlite3    = resVarEnv( process.env.SQLITE3    );
 
 /* =================== OBJETO CONFIGURADOR DE DB ==================== */
 const config = {
-    port:       process.env.PORT,
-    nodeEnv:    process.env.NODE_ENV,
-    dbType:     process.env.DB_TYPE,
-    fileSystem: fileSys,
-    fireBase:   firebase,
-    mariaDB:    mariaDB,
-    mongoDB:    mongoDB,
-    sqlite3:    sqlite3,
+    port:           process.env.PORT,
+    nodeEnv:        process.env.NODE_ENV,
+    dbType:         process.env.DB_TYPE,
+    fileSystem:     fileSys,
+    fireBase:       firebase,
+    mariaDB:        mariaDB,
+    mongoDB:        mongoDB,
+    sqlite3:        sqlite3,
+    mailAdmin:      process.env.MAIL_ADMIN,
+    mailAdminPswrd: process.env.MAIL_ADMIN_PSWRD,
+    mailSender:     process.env.MAIL_SENDER,
+    mailSendPswrd:  process.env.MAIL_SENDER_PSWRD
 };
 /* ================= OBJETO CONFIGURADOR DE LOGGER ================== */
 const logger = winston.createLogger({

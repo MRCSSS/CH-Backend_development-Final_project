@@ -1,6 +1,6 @@
 /* ====================== MODULOS IMPORTADOS ======================== */
 import minimist from "minimist";                // Manejo de argumentos iniciales
-import app from './src/server.js';                  // Archivo de Servidor
+import httpServer from './src/server.js';                  // Archivo de Servidor
 import { config, logger } from './src/utils/config.js';     // Archivo de Configuración
 
 /* ========================== INSTANCIANDO ========================== */
@@ -15,7 +15,7 @@ const options = {   // Opciones de configuración de minimist
 const args = minimist(process.argv.slice(2), options); // Obtención de argumentos con minimist
 
 /* ============================ SERVIDOR ============================ */
-const server = app.listen(args.port, () => {    // Configurando acciones de servidor en escucha
+const server = httpServer.listen(args.port, () => {    // Configurando acciones de servidor en escucha
     logger.info(`PID worker: ${process.pid} - Server listening at PORT: ${args.port}`);
 });
 

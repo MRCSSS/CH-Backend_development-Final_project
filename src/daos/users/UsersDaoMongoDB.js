@@ -7,19 +7,19 @@ class UsersDaoMongoDB extends ContMongoDB {
     constructor() {
         super('users', {
             name:       { type: String, required: true },
-            email:      { type: String, required: true },
+            username:   { type: String, required: true },
             address:    { type: String, required: true },
             age:        { type: Number, required: true },
             password:   { type: String, required: true },
             phone:      { type: String, required: true },
-            // photo:      { type: String, required: true },
+            userImg:        { type: String, required: true },
         });
     }
 
-    async searchUser(email) {
+    async searchUser(username) {
         try {
-            const object = await this.collection.find({ 'email': email });
-            return object.length != 0 ? object[0] : null
+            const object = await this.collection.find({ 'username': username });
+            return object.length != 0 ? object[0] : false;
         } catch (error) {
             logger.error(`{ error: '${error}' }`);
         }

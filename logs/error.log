@@ -1,13 +1,9 @@
-{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., phone: Path `phone` is required., age: Path `age` is required., address: Path `address` is required., name: Path `name` is required.' }"}
-{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., phone: Path `phone` is required., age: Path `age` is required., address: Path `address` is required., name: Path `name` is required.' }"}
-{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., phone: Path `phone` is required., age: Path `age` is required., address: Path `address` is required., name: Path `name` is required.' }"}
-{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., phone: Path `phone` is required., age: Path `age` is required., address: Path `address` is required., name: Path `name` is required.' }"}
-{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., phone: Path `phone` is required., age: Path `age` is required., address: Path `address` is required., name: Path `name` is required.' }"}
-{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., phone: Path `phone` is required., age: Path `age` is required., address: Path `address` is required., name: Path `name` is required.' }"}
-{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., phone: Path `phone` is required., address: Path `address` is required., name: Path `name` is required.' }"}
-{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., phone: Path `phone` is required., address: Path `address` is required., name: Path `name` is required.' }"}
-{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., phone: Path `phone` is required., name: Path `name` is required.' }"}
-{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., phone: Path `phone` is required., name: Path `name` is required.' }"}
-{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: photo: Path `photo` is required., name: Path `name` is required.' }"}
-{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: name: Path `name` is required.' }"}
-{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: name: Path `name` is required.' }"}
+{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: img: Path `img` is required.' }"}
+{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: img: Path `img` is required.' }"}
+{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: img: Path `img` is required.' }"}
+{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: userImg: Path `userImg` is required.' }"}
+{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: userImg: Path `userImg` is required.' }"}
+{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: userImg: Path `userImg` is required.' }"}
+{"level":"error","message":"{ method: 'transporter.sendMail(message)', error: 'Can't send mail - all recipients were rejected: 553 5.7.1 <no-reply@site.com>: Sender address rejected: not owned by user mailsenderdev@soymss.com' }"}
+{"level":"error","message":"{ method: 'transporter.sendMail(message)', error: 'Cannot read properties of undefined (reading 'to')' }"}
+{"level":"error","message":"{ method: 'unlink()','Error: ENOENT: no such file or directory, unlink 'undefined'' }"}
