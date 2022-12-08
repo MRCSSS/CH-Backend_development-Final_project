@@ -4,12 +4,12 @@ import ContMongoDB from '../../containers/ContMongoDB.js';
 class ProductsDaoMongoDB extends ContMongoDB {
     constructor() {
         super('products', {
-            nombre: { type: String, required: true },
-            descripcion: { type: String, required: true },
-            codigo: { type: String, required: true },
-            foto: { type: String, required: true },
-            precio: { type: Number, required: true },
-            stock: { type: Number, required: true }
+            name:           { type: String, required: true },
+            description:    { type: String, required: true },
+            code:           { type: String, required: true },
+            img:            { type: String, required: true },
+            price:          { type: Number, required: true },
+            stock:          { type: Number, required: true }
         });
     }
 

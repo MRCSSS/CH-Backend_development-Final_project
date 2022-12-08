@@ -10,12 +10,13 @@ import passport from "passport"; // Middleware de autehticación para Node
 import { Strategy as LocalStrategy } from "passport-local"; // Módulo para usar username y psswrd de forma local
 import path from 'path'; // Módulo para trabajar con paths de archivos y directorios
 import { Server } from 'socket.io';
-import { productsDao, usersDao } from './daos/index.js'; // Archivo principal de DAOs
+import { cartsDao, productsDao, usersDao } from './daos/index.js'; // Archivo principal de DAOs
 import cartsRouter from './routes/cart.routes.js'; // Archivo de Ruta de Carts
 import prodsRouter from './routes/products.routes.js'; // Archivo de Ruta de Products
 import { config, logger } from './utils/config.js'; // Archivo de configuración
 import { createTransport } from 'nodemailer';
 import { unlink } from 'node:fs';
+// import twilio from "twilio";
 
 /* ========================== INSTANCIANDO ========================== */
 const app = express();  // Instanciando Express (Creando aplicación)
@@ -46,6 +47,8 @@ const transporter = createTransport({
         pass: config.mailSendPswrd
     }
 });
+// const client = twilio(config.accountSid, config.authToken);
+
 /* ========================== MIDDLEWARES =========================== */
 app.use(express.json());    // Method in-built, reconoce el request object como JSON.
 app.use(express.urlencoded({ extended: true}));    // Method in-built, reconoce el request object como strings o arreglos.
@@ -93,71 +96,127 @@ async function regFunc(req, res, next) {
         res.redirect('../register-error');
     }
 }
+async function sendMailFoo(message, url){
+    try {
+        let info = await transporter.sendMail(message);
+        logger.info(`{ message sent: '${info.messageId}', to: '${info.envelope.to}' }`);
+        logger.info(`{ message response: '${info.response}', from: '${info.envelope.to}' }`);
+    } catch (err) {
+        logger.error(`{ method: '${url}', function: 'sendMail(${message.to})', error: '${err.message}' }`);
+    }   
+}
 async function mailer(req, res, next){
     const url = `${req.baseUrl}${req.url}`;
+    let adminMessage;
+    let userMessage;
 
     if(url === '/register'){
-        try {
-            let adminMessage = {
-                from: `"Sender" ${config.mailSender}`,
-                to: `"Admin" ${config.mailAdmin}`,
-                subject: 'Nuevo registro',
-                text: `INFORMACIÓN DE NUEVO USUARIO\n NOMBRE: ${req.body.name}\n e-mail: ${req.body.username}\n EDAD: ${req.body.age}\n DIRECCIÓN: ${req.body.address}\n TELÉFONO: ${req.body.phone}\n AVATAR: ${req.file.filename}`,
-                html: `<div>
-                    <h2><b>Información de Nuevo Usuario</b></h2>
-                    <div style=''>
-                        <h5 style=''>NOMBRE: <small style=''>${req.body.name}</small></h5>
-                        <h5 style=''>e-mail: <small style=''>${req.body.username}</small></h5>
-                        <h5 style=''>EDAD: <small style=''>${req.body.age}</small></h5>
-                        <h5 style=''>DIRECCIÓN: <small style=''>${req.body.address}</small></h5>
-                        <h5 style=''>TELÉFONO: <small style=''>${req.body.phone}</small></h5>
-                        <h5 style=''>AVATAR: <small style=''>${req.file.filename}</small></h5>
-                    </div>
-                </div>`,
-                attachments: [{
-                    path: `./public/images/${req.file.filename}`
-                }]
-            };
-            let info = await transporter.sendMail(adminMessage);
-            logger.info(`{ message sent: '${info.messageId}', to: '${info.envelope.to}' }`);
-            logger.info(`{ message response: '${info.response}', from: '${info.envelope.to}' }`);
-        } catch (err) {
-            logger.error(`{ method: 'sendMail(adminMessage)', error: '${err.message}' }`);
-        }   
-
-        try {
-            let userMessage = {
-                from: `"e-commerce" ${config.mailSender}`,
-                to: `"Dear ${req.body.name}!!" ${req.body.username}`,
-                subject: `Bienvenido ${req.body.name}. Gracias por tu nuevo registro`,
-                text: `INFORMACIÓN DE NUEVO USUARIO\n NOMBRE: ${req.body.name}\n e-mail: ${req.body.username}\n EDAD: ${req.body.age}\n DIRECCIÓN: ${req.body.address}\n TELÉFONO: ${req.body.phone}\n AVATAR: ${req.file.filename}`,
-                html: `<div>
-                    <h2><b>BIENVENIDO ${req.body.name}!!!</b></h2>
-                    <div style=''>
-                        <h5 style=''>NOMBRE: <small style=''>${req.body.name}</small></h5>
-                        <h5 style=''>e-mail: <small style=''>${req.body.username}</small></h5>
-                        <h5 style=''>EDAD: <small style=''>${req.body.age}</small></h5>
-                        <h5 style=''>DIRECCIÓN: <small style=''>${req.body.address}</small></h5>
-                        <h5 style=''>TELÉFONO: <small style=''>${req.body.phone}</small></h5>
-                    </div>
-                </div>`
-            };
-            let info = await transporter.sendMail(userMessage);
-            logger.info(`{ message sent: '${info.messageId}', to: '${info.envelope.to}' }`);
-            logger.info(`{ message response: '${info.response}', from: '${info.envelope.to}' }`);
-        } catch (err) {
-            logger.error(`{ method: 'transporter.sendMail(userMessage)', error: '${err.message}' }`);
-        }   
-
-    // } else if(url === '/'){
-
+        adminMessage = {
+            from: `"Sender" ${config.mailSender}`,
+            to: `"Admin" ${config.mailAdmin}`,
+            subject: 'Nuevo registro',
+            text: `INFORMACIÓN DE NUEVO USUARIO\n NOMBRE: ${req.body.name}\n e-mail: ${req.body.username}\n EDAD: ${req.body.age}\n DIRECCIÓN: ${req.body.address}\n TELÉFONO: ${req.body.phone}\n AVATAR: ${req.file.filename}`,
+            html: `<div>
+                <h2><b>Información de Nuevo Usuario</b></h2>
+                <div style=''>
+                    <h5 style=''>NOMBRE: <small style=''>${req.body.name}</small></h5>
+                    <h5 style=''>e-mail: <small style=''>${req.body.username}</small></h5>
+                    <h5 style=''>EDAD: <small style=''>${req.body.age}</small></h5>
+                    <h5 style=''>DIRECCIÓN: <small style=''>${req.body.address}</small></h5>
+                    <h5 style=''>TELÉFONO: <small style=''>${req.body.phone}</small></h5>
+                    <h5 style=''>AVATAR: <small style=''>${req.file.filename}</small></h5>
+                </div>
+            </div>`,
+            attachments: [{
+                path: `./public/images/${req.file.filename}`
+            }]
+        };
+        userMessage = {
+            from: `"e-commerce" ${config.mailSender}`,
+            to: `"Dear ${req.body.name}!!" ${req.body.username}`,
+            subject: `Bienvenido ${req.body.name}. Gracias por tu nuevo registro`,
+            text: `INFORMACIÓN DE NUEVO USUARIO\n NOMBRE: ${req.body.name}\n e-mail: ${req.body.username}\n EDAD: ${req.body.age}\n DIRECCIÓN: ${req.body.address}\n TELÉFONO: ${req.body.phone}\n AVATAR: ${req.file.filename}`,
+            html: `<div>
+                <h2><b>BIENVENIDO ${req.body.name}!!!</b></h2>
+                <div style=''>
+                    <h5 style=''>NOMBRE: <small style=''>${req.body.name}</small></h5>
+                    <h5 style=''>e-mail: <small style=''>${req.body.username}</small></h5>
+                    <h5 style=''>EDAD: <small style=''>${req.body.age}</small></h5>
+                    <h5 style=''>DIRECCIÓN: <small style=''>${req.body.address}</small></h5>
+                    <h5 style=''>TELÉFONO: <small style=''>${req.body.phone}</small></h5>
+                </div>
+            </div>`
+        };
+    } else if(url === '/cart'){
+        adminMessage = {
+            from: `"Sender" ${config.mailSender}`,
+            to: `"Admin" ${config.mailAdmin}`,
+            subject: 'Nuevo pedido',
+            text: `INFORMACIÓN DE NUEVO PEDIDO`,
+            html: `<div>
+                <h2><b>Información de Nuevo Pedido</b></h2>
+            </div>`
+        };
+        userMessage = {
+            from: `"e-commerce" ${config.mailSender}`,
+            to: `"Dear ${req.body.name}!!" ${req.body.email}`,
+            subject: `${req.body.name}, estamos atendiendo su nuevo pedido`,
+            text: `INFORMACIÓN DE NUEVO PEDIDO`,
+            html: `<div>
+                <h2><b>Información de Nuevo Pedido</b></h2>
+            </div>`
+        };
     // } else if(url === '/'){
 
     }
+    await sendMailFoo(adminMessage,url);
+    await sendMailFoo(userMessage,url);
+
     next();    
 }
+async function sendWAFoo(message,url){
+
+}
 async function WApper(req, res, next){
-    next();    
+    // const url = `${req.baseUrl}${req.url}`;
+    // let adminMessage;
+    // let userMessage;
+
+    // if(url === '/register'){
+    //     adminMessage = await client.messages.create({
+    //         from: 'whatsapp:+',
+    //         to: `whatsapp:${req.body.phone}`,
+    //         body: `BIENVENIDO ${req.body.name}!!!
+    //         NOMBRE: ${req.body.name}
+    //         e-mail: ${req.body.username}
+    //         EDAD: ${req.body.age}
+    //         DIRECCIÓN: ${req.body.address}
+    //         TELÉFONO: ${req.body.phone}`,
+    //     });
+    //     userMessage = await client.messages.create({
+    //         from: 'whatsapp:+',
+    //         to: `whatsapp:${config.admPhone}`,
+    //         body: `Nuevo registro!!!
+    //         NOMBRE: ${req.body.name}
+    //         e-mail: ${req.body.username}
+    //         EDAD: ${req.body.age}
+    //         DIRECCIÓN: ${req.body.address}
+    //         TELÉFONO: ${req.body.phone}`,
+    //     });
+
+    //     await sendWAFoo(userMessage,url);
+    // } else if(url === '/cart'){
+    //     let adminMessage = { };
+    //     let userMessage = { };
+
+    //     await sendMailFoo(adminMessage,config.mailAdmin,url);
+    //     await sendMailFoo(userMessage,req.body.username,url);
+    // } else if(url === '/'){
+
+    // }
+    // await sendWAFoo(adminMessage,url);
+
+    next();
 }
 function auth(req, res, next) {
     if(req.isAuthenticated()){
@@ -251,11 +310,13 @@ app.get('/logout', loggingReq, (req, res)=>{
     res.redirect('/');
 });
 
-app.get('/cart', loggingReq, (req, res)=>{
-    res.render('partials/cart', { layout: 'cart' });
+app.get('/cart', loggingReq, auth, async (req, res)=>{
+    const user = await usersDao.searchUser(req.user.username);
+
+    res.render('partials/cart', { layout: 'cart', name: user.name, email: user.username });
 });
 
-app.post('/cart', loggingReq, (req, res)=>{
+app.post('/cart', loggingReq, auth, mailer, WApper, (req, res)=>{
     res.redirect('/');
 });
 

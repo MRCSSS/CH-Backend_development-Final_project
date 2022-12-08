@@ -14,3 +14,15 @@
 {"level":"warn","message":"{ url: '/cart', method: 'GET' }"}
 {"level":"warn","message":"{ url: '/products', method: 'GET' }"}
 {"level":"warn","message":"{ url: '/products', method: 'GET' }"}
+{"level":"warn","message":"{ url: '/...', method: 'GET' }"}
+{"level":"warn","message":"{ url: '/...', method: 'GET' }"}
+{"level":"warn","message":"{ url: '/...', method: 'GET' }"}
+{"level":"warn","message":"{ url: '/...', method: 'GET' }"}
+{"level":"warn","message":"{ url: '/...', method: 'GET' }"}
+{"level":"warn","message":"{ url: '/...', method: 'GET' }"}
+{"level":"warn","message":"{ url: '/...', method: 'GET' }"}
+{"level":"error","message":"{ method: 'save(obj)', 'ValidationError: id: Path `id` is required.' }"}
+{"level":"error","message":"{ method: '/cart', function: 'sendMail(undefined)', error: 'No recipients defined' }"}
+{"level":"error","message":"{ method: '/cart', function: 'sendMail(marcossolis49@gmail.com)', error: 'No recipients defined' }"}
+{"level":"error","message":"{ method: '/cart', function: 'sendMail(undefined)', error: 'No recipients defined' }"}
+{"level":"error","message":"{ method: '/cart', function: 'sendMail(\"Dear undefined!!\" undefined)', error: 'No recipients defined' }"}
