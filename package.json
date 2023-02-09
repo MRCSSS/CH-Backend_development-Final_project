@@ -5,7 +5,7 @@
   "type": "module",
   "main": "main.js",
   "scripts": {
-    "start": "NODE_ENV=production nodemon bin/www.js",
+    "start": "NODE_ENV=development nodemon bin/www.js",
     "start:dev": "NODE_ENV=development nodemon bin/www.js",
     "start:test": "NODE_ENV=test nodemon bin/www.js",
     "test": "NODE_ENV=test mocha test/apirestfull.test.js --timeout 8000"
