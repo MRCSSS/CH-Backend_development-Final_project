@@ -1,9 +1,11 @@
 # dependencies
-/node_modules
-notex.txt
-/public/sass
+node_modules
+# notas.js
+/public/styles/sass
 # /.pnp
 # .pnp.js
+src/apiV1/doc
+src/apiV1/healtCk
 
 # testing
 # /coverage

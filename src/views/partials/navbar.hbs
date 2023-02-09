@@ -1,8 +1,8 @@
 <header class="sticky-top bg-dark" >
     <nav class="navbar navbar-expand-md navbar-dark bg-dark m-auto py-1" style="max-width: 1420px;">
-        <a class="navbar-brand ml-1 ml-md-5 mr-xl-5 mr-1 py-2 px-md-3" href="/home">SITIO</a>
+        <a class="navbar-brand ml-1 ml-md-5 mr-xl-5 mr-1 py-2 px-md-3" href="/">SITIO</a>
         <div id="mobileIcons">
-            <a class="d-md-none mx-2 py-3 px-2" href="/cart">
+            <a class="d-md-none mx-2 py-3 px-2" href="/cart" >
                 <i class="fa fa-shopping-cart" style="font-size:30px;color:gray;position:relative;top:4px;"></i>
             </a>
             <button class="navbar-toggler mx-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation" style="border: transparent;">
@@ -11,11 +11,21 @@
         </div>
         <div class="navbar-collapse collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto ">
-                <li class="nav-item d-none d-md-inline mx-md-3 active" >
-                    <a class="nav-link disabled" href="/home">Ir a home</a>
+                <li class="nav-item mx-md-3">
+                    <a class="nav-link" href="/products">Productos</a>
+                </li>
+                <li class="nav-item mx-md-3 dropdown">
+                    <a class="nav-link dropdown-toggle" type="button"  data-toggle="dropdown"  aria-expanded="true" aria-label="Toggle dropdown">Categorías</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="/products/Categoria1">Categoria1</a>
+                        <a class="dropdown-item" href="/products/Categoria2">Categoria2</a>
+                        <a class="dropdown-item" href="/products/Categoria3">Categoria3</a>
+                        <a class="dropdown-item" href="/products/Categoria4">Categoria4</a>
+                        <a class="dropdown-item" href="/products/Categoria5">Categoria5</a>
+                    </div>
                 </li>
                 <li class="nav-item mx-md-3">
-                    <a class="nav-link disabled" href="/products">Productos</a>
+                    <a class="nav-link" href="/chat/{{email}}">Soporte</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
@@ -25,14 +35,14 @@
                     </a>
                 </li>
                 <li class="nav-item mx-md-3 dropdown">
-                    <a class="nav-link dropdown-toggle" type="button"  data-toggle="dropdown"  data-target="#countDropdownContent" aria-controls="countDropdownContent" aria-expanded="true" aria-label="Toggle dropdown" style="position:relative;bottom:5px;">
+                    <a class="nav-link dropdown-toggle" type="button"  data-toggle="dropdown"  aria-expanded="true" aria-label="Toggle dropdown" style="position:relative;bottom:5px;">
                         <i class="fa fa-user-circle" style="font-size:30px;color:gray;position:relative;top:4px;"></i>
-                        {{user}}
+                        {{name}}
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item disabled" href="#">Mi Cuenta</a>
+                        <a class="dropdown-item" href="/tickets">Mis Ordenes</a>
                         <div class="dropdown-divider"></div>
-                        <form class="form" action="/logout" method="post" role="form" autocomplete="off">
+                        <form class="form" action="apiV1/user/logout" method="post" role="form" autocomplete="off">
                             <button class="dropdown-item" type="submit" >Cerrar sesión</button>
                         </form>
                     </div>

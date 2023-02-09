@@ -2,3 +2,14 @@
 // Includes all resets or normalizers
 
 /*  --------------------------- > BASE < ---------------------------  */
+body {
+    background-color: rgb(27, 27, 27) !important;
+}
+
+body .jumbotron {
+    background-color: rgb(155, 155, 155);
+}
+
+textarea {
+    resize: none;
+}

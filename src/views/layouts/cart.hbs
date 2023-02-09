@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Shopping Cart - {{name}} - {{email}}</title>
+    <title>Shopping Cart - {{email}}</title>
+    <!-- Importando CSS file -->
+    <link rel="stylesheet" href="styles/style.css"  />
     {{> CDNsAuth}}
 </head>
 <body>
-    {{{body}}}
+    <div id='root' >
+        {{> navbar}}
+        {{{body}}}
+    </div>
+    <script src="js/main.js"></script>
     <script src="js/cart.js"></script>
 </body>
 </html>

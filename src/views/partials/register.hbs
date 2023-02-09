@@ -1,37 +1,35 @@
 <div id="register" class="jumbotron">
     <h1 style="color:white;text-align:center;">Registro de Nuevo Usuario</h1>
-    <form action="/register" enctype="multipart/form-data" method="POST">
+    <div id="userExist" class="alert alert-danger d-none" role="alert">
+        Usuario existente!!!
+    </div>
+    <form >
         <div class="form-group">
-            <label for="name"><b>Nombre:</b></label>
-            <input id="name" class="form-control" type="text" name="name" pattern="[^\d]+" required>
+            <label for="name"><b>Nombre Completo:</b></label>
+            <input id="name" class="form-control" type="text" name="name" pattern="[^\d]+" autofocus required>
         </div>
         <div class="form-group">
             <label for="username"><b>Correo electrónico:</b></label>
-            <input id="username" class="form-control" type="email" name="username" required>
-        </div>
-        <div class="form-group">
-            <label for="address"><b>Dirección:</b></label>
-            <input id="address" class="form-control" type="text" name="address" required>
-        </div>
-        <div class="form-group">
-            <label for="age"><b>Edad:</b></label>
-            <input id="age" class="form-control" type="number" name="age" min="1" max="150" maxlength="3" required>
-        </div>
-        <div class="form-group">
-            <label for="password"><b>Contraseña:</b></label>
-            <input id="password" class="form-control" type="password" name="password" required>
-            <small id="passwordHelpInline" class="text-muted">Mínimo 8 caracteres</small>
+            <input id="username" class="form-control" type="email" name="username" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
         </div>
         <div class="form-group">
             <label for="phone"><b>Teléfono:</b></label>
-            <input id="phone" class="form-control" type="tel" name="phone" required>
+            <input id="phone" class="form-control" type="tel" name="phone" maxlength="10" pattern="\d{10}" required>
         </div>
         <div class="form-group">
-            <label for="userImg"><b>Imagen:</b></label>
-            <input id="userImg" type="file" name="userImg" style="background-color: transparent;border:transparent;" required>
+            <label for="password"><b>Cree su contraseña:</b></label>
+            <small id="passwordHelpInline" class="text-muted">Mínimo 8 caracteres</small>
+            <input id="password" class="form-control" type="password" name="password" minlength="8" required>
+        </div>
+        <div class="form-group">
+            <label for="password_verif"><b>Confirme contraseña:</b></label>
+            <input id="password_verif" class="form-control" type="password" name="password_verif" required>
+        </div>
+        <div id="noMatchPw" class="alert alert-danger d-none" role="alert">
+            Las Contraseñas no coinciden!!
         </div>
         <div class="text-center">
-            <button class="btn btn-info mt-2 mb-2 px-5" type="submit" value="Registrarse">Registrarse</button>
+            <input class="btn btn-info mt-2 mb-2 px-5" type="submit" value="Registrarse"></input>
         </div>
     </form>
     <hr>

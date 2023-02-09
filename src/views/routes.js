@@ -1,0 +1,16 @@
+/* ============================ MODULOS ============================= */
+import { Router } from "express";
+import * as controller from "./controller.js";
+/* ====================== INSTANCIA DE ROUTER ======================= */
+const viewsRoutes = Router();
+/* ============================== RUTAS ============================= */
+viewsRoutes.get('/',          controller.getRoot);
+viewsRoutes.get('/cart',      controller.getCart);
+viewsRoutes.get('/chat',      controller.getChat);
+viewsRoutes.get('/login',     controller.getLogin);
+viewsRoutes.get('/products',  controller.getProducts);
+viewsRoutes.get('/products/:category', controller.getCatProducts);
+viewsRoutes.get('/register',  controller.getRegister);
+viewsRoutes.get('/tickets',   controller.getTickets);
+/* ====================== MODULOS EXPORTADOS ======================== */
+export default viewsRoutes;

@@ -1,11 +1,9 @@
-<div id='root' >
-    {{> navbar}}
     <div class="container mt-3">
         {{!-- <div id='cart_content' class="jumbotron"></div> --}}
         <div class="jumbotron" style="background-color: gray;color: white;text-align:center;">
             <h1>Aquí parecerá la lista de productos en el carrito</h1>
             <p>El botón confirmaría la orden de compra del carrito actual</p>
-            <form action="/cart" method="post">
+            <form action="apiV1/cart" method="post">
                 <input type="hidden" id="name" name="name" value="{{name}}">
                 <input type="hidden" id="email" name="email" value="{{email}}">
                 <button class="btn btn-warning my-5">COMPRAR</button>
@@ -13,4 +11,3 @@
         </div>
 
     </div>
-</div>
