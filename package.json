@@ -1,12 +1,14 @@
 {
-  "name": "finalProject",
-  "version": "1.0.0",
+  "name": "final_project",
+  "version": "3.0.0",
   "description": "CODERHOUSE-Programacion backend-Proyecto final_Marcos Solis Santiago",
   "type": "module",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "NODE_ENV=production nodemon bin/www.js",
+    "start:dev": "NODE_ENV=development nodemon bin/www.js",
+    "start:test": "NODE_ENV=test nodemon bin/www.js",
+    "test": "NODE_ENV=test mocha test/apirestfull.test.js --timeout 8000"
   },
   "keywords": [],
   "author": "Marcos Solis Santiago",
@@ -14,22 +16,30 @@
   "dependencies": {
     "bcrypt": "^5.1.0",
     "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.1",
     "express-handlebars": "^5.3.0",
     "express-session": "^1.17.3",
     "firebase-admin": "^11.0.1",
-    "nodemailer": "^6.8.0",
     "minimist": "^1.2.7",
     "moment": "^2.29.4",
     "mongoose": "^6.7.0",
     "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.8.0",
+    "normalizr": "^3.6.2",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
     "socket.io": "^4.5.2",
     "winston": "^3.8.2"
   },
   "devDependencies": {
-    "morgan": "^1.10.0"
+    "@faker-js/faker": "^7.6.0",
+    "chai": "^4.3.7",
+    "faker": "^5.5.3",
+    "mocha": "^10.2.0",
+    "morgan": "^1.10.0",
+    "supertest": "^6.3.3"
   }
 }

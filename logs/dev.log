@@ -1,0 +1,1079 @@
+[2023-02-08T00:05:25.684Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T00:06:50.556Z][dev:info] Server listening at PORT: 4000
+[2023-02-08T00:07:15.253Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T00:07:17.940Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T00:07:22.992Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T01:18:28.622Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T01:18:30.352Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T01:21:00.246Z][dev:info] Server listening at PORT: 4000
+[2023-02-08T01:27:10.192Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T01:29:43.599Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T01:30:08.154Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T01:30:16.067Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T01:30:28.666Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T01:31:19.709Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T02:05:46.517Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T02:06:09.214Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T02:06:24.891Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T02:06:24.905Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T02:06:29.583Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T02:06:32.544Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T02:06:56.017Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T02:07:28.118Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T02:25:43.354Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T03:52:54.147Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T03:52:55.466Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T03:53:48.711Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T03:55:07.486Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:02:37.043Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:02:51.477Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:12:02.490Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T04:17:52.575Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:18:08.558Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:18:42.543Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:23:17.791Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:23:49.149Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:23:57.573Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:24:07.934Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:24:13.021Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:28:10.257Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:28:54.156Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:29:04.009Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:29:30.191Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:29:39.681Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:29:51.689Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:29:59.330Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:30:04.437Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:30:16.157Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:31:20.507Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:31:31.916Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:33:46.201Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T04:33:46.249Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:33:47.787Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:36:11.396Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T04:36:27.454Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:37:13.625Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T04:37:30.570Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:38:30.127Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:39:56.434Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:40:11.451Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:42:13.630Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T04:42:13.642Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T04:42:16.480Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:43:11.257Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T04:46:28.451Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T04:46:48.026Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T04:46:59.721Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:47:27.413Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T04:47:50.067Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T05:13:34.193Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T05:14:00.464Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T05:14:01.840Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T05:15:51.764Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T05:15:51.814Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T05:16:05.435Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T05:16:05.720Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T05:16:05.721Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T05:21:12.837Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T05:21:28.649Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T05:21:28.902Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T05:21:28.903Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T05:22:23.468Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T05:22:30.130Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T05:22:30.377Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T05:23:27.483Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T05:23:30.634Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T05:23:30.890Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T05:24:14.974Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T05:24:24.575Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T05:24:24.829Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T05:25:18.064Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T05:25:22.004Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T05:25:22.278Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T05:26:14.981Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T05:26:18.820Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T05:26:19.824Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T05:30:27.759Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T05:30:30.654Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T05:30:42.047Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T05:30:42.314Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T05:38:42.297Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T05:38:42.373Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T05:43:26.837Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T05:43:34.123Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T05:46:12.077Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T05:46:13.035Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T05:47:02.870Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T05:49:43.591Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T05:49:44.622Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T05:55:37.331Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T05:55:53.769Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T05:55:55.408Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T05:56:12.373Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T05:58:38.526Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T05:58:42.302Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T05:59:21.269Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T05:59:22.579Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:00:03.805Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:00:41.324Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:02:13.629Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T06:02:25.608Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T06:08:57.269Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T06:09:17.423Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T06:09:17.435Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T06:09:20.105Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:09:30.551Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T06:09:30.810Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T06:09:30.811Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T06:12:51.119Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:13:03.584Z][dev:info] { status: '200', route: 'GET  /register?name=Marcos+Sol%C3%ADs+Santiago&username=marcossolis49%40gmail.com&phone=5549110299&password=12345678&password_verif=12345678' }
+[2023-02-08T06:13:05.180Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T06:13:05.424Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T06:13:05.424Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T06:14:01.542Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T06:14:53.927Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T06:15:35.920Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T06:15:39.779Z][dev:info] { status: '200', route: 'GET  /register?name=Marcos+Sol%C3%ADs+Santiago&username=marcossolis49%40gmail.com&phone=5549110299&password=12345678&password_verif=12345678' }
+[2023-02-08T06:15:52.818Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:16:04.880Z][dev:info] { status: '200', route: 'GET  /register?name=Marcos+Sol%C3%ADs+Santiago&username=marcossolis49%40gmail.com&phone=5549110299&password=12345678&password_verif=12345678' }
+[2023-02-08T06:19:27.831Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T06:19:29.720Z][dev:info] { status: '200', route: 'GET  /register?name=Marcos+Sol%C3%ADs+Santiago&username=marcossolis49%40gmail.com&phone=5549110299&password=12345678&password_verif=12345678' }
+[2023-02-08T06:19:33.543Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T06:19:35.135Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:19:46.180Z][dev:info] { status: '200', route: 'GET  /register?name=Marcos+Sol%C3%ADs+Santiago&username=marcossolis49%40gmail.com&phone=5549110299&password=12345678&password_verif=12345678' }
+[2023-02-08T06:20:11.278Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T06:20:36.498Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:20:45.536Z][dev:info] { status: '200', route: 'GET  /register?name=Marcos+Sol%C3%ADs+Santiago&username=marcossolis49%40gmail.com&phone=5549110299&password=12345678&password_verif=12345678' }
+[2023-02-08T06:21:29.698Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T06:21:32.307Z][dev:info] { status: '200', route: 'GET  /register?name=Marcos+Sol%C3%ADs+Santiago&username=marcossolis49%40gmail.com&phone=5549110299&password=12345678&password_verif=12345678' }
+[2023-02-08T06:21:41.179Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:21:51.309Z][dev:info] { status: '200', route: 'GET  /register?name=Marcos+Sol%C3%ADs+Santiago&username=marcossolis49%40gmail.com&phone=5549110299&password=aaaaaaaa&password_verif=aaaaaaaa' }
+[2023-02-08T06:22:43.438Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T06:22:44.931Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:22:54.692Z][dev:info] { status: '200', route: 'GET  /register?name=Marcos+Sol%C3%ADs+Santiago&username=marcossolis49%40gmail.com&phone=5549110299&password=aaaaaaaa&password_verif=aaaaaaaa' }
+[2023-02-08T06:25:19.739Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T06:26:05.686Z][dev:info] { status: '200', route: 'GET  /register?name=Marcos+Sol%C3%ADs+Santiago&username=marcossolis49%40gmail.com&phone=5549110299&password=aaaaaaaa&password_verif=aaaaaaaa' }
+[2023-02-08T06:26:09.012Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T06:26:10.349Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:26:23.753Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:26:26.027Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T06:26:27.386Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:29:19.754Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T06:29:23.393Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T06:33:24.395Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T06:33:49.444Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T06:33:49.456Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T06:33:51.562Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:34:05.260Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T06:34:05.521Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T06:34:05.521Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T06:40:32.927Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:40:45.954Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T06:40:46.206Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T06:40:46.207Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T06:42:12.595Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T06:43:57.665Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T06:43:59.190Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:44:07.560Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:44:19.040Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T06:44:19.293Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T06:44:20.237Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T06:44:20.508Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T06:44:20.509Z][dev:info] message: 'User with ID '63e344c44b9dc5fb517997fc' registered!!!'
+[2023-02-08T06:44:20.509Z][dev:info] status: 201, route: 'POST /apiV1/user/register', {"method":"register","message":"User registered successfully!!!","userID":"63e344c44b9dc5fb517997fc"}
+[2023-02-08T06:44:49.203Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:44:58.915Z][dev:warn] message: 'Password error: Do not match'
+[2023-02-08T06:44:58.917Z][dev:error] status: 409, route: 'POST /apiV1/user/register', userService: register(): 'Password error: Do not match' 
+[2023-02-08T06:46:32.724Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T06:46:32.736Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T06:47:04.838Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T06:47:07.175Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:47:17.260Z][dev:info] { status: '200', route: 'GET  /register?name=Marcos+Sol%C3%ADs+Santiago&username=marcossolis49%40gmail.com&phone=5549110299&password=11111111&password_verif=22222222' }
+[2023-02-08T06:47:44.234Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T06:47:45.748Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:47:54.151Z][dev:info] { status: '200', route: 'GET  /register?name=Marcos+Sol%C3%ADs+Santiago&username=marcossolis49%40gmail.com&phone=5549110299&password=11111111&password_verif=22222222' }
+[2023-02-08T06:50:48.642Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T06:50:50.816Z][dev:info] { status: '200', route: 'GET  /register?name=Marcos+Sol%C3%ADs+Santiago&username=marcossolis49%40gmail.com&phone=5549110299&password=11111111&password_verif=22222222' }
+[2023-02-08T06:50:53.267Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T06:50:58.884Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:51:12.280Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T06:51:12.456Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T06:51:14.069Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:51:55.772Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T06:51:57.234Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:52:25.858Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:52:37.730Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:53:01.622Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T06:53:01.897Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T06:53:01.898Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T06:54:26.781Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T06:54:58.013Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T06:55:02.680Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:55:19.006Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T06:55:19.276Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T06:55:19.278Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T06:57:33.907Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T06:57:34.947Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T06:57:37.006Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T06:57:58.868Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T06:57:59.122Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T06:57:59.123Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T07:00:47.422Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:00:51.595Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T07:03:07.021Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:03:12.480Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T07:03:14.436Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T07:03:24.667Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:03:24.926Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:03:24.927Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T07:03:51.379Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:03:54.392Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T07:03:56.827Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T07:04:06.971Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:04:07.245Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:04:07.246Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T07:04:49.767Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:04:49.791Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T07:04:51.714Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T07:05:04.988Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:05:05.264Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:05:05.266Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T07:06:13.810Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:06:17.128Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T07:06:18.909Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T07:06:29.590Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:06:29.853Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:06:29.854Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T07:07:33.210Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:08:39.747Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:08:46.628Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T07:09:38.988Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:09:44.571Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T07:09:55.298Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:09:55.557Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:09:55.558Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T07:10:42.163Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:10:48.743Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T07:10:50.065Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T07:11:00.250Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:11:00.521Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:11:00.522Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T07:11:13.112Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:12:20.269Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:12:23.087Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T07:12:24.838Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T07:12:35.753Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:12:36.006Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:12:36.008Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T07:13:37.572Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:14:08.278Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:14:09.140Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T07:14:10.836Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T07:14:23.581Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:14:23.833Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:14:23.834Z][dev:error] status: 500, route: 'POST /apiV1/user/register', Error: 'data and salt arguments required' 
+[2023-02-08T07:19:02.605Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:19:04.141Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T07:19:07.348Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T07:19:19.541Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:19:19.802Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:19:20.740Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:19:21.006Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:19:21.006Z][dev:info] message: 'User with ID '63e34cf8c35506e3f6f97612' registered!!!'
+[2023-02-08T07:19:21.007Z][dev:info] status: 201, route: 'POST /apiV1/user/register', {"method":"register","message":"User registered successfully!!!","userID":"63e34cf8c35506e3f6f97612"}
+[2023-02-08T07:20:33.522Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:21:01.772Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:21:04.534Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:23:25.505Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:23:43.306Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T07:23:59.320Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:23:59.571Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:24:00.503Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:24:00.761Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:24:00.762Z][dev:info] message: 'User with ID '63e34e1031e96146e464f87c' registered!!!'
+[2023-02-08T07:24:00.762Z][dev:info] status: 201, route: 'POST /apiV1/user/register', {"method":"register","message":"User registered successfully!!!","userID":"63e34e1031e96146e464f87c"}
+[2023-02-08T07:26:06.646Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:26:14.140Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T07:26:25.542Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:26:25.816Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:26:27.140Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:26:27.424Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:26:27.425Z][dev:info] message: 'User with ID '63e34ea377677515283424c7' registered!!!'
+[2023-02-08T07:26:27.425Z][dev:info] status: 201, route: 'POST /apiV1/user/register', {"method":"register","message":"User registered successfully!!!","userID":"63e34ea377677515283424c7"}
+[2023-02-08T07:28:42.735Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:29:02.748Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T07:29:21.590Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:29:21.841Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:29:22.803Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:29:23.067Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:29:23.067Z][dev:info] message: 'User with ID '63e34f5294fee724b82181d2' registered!!!'
+[2023-02-08T07:29:23.068Z][dev:info] status: 201, route: 'POST /apiV1/user/register', {"method":"register","message":"User registered successfully!!!","userID":"63e34f5294fee724b82181d2"}
+[2023-02-08T07:38:28.027Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:38:39.254Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T07:38:40.832Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T07:38:48.850Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:38:49.107Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:38:50.049Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:38:50.309Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:38:50.309Z][dev:info] message: 'User with ID '63e3518a671967d7456c62cb' registered!!!'
+[2023-02-08T07:38:50.310Z][dev:info] status: 201, route: 'POST /apiV1/user/register', {"method":"register","message":"User registered successfully!!!","userID":"63e3518a671967d7456c62cb"}
+[2023-02-08T07:38:50.887Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T07:38:50.977Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T07:41:02.861Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:41:20.932Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T07:41:29.351Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:41:29.616Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:41:30.387Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T07:41:30.474Z][dev:info] { status: '200', route: 'GET  /home' }
+[2023-02-08T07:41:31.924Z][dev:info] Client connected, ID: r3mXVqLN-lNpru7pAAAB
+[2023-02-08T07:41:32.839Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:41:33.105Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:44:08.432Z][dev:info] status: 200, route: 'POST /apiV1/user/logout', {method: 'logout', message: 'Logged out successfully!!!'}
+[2023-02-08T07:44:08.439Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T07:44:08.446Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T07:44:10.459Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T07:44:26.384Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T07:44:26.394Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T07:44:28.184Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:44:28.440Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:44:28.440Z][dev:error] status: 500, route: 'POST /apiV1/user/register', ReferenceError: 'error is not defined' 
+[2023-02-08T07:46:33.926Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T07:46:43.606Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T07:46:43.614Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T07:46:44.904Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:46:45.158Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:46:45.159Z][dev:error] status: 500, route: 'POST /apiV1/user/register', ReferenceError: 'error is not defined' 
+[2023-02-08T07:47:04.316Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:47:39.648Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:47:44.017Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T07:48:00.613Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:48:00.871Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:48:00.872Z][dev:error] status: 500, route: 'POST /apiV1/user/register', ReferenceError: 'error is not defined' 
+[2023-02-08T07:48:28.158Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:48:31.680Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T07:48:33.599Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T07:48:52.585Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:48:52.851Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:48:52.852Z][dev:error] status: 500, route: 'POST /apiV1/user/register', ReferenceError: 'error is not defined' 
+[2023-02-08T07:49:21.141Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:49:29.241Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T07:49:30.714Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T07:49:41.287Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:49:41.545Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:49:41.546Z][dev:error] status: 409, route: 'POST /apiV1/user/register', u11serService: register(): 'User exists' 
+[2023-02-08T07:50:03.487Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T07:50:03.959Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T07:50:06.187Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T07:50:23.505Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T07:50:23.769Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T07:50:23.769Z][dev:error] status: 409, route: 'POST /apiV1/user/register', u11serService: register(): 'User exists' 
+[2023-02-08T08:02:55.782Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:03:40.528Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:05:04.387Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:05:58.078Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:13:04.928Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:13:06.774Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T08:13:16.327Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T08:13:16.590Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T08:13:16.591Z][dev:error] status: 409, route: 'POST /apiV1/user/register', u11serService: register(): 'User exists' 
+[2023-02-08T08:13:33.639Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T08:13:33.898Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T08:13:34.854Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T08:13:35.126Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T08:13:35.126Z][dev:info] message: 'User with ID '63e359aeb068e78b49756626' registered!!!'
+[2023-02-08T08:13:35.126Z][dev:info] status: 201, route: 'POST /apiV1/user/register', {"method":"register","message":"User registered successfully!!!","userID":"63e359aeb068e78b49756626"}
+[2023-02-08T08:14:38.118Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:14:44.538Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:14:50.860Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T08:15:17.801Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:15:30.723Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T08:15:30.978Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T08:15:31.889Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T08:15:31.924Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T08:15:32.251Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T08:15:32.251Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T08:15:32.251Z][dev:info] message: 'User with ID '63e35a2371168e3f60ea7536' registered!!!'
+[2023-02-08T08:15:32.252Z][dev:error] status: 409, route: 'POST /apiV1/user/register', u11serService: register(): 'User exists' 
+[2023-02-08T08:15:32.256Z][dev:info] status: 201, route: 'POST /apiV1/user/register', {"method":"register","message":"User registered successfully!!!","userID":"63e35a2371168e3f60ea7536"}
+[2023-02-08T08:15:32.345Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T08:15:32.361Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T08:15:37.132Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T08:15:46.277Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T08:15:46.541Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T08:15:46.542Z][dev:error] status: 409, route: 'POST /apiV1/user/register', u11serService: register(): 'User exists' 
+[2023-02-08T08:15:59.895Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T08:16:00.171Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T08:16:01.315Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T08:16:01.586Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T08:16:01.586Z][dev:info] message: 'User with ID '63e35a4171168e3f60ea753b' registered!!!'
+[2023-02-08T08:16:01.587Z][dev:info] status: 201, route: 'POST /apiV1/user/register', {"method":"register","message":"User registered successfully!!!","userID":"63e35a4171168e3f60ea753b"}
+[2023-02-08T08:16:01.621Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T08:16:01.629Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T08:19:29.208Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:19:37.184Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T08:19:39.556Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T08:19:58.920Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T08:19:59.175Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T08:20:00.114Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T08:20:00.409Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T08:20:00.410Z][dev:info] message: 'User with ID '63e35b3035e69420ccc570ee' registered!!!'
+[2023-02-08T08:20:00.410Z][dev:info] status: 201, route: 'POST /apiV1/user/register', {"method":"register","message":"User registered successfully!!!","userID":"63e35b3035e69420ccc570ee"}
+[2023-02-08T08:20:00.437Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T08:20:00.450Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T08:20:16.007Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T08:20:22.528Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T08:20:22.838Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T08:20:23.794Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T08:20:24.042Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T08:20:24.042Z][dev:info] message: 'User with ID '63e35b4735e69420ccc570f1' registered!!!'
+[2023-02-08T08:20:24.042Z][dev:info] status: 201, route: 'POST /apiV1/user/register', {"method":"register","message":"User registered successfully!!!","userID":"63e35b4735e69420ccc570f1"}
+[2023-02-08T08:20:24.073Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T08:20:24.082Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T08:21:46.366Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:21:53.723Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T08:22:11.516Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T08:22:11.774Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T08:22:12.700Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T08:22:12.969Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T08:22:12.969Z][dev:info] message: 'User with ID '63e35bb4a8655e94d4077df7' registered!!!'
+[2023-02-08T08:22:12.969Z][dev:info] status: 201, route: 'POST /apiV1/user/register', {"method":"register","message":"User registered successfully!!!","userID":"63e35bb4a8655e94d4077df7"}
+[2023-02-08T08:22:13.000Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T08:22:13.019Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T08:23:16.909Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:24:40.168Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:24:47.837Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:25:33.889Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:26:23.938Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:26:28.620Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:26:45.149Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:27:06.686Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:27:39.201Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T08:27:44.842Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T08:27:45.098Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T08:27:45.879Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T08:27:45.964Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T08:29:56.576Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:32:45.902Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:32:47.587Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T08:32:48.145Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T08:34:00.935Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:34:03.703Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T08:34:51.538Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T08:34:52.838Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T08:34:53.384Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T08:35:08.375Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-08T08:35:10.657Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T08:35:10.753Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T08:35:13.319Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T08:35:13.409Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T08:35:18.878Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-08T08:35:23.121Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T08:35:23.210Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T08:41:04.225Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:41:30.893Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:41:36.155Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T08:42:59.616Z][dev:info] status: 200, route: 'POST /apiV1/user/logout', {method: 'logout', message: 'Logged out successfully!!!'}
+[2023-02-08T08:42:59.626Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T08:42:59.637Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T08:43:59.052Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T08:43:59.319Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T08:43:59.394Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T08:43:59.402Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T08:46:59.935Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:49:02.780Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T08:50:39.320Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:50:40.660Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T08:50:57.895Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:51:02.091Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T08:51:40.841Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:51:48.187Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T08:51:48.900Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T08:51:58.670Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T08:51:58.932Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T08:52:24.563Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T17:27:02.410Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T17:29:27.955Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T17:29:41.652Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T17:29:41.928Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T17:29:41.929Z][dev:error] status: 409, route: 'POST /apiV1/user/register', u11serService: register(): 'User exists' 
+[2023-02-08T17:29:54.587Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T17:29:54.826Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T17:29:55.768Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T17:29:56.029Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T17:29:56.030Z][dev:info] message: 'User with ID '63e3dc1317b154c755623f8b' registered!!!'
+[2023-02-08T17:29:56.031Z][dev:info] status: 201, route: 'POST /apiV1/user/register', {"method":"register","message":"User registered successfully!!!","userID":"63e3dc1317b154c755623f8b"}
+[2023-02-08T17:29:56.069Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T17:29:56.079Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T17:30:45.065Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T17:30:45.322Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T17:30:46.099Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T17:30:46.189Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T17:31:49.419Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T17:31:49.510Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T17:32:17.280Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T17:32:39.695Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T17:32:39.796Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T17:32:44.352Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T17:32:44.606Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T17:32:45.383Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T17:32:45.471Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T17:33:22.050Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T17:33:35.176Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T17:33:40.669Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T17:33:40.935Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T17:33:41.703Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T17:33:41.790Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T17:33:41.977Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T17:33:42.065Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T17:34:02.276Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T17:34:13.343Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T17:34:13.447Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T17:34:18.686Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T17:34:18.966Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T17:34:19.720Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T17:34:19.809Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T18:08:53.064Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T18:09:41.368Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T18:09:44.840Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T18:09:44.930Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T18:12:37.143Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T18:30:50.180Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T18:34:48.243Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T18:34:50.942Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T18:34:57.967Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T18:35:15.383Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T18:35:15.641Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T18:35:16.568Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T18:35:16.832Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T18:35:16.833Z][dev:info] message: 'User with ID '63e3eb64dd8768b71ba438d6' registered!!!'
+[2023-02-08T18:35:16.834Z][dev:info] status: 201, route: 'POST /apiV1/user/register', {"method":"register","message":"User registered successfully!!!","userID":"63e3eb64dd8768b71ba438d6"}
+[2023-02-08T18:35:16.937Z][dev:info] { status: '200', route: 'GET  /login/success' }
+[2023-02-08T18:37:00.453Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T18:37:01.927Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T18:37:27.878Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T18:37:28.140Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T18:37:29.092Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T18:37:29.352Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T18:37:29.352Z][dev:info] message: 'User with ID '63e3ebe93bb74d89e2d7801f' registered!!!'
+[2023-02-08T18:37:29.353Z][dev:info] status: 201, route: 'POST /apiV1/user/register', {"method":"register","message":"User registered successfully!!!","userID":"63e3ebe93bb74d89e2d7801f"}
+[2023-02-08T18:37:29.456Z][dev:info] { status: '200', route: 'GET  /login/success' }
+[2023-02-08T18:44:14.874Z][dev:info] { status: '200', route: 'GET  /login/success' }
+[2023-02-08T18:45:24.265Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T18:47:36.351Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T18:48:12.519Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T18:48:14.643Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T18:48:40.243Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T18:48:41.672Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T18:48:44.333Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T18:48:44.417Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T18:48:58.840Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T18:49:02.462Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T18:49:22.489Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T18:49:22.492Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T18:49:22.820Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T18:49:22.821Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T18:49:23.733Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T18:49:23.743Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T18:49:24.082Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T18:49:24.083Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T18:49:24.083Z][dev:info] message: 'User with ID '63e3eeb330b26b7590d1da4f' registered!!!'
+[2023-02-08T18:49:24.084Z][dev:info] message: 'User with ID '63e3eeb330b26b7590d1da4e' registered!!!'
+[2023-02-08T18:49:24.084Z][dev:info] status: 201, route: 'POST /apiV1/user/register', {"method":"register","message":"User registered successfully!!!","userID":"63e3eeb330b26b7590d1da4f"}
+[2023-02-08T18:49:24.085Z][dev:info] status: 201, route: 'POST /apiV1/user/register', {"method":"register","message":"User registered successfully!!!","userID":"63e3eeb330b26b7590d1da4e"}
+[2023-02-08T18:49:24.197Z][dev:info] { status: '200', route: 'GET  /login/success' }
+[2023-02-08T18:49:38.957Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T18:49:39.051Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T18:50:50.913Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T18:51:20.482Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T18:51:20.731Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T18:51:21.938Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T18:51:22.207Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T18:51:22.207Z][dev:info] message: 'User with ID '63e3ef2930b26b7590d1da53' registered!!!'
+[2023-02-08T18:51:22.208Z][dev:info] status: 201, route: 'POST /apiV1/user/register', {"method":"register","message":"User registered successfully!!!","userID":"63e3ef2930b26b7590d1da53"}
+[2023-02-08T18:51:22.312Z][dev:info] { status: '200', route: 'GET  /login/success' }
+[2023-02-08T18:51:40.817Z][dev:info] { status: '200', route: 'GET  /login/success' }
+[2023-02-08T18:51:48.715Z][dev:info] { status: '200', route: 'GET  /login/success?username=marcossolis49%40gmail.com&password=9kSJe8i%24hXAJRgTm' }
+[2023-02-08T18:53:08.935Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T18:53:14.290Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T18:53:32.168Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T18:53:33.244Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T18:53:45.569Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T18:53:45.843Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T18:53:45.844Z][dev:error] status: 409, route: 'POST /apiV1/user/register', u11serService: register(): 'User exists' 
+[2023-02-08T18:54:02.690Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T18:54:02.936Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T18:54:03.886Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T18:54:04.160Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T18:54:04.161Z][dev:info] message: 'User with ID '63e3efcb08a0ee8ba20dae83' registered!!!'
+[2023-02-08T18:54:04.162Z][dev:info] status: 201, route: 'POST /apiV1/user/register', {"method":"register","message":"User registered successfully!!!","userID":"63e3efcb08a0ee8ba20dae83"}
+[2023-02-08T18:54:04.292Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T19:09:28.623Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T19:09:31.260Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T19:09:48.443Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T19:09:48.702Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T19:09:49.674Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T19:09:49.959Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T19:09:49.960Z][dev:info] message: 'User with ID '63e3f37d1e7e062ad18429d9' registered!!!'
+[2023-02-08T19:09:49.960Z][dev:info] status: 201, route: 'POST /apiV1/user/register', {"method":"register","message":"User registered successfully!!!","userID":"63e3f37d1e7e062ad18429d9"}
+[2023-02-08T19:09:50.124Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T19:11:11.835Z][dev:info] { status: '200', route: 'GET  /register' }
+[2023-02-08T19:11:13.891Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T19:16:37.506Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T19:17:15.081Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T19:17:15.374Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T19:17:16.153Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T19:17:16.241Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T19:21:22.901Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T19:21:22.996Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T19:21:26.189Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-08T19:21:27.850Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T19:21:27.940Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T19:21:30.903Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T19:21:30.998Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T19:21:35.591Z][dev:info] status: 200, route: 'POST /apiV1/user/logout', {method: 'logout', message: 'Logged out successfully!!!'}
+[2023-02-08T19:21:35.598Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T19:21:35.605Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T19:21:49.683Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T19:21:49.928Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T19:21:50.248Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T19:21:50.333Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T19:22:35.017Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T19:22:44.305Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T19:23:05.098Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T19:23:18.341Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T19:26:10.300Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T19:28:49.320Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T20:20:22.776Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T20:20:22.872Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T20:20:22.969Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T20:20:28.491Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T20:20:28.763Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T20:20:29.846Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T20:20:30.017Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T20:20:30.325Z][dev:info] Client connected, ID: Uo5-SZNktwdoYuU0AAAB
+[2023-02-08T20:20:31.457Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T20:20:31.713Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T20:22:55.265Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T20:22:55.630Z][dev:info] Client connected, ID: YgggmHMKYJMKhQa0AAAD
+[2023-02-08T20:22:56.842Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T20:22:57.087Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T20:29:37.858Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T20:29:38.227Z][dev:info] Client connected, ID: NLJjvD0wyV2ar_11AAAF
+[2023-02-08T20:29:44.107Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T20:29:44.375Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T20:30:45.278Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T20:30:47.038Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T20:31:09.188Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T20:31:09.761Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T20:33:28.912Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T20:34:54.116Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T20:34:55.563Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T20:34:56.111Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T20:36:35.310Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T20:36:37.396Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T20:36:37.982Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T20:36:53.662Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T20:36:53.754Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T20:36:59.156Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T20:36:59.431Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T20:36:59.759Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T20:36:59.844Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T20:40:34.552Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T20:40:38.449Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T20:40:38.541Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T20:40:42.858Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T20:40:43.122Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T20:40:43.943Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T20:40:44.029Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T20:42:57.111Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T21:07:19.040Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T21:09:04.109Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T21:09:54.054Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T21:10:12.375Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T21:10:35.196Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T21:10:37.120Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T21:10:37.221Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T21:10:37.317Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T21:10:52.197Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T21:10:52.478Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T21:10:53.350Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T21:10:53.438Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T21:11:24.557Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T21:11:27.895Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T21:11:28.461Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T21:11:48.943Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T21:11:51.441Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T21:12:07.094Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T21:12:08.541Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T21:12:09.112Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T21:12:32.396Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T21:12:39.782Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T21:12:42.431Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T21:22:34.679Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T21:22:36.751Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T21:22:37.311Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T21:23:42.292Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T21:24:29.329Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T21:24:30.714Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T21:24:31.266Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T21:25:01.284Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T21:25:02.959Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T21:25:03.544Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T21:25:57.200Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T21:26:00.414Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T21:26:00.993Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T21:27:43.428Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T21:30:23.923Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T21:33:04.632Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T21:33:06.564Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T21:33:10.765Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T21:33:10.766Z][dev:error] { status: 500, route: 'GET  /products', TypeError: 'auth.user.match is not a function' }
+[2023-02-08T21:33:11.283Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T21:33:11.284Z][dev:error] { status: 500, route: 'GET  /products', TypeError: 'auth.user.match is not a function' }
+[2023-02-08T21:33:13.894Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T21:33:13.982Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T21:33:13.982Z][dev:error] { status: 500, route: 'GET  /products', TypeError: 'auth.user.match is not a function' }
+[2023-02-08T21:33:35.634Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T21:33:44.206Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T21:33:44.771Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T21:34:20.789Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T21:42:07.039Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T21:42:08.999Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T21:42:10.154Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T21:42:10.714Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T21:42:14.070Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-08T21:42:14.071Z][dev:error] { status: 500, route: 'GET  /cart', ReferenceError: 'user is not defined' }
+[2023-02-08T21:42:55.312Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T21:42:56.787Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-08T21:43:08.832Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-08T21:44:56.064Z][dev:info] Server listening at PORT: 4001
+[2023-02-08T21:46:27.067Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T21:46:27.818Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:06:44.708Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T22:06:44.796Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T22:06:49.737Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T22:06:49.997Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T22:06:50.362Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T22:06:50.442Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:34:41.324Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T22:34:41.405Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-08T22:34:49.165Z][dev:info] Mongo DB Client connected!!
+[2023-02-08T22:34:49.408Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-08T22:34:49.732Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T22:34:49.816Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:35:48.119Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T22:35:48.210Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:36:02.697Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:36:34.915Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:36:57.560Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T22:36:57.646Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:38:12.774Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:39:48.525Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:40:42.604Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:44:10.335Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:45:40.206Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T22:45:40.296Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:45:42.385Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-08T22:46:09.654Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-08T22:47:21.799Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-08T22:47:29.376Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T22:47:29.462Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:47:57.277Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:49:08.455Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:49:10.432Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:49:12.111Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T22:49:12.199Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:50:40.387Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:50:51.024Z][dev:info] { status: '200', route: 'GET  /tickets' }
+[2023-02-08T22:50:55.906Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-08T22:50:58.275Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:50:59.732Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T22:50:59.815Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:51:01.418Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-08T22:51:02.819Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T22:51:02.907Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:51:36.532Z][dev:info] { status: '200', route: 'GET  /tickets' }
+[2023-02-08T22:51:39.465Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T22:51:39.550Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:52:43.675Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:52:46.685Z][dev:info] { status: '200', route: 'GET  /chat' }
+[2023-02-08T22:53:51.683Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:54:51.090Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:55:38.290Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:56:17.148Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:57:04.403Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:57:36.291Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:57:57.071Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:58:54.293Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T22:59:09.896Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T23:01:54.048Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T23:02:07.851Z][dev:info] { status: '200', route: 'GET  /chat' }
+[2023-02-08T23:02:28.187Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T23:02:30.421Z][dev:info] { status: '200', route: 'GET  /chat' }
+[2023-02-08T23:02:33.641Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-08T23:02:39.536Z][dev:info] { status: '200', route: 'GET  /tickets' }
+[2023-02-08T23:02:49.891Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T23:02:49.979Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T23:04:26.484Z][dev:info] { status: '200', route: 'GET  /chat' }
+[2023-02-08T23:04:34.278Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T23:04:47.507Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T23:04:47.594Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-08T23:09:26.009Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-08T23:09:26.097Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T01:44:28.494Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T01:44:40.553Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-09T01:44:40.653Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-09T01:44:45.399Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T01:44:45.686Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T01:44:46.494Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-09T01:44:46.580Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T01:44:46.929Z][dev:info] Client connected, ID: hbLBlh5m2vPEmt-EAAAB
+[2023-02-09T01:44:47.882Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T01:44:48.134Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T01:45:58.849Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T01:45:59.154Z][dev:info] Client connected, ID: 0lEo7k2H7fWqpYMxAAAD
+[2023-02-09T01:46:01.024Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T01:46:01.277Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T01:46:10.332Z][dev:info] { status: '200', route: 'GET  /tickets' }
+[2023-02-09T01:46:14.641Z][dev:info] status: 200, route: 'POST /apiV1/user/logout', {method: 'logout', message: 'Logged out successfully!!!'}
+[2023-02-09T01:46:14.648Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-09T01:46:14.657Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-09T01:46:19.584Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T01:46:19.864Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T01:46:20.211Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-09T01:46:20.314Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T01:46:20.580Z][dev:info] Client connected, ID: L6gs-jwcvbbeySS6AAAF
+[2023-02-09T01:46:21.582Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T01:46:21.844Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T01:54:10.643Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T01:54:10.765Z][dev:info] Client connected, ID: K_UGUKOacmOT4eMPAAAB
+[2023-02-09T01:54:12.771Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T01:54:13.048Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T01:57:26.004Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T01:57:26.097Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-09T01:57:26.188Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-09T01:57:31.431Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T01:57:31.723Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T01:57:32.553Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-09T01:57:32.676Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T01:58:04.253Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T01:58:05.837Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T01:58:28.322Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T01:58:30.526Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T01:58:53.928Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T01:59:41.730Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T01:59:54.244Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T02:00:03.508Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T02:00:40.444Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T02:01:05.420Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T02:04:34.961Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T02:13:13.782Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T02:13:15.553Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-09T02:13:15.647Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-09T02:13:21.224Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T02:13:21.497Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T02:13:22.317Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-09T02:13:22.405Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T02:13:45.002Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T02:13:56.785Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T02:13:57.958Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T02:15:04.632Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T02:15:06.099Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T02:15:20.980Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T02:15:22.209Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T02:15:52.586Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T02:15:54.062Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T02:17:14.294Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T02:17:16.552Z][dev:info] { status: '200', route: 'GET  /products/Categoria1' }
+[2023-02-09T02:17:41.092Z][dev:info] { status: '200', route: 'GET  /products/Categoria1' }
+[2023-02-09T02:18:26.636Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T02:18:29.111Z][dev:info] { status: '200', route: 'GET  /products/Categoria1' }
+[2023-02-09T02:46:33.163Z][dev:info] { status: '200', route: 'GET  /products/Categoria1' }
+[2023-02-09T02:46:33.259Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-09T02:46:33.348Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-09T02:46:39.386Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T02:46:39.716Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T02:46:40.289Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-09T02:46:40.380Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T02:49:21.834Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-09T02:49:21.925Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T02:49:24.869Z][dev:info] { status: '200', route: 'GET  /products/Categoria2' }
+[2023-02-09T02:50:18.874Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T02:50:21.273Z][dev:info] { status: '200', route: 'GET  /products/Categoria1' }
+[2023-02-09T02:51:45.206Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T02:52:19.933Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T02:52:23.547Z][dev:info] { status: '200', route: 'GET  /products/Categoria1' }
+[2023-02-09T02:52:53.818Z][dev:info] { status: '200', route: 'GET  /products/Categoria1' }
+[2023-02-09T02:53:36.649Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T02:54:17.462Z][dev:info] { status: '200', route: 'GET  /products/Categoria1' }
+[2023-02-09T02:55:01.231Z][dev:info] { status: '200', route: 'GET  /products/Categoria1' }
+[2023-02-09T02:55:37.958Z][dev:info] { status: '200', route: 'GET  /products/Categoria1' }
+[2023-02-09T02:57:57.760Z][dev:info] { status: '200', route: 'GET  /products/Categoria1' }
+[2023-02-09T03:00:54.790Z][dev:info] { status: '200', route: 'GET  /products/Categoria1' }
+[2023-02-09T03:01:16.230Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-09T03:01:16.327Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T03:01:19.247Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T03:01:22.372Z][dev:info] { status: '200', route: 'GET  /products/Categoria1' }
+[2023-02-09T03:02:08.384Z][dev:info] { status: '200', route: 'GET  /products/Categoria1' }
+[2023-02-09T03:02:20.978Z][dev:info] { status: '200', route: 'GET  /products/Categoria1' }
+[2023-02-09T03:02:43.666Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T03:02:45.191Z][dev:info] { status: '200', route: 'GET  /products/Categoria1' }
+[2023-02-09T03:03:16.251Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T03:03:17.388Z][dev:info] { status: '200', route: 'GET  /products/Categoria1' }
+[2023-02-09T03:06:41.033Z][dev:info] { status: '200', route: 'GET  /products/Categoria1' }
+[2023-02-09T03:06:51.888Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T03:06:54.406Z][dev:info] { status: '200', route: 'GET  /products/Categoria1' }
+[2023-02-09T03:07:03.620Z][dev:info] { status: '200', route: 'GET  /products/Categoria2' }
+[2023-02-09T03:07:07.122Z][dev:info] { status: '200', route: 'GET  /products/Categoria4' }
+[2023-02-09T03:07:44.051Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T03:07:45.177Z][dev:info] { status: '200', route: 'GET  /products/Categoria4' }
+[2023-02-09T03:10:30.478Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T03:10:34.109Z][dev:info] { status: '200', route: 'GET  /products/Categoria4' }
+[2023-02-09T03:10:47.464Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T03:10:49.552Z][dev:info] { status: '200', route: 'GET  /products/Categoria4' }
+[2023-02-09T03:12:29.253Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T03:12:31.872Z][dev:info] { status: '200', route: 'GET  /products/Categoria4' }
+[2023-02-09T03:12:48.912Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T03:12:50.059Z][dev:info] { status: '200', route: 'GET  /products/Categoria4' }
+[2023-02-09T03:13:32.644Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T03:13:34.011Z][dev:info] { status: '200', route: 'GET  /products/Categoria4' }
+[2023-02-09T03:13:56.613Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T03:13:57.774Z][dev:info] { status: '200', route: 'GET  /products/Categoria4' }
+[2023-02-09T03:14:16.151Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T03:14:17.249Z][dev:info] { status: '200', route: 'GET  /products/Categoria4' }
+[2023-02-09T03:14:23.945Z][dev:info] { status: '200', route: 'GET  /products/Categoria1' }
+[2023-02-09T03:38:23.016Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T03:39:06.843Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T03:39:09.300Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T03:39:09.417Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-09T03:39:09.503Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-09T03:39:14.598Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T03:39:14.872Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T03:39:15.676Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-09T03:39:15.763Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T03:39:16.954Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T03:39:17.234Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T03:39:17.235Z][dev:info] message: 'Quantity of Products: 0'
+[2023-02-09T03:39:17.236Z][dev:info] status: 200, route: 'GET /apiV1/products/', {"method":"getAllProducts","products":0}
+[2023-02-09T03:45:26.296Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T03:45:27.833Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T03:45:28.086Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T03:45:28.086Z][dev:info] message: 'Quantity of Products: 1'
+[2023-02-09T03:45:28.087Z][dev:info] status: 200, route: 'GET /apiV1/products/', {"method":"getAllProducts","products":1}
+[2023-02-09T03:46:03.302Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T03:46:06.036Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T03:46:07.393Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T03:46:07.677Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T03:46:07.678Z][dev:info] message: 'Quantity of Products: 1'
+[2023-02-09T03:46:07.679Z][dev:info] status: 200, route: 'GET /apiV1/products/', {"method":"getAllProducts","products":1}
+[2023-02-09T03:46:56.425Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T03:49:46.754Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T03:49:48.687Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T03:49:50.090Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T03:49:50.347Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T03:49:50.348Z][dev:info] message: 'Quantity of Products: 1'
+[2023-02-09T03:49:50.348Z][dev:info] status: 200, route: 'GET /apiV1/products/', {"method":"getAllProducts","products":1}
+[2023-02-09T03:51:39.529Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T03:51:41.131Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T03:51:41.387Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T03:51:41.387Z][dev:info] message: 'Quantity of Products: 1'
+[2023-02-09T03:51:41.388Z][dev:info] status: 200, route: 'GET /apiV1/products/', {"method":"getAllProducts","products":1}
+[2023-02-09T03:55:04.356Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T03:55:07.400Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T03:55:16.396Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T03:55:20.387Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T03:55:21.698Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T03:55:21.984Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T03:55:21.985Z][dev:info] message: 'Quantity of Products: 1'
+[2023-02-09T03:55:21.985Z][dev:info] status: 200, route: 'GET /apiV1/products/', {"method":"getAllProducts","products":1}
+[2023-02-09T04:02:36.528Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T04:03:18.824Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T04:03:48.373Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T04:03:50.959Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T04:03:52.286Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T04:03:52.566Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T04:03:52.566Z][dev:info] message: 'Quantity of Products: 1'
+[2023-02-09T04:03:52.567Z][dev:info] status: 200, route: 'GET /apiV1/products/', {"method":"getAllProducts","products":1}
+[2023-02-09T04:05:30.152Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T04:05:31.719Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T04:05:33.134Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T04:05:33.406Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T04:05:33.407Z][dev:info] message: 'Quantity of Products: 1'
+[2023-02-09T04:05:33.407Z][dev:info] status: 200, route: 'GET /apiV1/products/', {"method":"getAllProducts","products":1}
+[2023-02-09T04:10:53.017Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T04:11:03.326Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T04:11:04.676Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T04:11:04.964Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T04:11:04.965Z][dev:info] message: 'Quantity of Products: 1'
+[2023-02-09T04:11:04.966Z][dev:info] status: 200, route: 'GET /apiV1/products/', {"method":"getAllProducts","products":1}
+[2023-02-09T04:11:52.321Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T04:11:55.977Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T04:11:57.291Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T04:11:57.562Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T04:11:57.563Z][dev:info] message: 'Quantity of Products: 1'
+[2023-02-09T04:11:57.563Z][dev:info] status: 200, route: 'GET /apiV1/products/', {"method":"getAllProducts","products":1}
+[2023-02-09T04:12:15.972Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T04:12:18.014Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T04:12:19.293Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T04:12:19.571Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T04:12:19.572Z][dev:info] message: 'Quantity of Products: 1'
+[2023-02-09T04:12:19.573Z][dev:info] status: 200, route: 'GET /apiV1/products/', {"method":"getAllProducts","products":1}
+[2023-02-09T04:12:55.815Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T04:15:00.822Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T04:15:03.248Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T04:15:03.514Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T04:15:03.514Z][dev:info] message: 'Quantity of Products: 1'
+[2023-02-09T04:15:03.515Z][dev:info] status: 200, route: 'GET /apiV1/products/', {"method":"getAllProducts","products":1}
+[2023-02-09T04:16:23.896Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T04:16:26.317Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T04:16:27.583Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T04:16:27.849Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T04:16:27.850Z][dev:info] message: 'Quantity of Products: 1'
+[2023-02-09T04:16:27.851Z][dev:info] status: 200, route: 'GET /apiV1/products/', {"method":"getAllProducts","products":1}
+[2023-02-09T04:17:01.604Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T04:17:04.130Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T04:17:05.405Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T04:17:05.673Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T04:17:05.674Z][dev:info] message: 'Quantity of Products: 1'
+[2023-02-09T04:17:05.675Z][dev:info] status: 200, route: 'GET /apiV1/products/', {"method":"getAllProducts","products":1}
+[2023-02-09T04:18:40.402Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T04:18:41.825Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T04:18:42.079Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T04:18:42.080Z][dev:info] message: 'Quantity of Products: 1'
+[2023-02-09T04:18:42.080Z][dev:info] status: 200, route: 'GET /apiV1/products/', {"method":"getAllProducts","products":1}
+[2023-02-09T04:18:54.609Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T04:18:55.760Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T04:18:56.009Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T04:18:56.010Z][dev:info] message: 'Quantity of Products: 1'
+[2023-02-09T04:18:56.010Z][dev:info] status: 200, route: 'GET /apiV1/products/', {"method":"getAllProducts","products":1}
+[2023-02-09T04:20:21.083Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T04:20:23.140Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T04:20:24.350Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T04:20:24.611Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T04:20:24.612Z][dev:info] message: 'Quantity of Products: 1'
+[2023-02-09T04:20:24.613Z][dev:info] status: 200, route: 'GET /apiV1/products/', {"method":"getAllProducts","products":1}
+[2023-02-09T04:20:55.535Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-09T04:20:55.626Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-09T04:21:09.247Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T04:21:09.501Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T04:21:10.361Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-09T04:21:10.453Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T04:21:11.668Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T04:21:11.945Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T04:21:11.946Z][dev:info] message: 'Quantity of Products: 1'
+[2023-02-09T04:21:11.946Z][dev:info] status: 200, route: 'GET /apiV1/products/', {"method":"getAllProducts","products":1}
+[2023-02-09T04:35:07.067Z][dev:info] Server listening at PORT: 4001
+[2023-02-09T04:35:08.433Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T04:35:08.533Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-09T04:35:08.620Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-09T04:35:13.240Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T04:35:13.510Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T04:35:14.323Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-09T04:35:14.411Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-09T04:35:15.559Z][dev:info] Mongo DB Client connected!!
+[2023-02-09T04:35:15.807Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-09T04:35:15.807Z][dev:info] message: 'Quantity of Products: 1'
+[2023-02-09T04:35:15.808Z][dev:info] status: 200, route: 'GET /apiV1/products/', {"method":"getAllProducts","products":1}
+[2023-02-09T05:18:57.196Z][dev:info] { status: '200', route: 'GET  /products/Categoria1' }
+[2023-02-09T05:18:57.283Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-09T05:18:57.373Z][dev:info] { status: '200', route: 'GET  /login' }
