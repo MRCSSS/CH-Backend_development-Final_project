@@ -1,13 +1,23 @@
-    <div class="container mt-3">
-        {{!-- <div id='cart_content' class="jumbotron"></div> --}}
-        <div class="jumbotron" style="background-color: gray;color: white;text-align:center;">
-            <h1>Aquí parecerá la lista de productos en el carrito</h1>
-            <p>El botón confirmaría la orden de compra del carrito actual</p>
-            <form action="apiV1/cart" method="post">
-                <input type="hidden" id="name" name="name" value="{{name}}">
-                <input type="hidden" id="email" name="email" value="{{email}}">
-                <button class="btn btn-warning my-5">COMPRAR</button>
-            </form>
+<div id="cart_container" class="container mt-3">
+    <div class="jumbotron" style="background-color: gray;color: white;text-align:center;">
+        <h1>CARRITO DE COMPRAS</h1><br>
+        <div id="cartTable" class="hide">
+            <div class="cartTitles cartItem d-flex flex-row carrito-item justify-content-between">
+                <h4>IMG</h4>
+                <h4>NOMBRE</h4>
+                <h4>PRECIO</h4>
+                <h4>CANTIDAD</h4>
+                <h4>SUBTOTAL</h4>
+            </div>
+            <div id="cartInner" class="cartInner"></div>
         </div>
-
+        <div id="footer_cartTable" class="jumbotron p-3" style="background-color: #343a40;text-align:center;">
+            <h2>PrecioTotal:  </h2>
+            <h2 id="subtotal_inner"></h2>
+            <div class="cartButtons d-flex justify-content-around">
+                <button id="deleteCart" onclick="deleteCart()" class="button">BORRAR CONTENIDO DE CARRITO</button>
+                <button id="toPay" onclick="goToPay()" class="button">CONTINUAR CON LA COMPRA</button>
+            </div>
+        </div>
     </div>
+</div>

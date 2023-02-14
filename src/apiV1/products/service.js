@@ -54,6 +54,16 @@ class productService {
         }
     }
 
+    getCategoryProducts = async (category) => {
+        const allProducts = await DAO.getAll();
+        const catProducts = allProducts.filter(prod => {
+                if(prod.categories.includes(category)){
+                    return prod;
+                }
+            });
+        return catProducts;
+    }
+
     deleteAllProducts = async () => {
         try {
             await DAO.deleteAll();

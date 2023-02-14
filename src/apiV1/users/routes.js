@@ -36,11 +36,17 @@ userRouter.route ('/register')
     .post   (controller.register)
 //     - Log In
 userRouter.route ('/login')
-    .post   (passport.authenticate('local', {
-            passReqToCallback: true,
-            failureMessage: true,
-        })
-    )
+    .post   ((req, res, next)=>{
+            passport.authenticate('local', function(err, user, info) {
+                if (err) { return next(err); }
+                if (!user) { return res.redirect('/'); }
+
+                req.logIn(user, function(err) {
+                    if (err) { return next(err); }
+                    return res.send(user);
+                });
+            })(req, res, next);
+        });
 //     - Log Out
 userRouter.route ('/logout')
     .post   (controller.logout)

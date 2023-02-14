@@ -13,3 +13,20 @@ body .jumbotron {
 textarea {
     resize: none;
 }
+
+// -------- > SCROLLBAR < --------
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(39, 39, 39) !important;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background: rgba(#343a40,0.3);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(#666666,0.7);
+}

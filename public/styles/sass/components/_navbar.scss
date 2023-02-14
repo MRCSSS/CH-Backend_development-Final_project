@@ -3,3 +3,23 @@
 
 /*  --------------------------- > BASE < ---------------------------  */
 // ver los productos totales con los filtros que se hayan implementado y su propio carrito de compras e información propia (datos de registro con la foto). Además, dispondrá de una opción para desloguearse del sistema
+.navbar{
+    a:hover{
+        // color: none !important;
+        text-decoration: none;
+    }
+    #counter {
+        position: relative;
+        bottom: -13px;
+        left: -10px;
+        height: 23px;
+        width: 23px;
+        border-radius: 50%;
+        background-color: rgba(#800000, 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+    }
+    
+}

@@ -22,9 +22,9 @@ class productsController {
 
     getAllProducts= async (req,res) => {
         try {
-            const allUsers = await service.getAllProducts();
-            const DTOdata = allUsers.map(user => {   
-                return new productDTO(user);
+            const allProducts = await service.getAllProducts();
+            const DTOdata = allProducts.map(prod => {   
+                return new productDTO(prod);
             });
             const customRes = {method: 'getAllProducts', products: DTOdata};
             logger.info(`status: 200, route: '${req.method} ${req.baseUrl}${req.url}', ${JSON.stringify({method: 'getAllProducts', products: DTOdata.length})}`);
@@ -36,11 +36,14 @@ class productsController {
         }
     }
     
-    deleteAllProducts= async (req,res) => {
+    getCategoryProducts= async (req,res) => {
         try {
-            await service.deleteAllProducts();
-            const customRes = {method: 'deleteAllProducts', message: `All products deleted!!!`};
-            logger.info(`status: 200, route: '${req.method} ${req.baseUrl}${req.url}', ${JSON.stringify(customRes)}`);
+            const allProducts = await service.getCategoryProducts(req.params.category);
+            const DTOdata = allProducts.map(prod => {   
+                return new productDTO(prod);
+            });
+            const customRes = {method: 'getCategoryProducts', products: DTOdata};
+            logger.info(`status: 200, route: '${req.method} ${req.baseUrl}${req.url}', ${JSON.stringify({method: 'getCategoryProducts', products: DTOdata.length})}`);
             return res.status(200).json(customRes);
         } catch (error) {
             const e = new CustomError(error);
@@ -48,7 +51,7 @@ class productsController {
             return res.status(e.code).json({error: `${e.name}: ${e.message}`});
         }
     }
-
+    
     getProduct= async (req,res) => {
         try {
             const product = await service.getProduct(req.params.id);

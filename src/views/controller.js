@@ -71,7 +71,25 @@ export async function getLogin(req,res) {
     }
 };
 
-export async function getProducts(req,res) {
+export async function getProduct(req,res) {
+    const {auth, user, route} = await reqInit(req);
+    try {
+        res.status(200);
+        logger.info(`{ status: '200', route: '${route}' }`);
+        if (auth === false){
+            res.redirect('/');
+        } else {
+            const regex = /^[^\s]+/g;
+            const name = user.name.match(regex);
+            res.render('partials/product', { layout: 'product', name: name, email: user.username, userID: user.id });
+        }
+    } catch (error) {
+        logger.error(`{ status: 500, route: '${route}', ${error.name}: '${error.message}' }`);
+        res.render('partials/error-page', {layout: 'product'});
+    }
+};
+
+export async function getAllProducts(req,res) {
     const {auth, user, route} = await reqInit(req);
     try {
         res.status(200);
