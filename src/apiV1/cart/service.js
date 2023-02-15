@@ -12,9 +12,9 @@ class cartService {
     createCart = async (mail) => {
         try {
             const user = await userDAO.searchUser(mail);
-            const userID = user === null ? 0 : user.id;
+            const username = user === null ? 0 : user.username;
             const newCart = {
-                userID: userID,
+                username: username,
                 products: [],
             };
             const newCartId = await cartDAO.add(newCart);
@@ -43,6 +43,25 @@ class cartService {
         }
     }
 
+    getUserCart = async (userEmail) => {
+        try {
+            const cart = await cartDAO.searchCart(userEmail)
+            if(cart != false){
+                logger.info(`message: 'Cart of ${userEmail} found!!'`);
+                return cart
+            } else {
+                logger.info(`message: 'Cart of ${userEmail} not found!!'`);
+                const newCartId = await cartDAO.add({ username: userEmail, products: []});
+                logger.info(`message: 'Cart with ID '${newCartId}' registered!!!'`);
+                const newCart = await cartDAO.searchCart(userEmail)
+                logger.info(`message: 'Cart of ${userEmail} found!!'`);
+                return newCart;
+            }
+        } catch (error) {
+            throw new CustomError(error);
+        }
+    }
+
     getProducts = async (cartId) => {
         try {
             const cart = await cartDAO.getById(cartId);
@@ -55,7 +74,16 @@ class cartService {
 
     updateProducts = async (cartId, products) => {
         try {
-            await cartDAO.update(cartId, products);
+            await cartDAO.updateCart(cartId, products);
+            logger.info(`message: 'Cart with ID '${cartId}' updated!!'`);
+        } catch (error) {
+            throw new CustomError(error);
+        }
+    }
+
+    updateCart = async (cartId, cartData) => {
+        try {
+            await cartDAO.update(cartId, cartData);
             logger.info(`message: 'Cart with ID '${cartId}' updated!!'`);
         } catch (error) {
             throw new CustomError(error);

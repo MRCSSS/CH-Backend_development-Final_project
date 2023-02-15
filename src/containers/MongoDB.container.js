@@ -90,7 +90,7 @@ class MongoDBContainer extends Container {
             await this.conn.connect();
             const beforeObj = await this.collection.find({ "_id": id }, { __v: 0 });
             if (beforeObj.length == 0) {
-                throw new CustomError({customCode:404,customName:'MongoDBContainer: update(obj, id)',customMsg:`Object not found, id: ${id}.`});
+                throw new CustomError({customCode:404,customName:'MongoDBContainer: update(id, obj)',customMsg:`Object not found, id: ${id}.`});
             } else {
                 await this.collection.updateOne({ "_id": id }, { $set: obj});
                 const newObj = await this.collection.find({ "_id": id }, { __v: 0 });
@@ -99,7 +99,7 @@ class MongoDBContainer extends Container {
                 return {before: bObj, after: nObj};
             }
         } catch (error) {
-            throw new CustomError({customCode:404,customName:'MongoDBContainer: update(obj, id)', customMsg:error.message});
+            throw new CustomError({customCode:404,customName:'MongoDBContainer: update(id, obj)', customMsg:error.message});
         }  finally {
             await this.conn.disconnect();
         }

@@ -1,33 +1,8 @@
 /* ==========================  >  MAIN  <  ========================== */
 // Includes all files necesaries
 /*  --------------------------- > BASE < ---------------------------  */
-	@import './base/resets';			// Reset/normalize
+@import './base/resets';			// Reset/normalize
 //	@import './base/typography';        // Reglas tipográficas
-/*  ------------------------ > COMPONENTS < ------------------------  */
-//	@import './components/buttons';     // Botones
-//	@import './components/carousel';    // Carousel
-//	@import './components/cover';       // Cubierta
-//	@import './components/dropdown';    // Dropdown
-	@import './components/navbar';      // Barra de navegación
-/*  -------------------------- > LAYOUT < --------------------------  */
-	@import './layout/header';          // Encabezamiento
-//	@import './layout/navigation';      // Navegación
-//	@import './layout/grid';            // Sistema de retícula
-//	@import './layout/sidebar';         // Barra lateral
-//	@import './layout/forms';           // Formularios
-//	@import './layout/media';           // Media
-//	@import './layout/carousel';        // Carruseles de fotos
-//	@import './layout/thumbnails';      // Miniaturas
-//	@import './layout/footer';          // Pie de página
-/*  -------------------------- > PAGES < ---------------------------  */
-	@import './pages/home';             // Estilos específicos para la página de inicio
-	@import './pages/login';            // Estilos específicos para la página de logeo
-	@import './pages/logout';           // Estilos específicos para la página de logout
-	@import './pages/register';         // Estilos específicos para la página de registro
-//	@import './pages/contact';          // Estilos específicos para la página de contacto
-/*  -------------------------- > THEMES < --------------------------  */
-//	@import './themes/theme';           // Tema por defecto
-//	@import './themes/admin';           // Tema del administrador
 /*  -------------------------- > UTILS < ---------------------------  */
 //	@import './utils/variables';        // Variables Sass
 //	@import './utils/functions';        // Funciones Sass
@@ -37,4 +12,29 @@
 //	@import './vendors/bootstrap';      // Bootstrap
 //	@import './vendors/jquery-ui.scss   // jQuery UI
 //	@import './vendors/normalize';      // Normalizr
-//	@import './vendors/select2';        // jQuery UI
+//	@import './vendors/select2';        // jQuery UI/*  -------------------------- > THEMES < --------------------------  */
+//	@import './themes/theme';           // Tema por defecto
+//	@import './themes/admin';           // Tema del administrador
+/*  -------------------------- > PAGES < ---------------------------  */
+@import './pages/home';             // Estilos específicos para la página de inicio
+@import './pages/login';            // Estilos específicos para la página de logeo
+@import './pages/logout';           // Estilos específicos para la página de logout
+@import './pages/register';         // Estilos específicos para la página de registro
+//	@import './pages/contact';          // Estilos específicos para la página de contacto
+/*  -------------------------- > LAYOUT < --------------------------  */
+@import './layout/header';          // Encabezamiento
+//	@import './layout/navigation';      // Navegación
+//	@import './layout/grid';            // Sistema de retícula
+//	@import './layout/sidebar';         // Barra lateral
+//	@import './layout/forms';           // Formularios
+//	@import './layout/media';           // Media
+//	@import './layout/carousel';        // Carruseles de fotos
+//	@import './layout/thumbnails';      // Miniaturas
+//	@import './layout/footer';          // Pie de página
+/*  ------------------------ > COMPONENTS < ------------------------  */
+//	@import './components/buttons';     // Botones
+//	@import './components/carousel';    // Carousel
+//	@import './components/cover';       // Cubierta
+//	@import './components/dropdown';    // Dropdown
+@import './components/navbar';      // Barra de navegación
+@import './components/card';		// Card de producto

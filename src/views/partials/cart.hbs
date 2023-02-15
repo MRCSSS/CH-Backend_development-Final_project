@@ -1,13 +1,17 @@
-    <div class="container mt-3">
-        {{!-- <div id='cart_content' class="jumbotron"></div> --}}
-        <div class="jumbotron" style="background-color: gray;color: white;text-align:center;">
-            <h1>Aquí parecerá la lista de productos en el carrito</h1>
-            <p>El botón confirmaría la orden de compra del carrito actual</p>
-            <form action="apiV1/cart" method="post">
-                <input type="hidden" id="name" name="name" value="{{name}}">
-                <input type="hidden" id="email" name="email" value="{{email}}">
-                <button class="btn btn-warning my-5">COMPRAR</button>
-            </form>
-        </div>
-
+<div class="container mt-3">
+    <div id="cart_container" class="jumbotron" style="background-color: gray;color: white;text-align:center;">
+        <h1>CARRITO DE COMPRAS</h1><br>
+        <table id="cartTable" class="table" style="background-color: gray;color: white;text-align:center;">
+            <thead>
+                <tr>
+                <th scope="col">IMG</th>
+                <th scope="col">NOMBRE</th>
+                <th scope="col">PRECIO</th>
+                <th scope="col">CANT</th>
+                <th scope="col">SUBTOTAL</th>
+                </tr>
+            </thead>
+            <tbody id="cartInner" ></tbody>
+        </table>
     </div>
+</div>

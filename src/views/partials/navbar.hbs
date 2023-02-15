@@ -1,9 +1,10 @@
 <header class="sticky-top bg-dark" >
     <nav class="navbar navbar-expand-md navbar-dark bg-dark m-auto py-1" style="max-width: 1420px;">
         <a class="navbar-brand ml-1 ml-md-5 mr-xl-5 mr-1 py-2 px-md-3" href="/">SITIO</a>
-        <div id="mobileIcons">
-            <a class="d-md-none mx-2 py-3 px-2" href="/cart" >
-                <i class="fa fa-shopping-cart" style="font-size:30px;color:gray;position:relative;top:4px;"></i>
+        <div id="mobileIcons" class="d-flex flex-row">
+            <a class="cart_icon d-md-none mx-2 py-3 px-2 d-flex flex-row" href="/cart" >
+                <i class="fa fa-shopping-cart" style="font-size:30px;color:gray;"></i>
+                {{!-- <span id="counter" class="counter d-none" data-placement="bottom"></span> --}}
             </a>
             <button class="navbar-toggler mx-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation" style="border: transparent;">
                 <span class="navbar-toggler-icon"></span>
@@ -19,9 +20,9 @@
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="/products/Categoria1">Categoria1</a>
                         <a class="dropdown-item" href="/products/Categoria2">Categoria2</a>
-                        <a class="dropdown-item" href="/products/Categoria3">Categoria3</a>
+                        {{!-- <a class="dropdown-item" href="/products/Categoria3">Categoria3</a>
                         <a class="dropdown-item" href="/products/Categoria4">Categoria4</a>
-                        <a class="dropdown-item" href="/products/Categoria5">Categoria5</a>
+                        <a class="dropdown-item" href="/products/Categoria5">Categoria5</a> --}}
                     </div>
                 </li>
                 <li class="nav-item mx-md-3">
@@ -29,20 +30,27 @@
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item mx-0 " >
-                    <a class="d-none d-md-inline nav-link py-3 px-3" href="/cart" >
-                        <i class="fa fa-shopping-cart" style="font-size:30px;color:gray;position:relative;top:4px;"></i>
+                <li class="nav-item mx-0 d-none d-md-flex flex-row " >
+                    <a class="cart_icon d-none d-md-inline nav-link py-3 px-3 d-flex flex-row" href="/cart" >
+                        <i class="fa fa-shopping-cart" style="font-size:30px;color:gray;"></i>
+                        {{!-- <span id="counter" class="counter d-none" data-placement="bottom"></span> --}}
                     </a>
                 </li>
                 <li class="nav-item mx-md-3 dropdown">
-                    <a class="nav-link dropdown-toggle" type="button"  data-toggle="dropdown"  aria-expanded="true" aria-label="Toggle dropdown" style="position:relative;bottom:5px;">
+                    <a class="nav-link d-md-none dropdown-toggle" type="button"  data-toggle="dropdown"  aria-expanded="true" aria-label="Toggle dropdown" style="position:relative;bottom:5px;">
                         <i class="fa fa-user-circle" style="font-size:30px;color:gray;position:relative;top:4px;"></i>
                         {{name}}
+                        <span id="usrID" class="d-none" >{{userID}}</span>
+                    </a>
+                    <a class="nav-link d-none d-md-block dropdown-toggle" type="button"  data-toggle="dropdown"  aria-expanded="true" aria-label="Toggle dropdown" style="position:relative;bottom:-5px;">
+                        <i class="fa fa-user-circle" style="font-size:30px;color:gray;position:relative;top:4px;"></i>
+                        {{name}}
+                        <span id="usrID" class="d-none" >{{userID}}</span>
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="/tickets">Mis Ordenes</a>
+                        {{!-- <a class="dropdown-item" href="/tickets">Mis Ordenes</a> --}}
                         <div class="dropdown-divider"></div>
-                        <form class="form" action="apiV1/user/logout" method="post" role="form" autocomplete="off">
+                        <form class="form" action="/apiV1/user/logout" method="post" role="form" autocomplete="off">
                             <button class="dropdown-item" type="submit" >Cerrar sesión</button>
                         </form>
                     </div>

@@ -1,5 +1,5 @@
 const formData = document.querySelector('form');
-    formData.addEventListener('submit', (e) => {
+formData.addEventListener('submit', (e) => {
     e.preventDefault();
 
     document.getElementById("badLogin").classList.remove("d-block");
@@ -10,11 +10,10 @@ const formData = document.querySelector('form');
         data.append(pair[0], pair[1]);
     }
     
-    fetch('apiV1/user/login', {
+    fetch('/apiV1/user/login', {
         method: 'POST',
         body: data,
     })
-    .then((res) => console.log('res => ', res))
     .then(() => window.location.replace("/"))
     .catch(error => console.error('Error:', error))
 })

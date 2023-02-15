@@ -20,10 +20,21 @@ class userController {
         }
     }
 
-    logout = (req,res) => {
+    login = async (req,res) => {
         try {
-            req.session.destroy(() => {
-                res.clearCookie('connect.sid');
+            logger.info(`status: 200, route: '${req.method} ${req.baseUrl}${req.url}'`);
+            return res.status(200);
+        } catch (error) {
+            const e = new CustomError(error);
+            logger.error(`status: ${e.code}, route: '${req.method} ${req.baseUrl}${req.url}', ${e.name}: '${e.message}' `);
+            return res.status(e.code).json({error: `${e.message}`});
+        }
+    }
+    
+    logout = async (req,res) => {
+        try {
+            req.session.destroy(async () => {
+                await res.clearCookie('connect.sid');
                 logger.info(`status: 200, route: '${req.method} ${req.baseUrl}${req.url}', {method: 'logout', message: 'Logged out successfully!!!'}`);
                 return res.redirect('/');
             });

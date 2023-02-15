@@ -7,13 +7,15 @@ import CustomError from '../../classes/CustomError.class.js';
 const service = new cartService();
 /* ================================= CONTROLLERS ================================= */
 class cartsController {
-    createCart= async (req,res) => {
+    createCart = async (req,res) => {
         try {
             let userEmail;
             if (req.session.passport) {
                 userEmail = req.session.passport.user;
-            } else {
-                userEmail = 0;
+            } else if(req.body.username) {
+                userEmail = req.body.username;
+            // } else {
+            //     userEmail = 0;
             }
             await service.createCart(userEmail);
             const customRes = {method: 'createCart', message: 'Cart created successfully!!!'};
@@ -26,7 +28,7 @@ class cartsController {
         }
     }
 
-    getAllCarts= async (req,res) => {
+    getAllCarts = async (req,res) => {
         try {
             const allCarts = await service.getAllCarts();
             const DTOdata = allCarts.map(cart => {   
@@ -42,7 +44,7 @@ class cartsController {
         }
     }
 
-    deleteCart= async (req,res) => {
+    deleteCart = async (req,res) => {
         try {
             await service.deleteCart(req.params.id);
             const customRes = {method: 'deleteCart', message: `CartwithID '${req.params.id}' deleted!!!`};
@@ -55,7 +57,20 @@ class cartsController {
         }
     }
 
-    getCartProducts= async (req,res) => {
+    getUserCart = async (req,res) => {
+        try {
+            const cart = await service.getUserCart(req.params.user_email);
+            const customRes = {method: 'getUserCart', message: `Cart found!!`, cart: new cartDTO(cart) };
+            logger.info(`status: 200, route: '${req.method} ${req.baseUrl}${req.url}', ${JSON.stringify(customRes)}`);
+            return res.status(200).json(customRes);
+        } catch (error) {
+            const e = new CustomError(error);
+            logger.error(`status: ${e.code}, route: '${req.method} ${req.baseUrl}${req.url}', ${e.name}: '${e.message}' `);
+            return res.status(e.code).json({error: `${e.name}: ${e.message}`});
+        }
+    }
+
+    getCartProducts = async (req,res) => {
         try {
             const allCartProducts = await service.getProducts(req.params.id);
             const DTOdata = allCartProducts.map(product => {   
@@ -71,11 +86,11 @@ class cartsController {
         }
     }
 
-    updateCartProducts= async (req,res) => {
+    updateCartProducts = async (req,res) => {
         try {
             await service.updateProducts(req.params.id, req.body);
             const customRes = {method: 'updateCartProducts', message: 'Products in Cart updated successfully!!!'}
-            logger.info(`status: 201, route: '${req.method} ${req.baseUrl}${req.url}', ${JSON.stringify(customRes)}`);
+            logger.info(`status: 200, route: '${req.method} ${req.baseUrl}${req.url}', ${JSON.stringify(customRes)}`);
             return res.status(201).json(customRes);
         } catch (error) {
             const e = new CustomError(error);
@@ -84,7 +99,20 @@ class cartsController {
         }
     }
 
-    deleteCartProduct= async (req,res) => {
+    updateCart = async (req,res) => {
+        try {
+            await service.updateCart(req.params.id, req.body);
+            const customRes = {method: 'updateCart', message: 'Cart updated successfully!!!'}
+            logger.info(`status: 200, route: '${req.method} ${req.baseUrl}${req.url}', ${JSON.stringify(customRes)}`);
+            return res.status(201).json(customRes);
+        } catch (error) {
+            const e = new CustomError(error);
+            logger.error(`status: ${e.code}, route: '${req.method} ${req.baseUrl}${req.url}', ${e.name}: '${e.message}' `);
+            return res.status(e.code).json({error: `${e.message}`});
+        }
+    }
+
+    deleteCartProduct = async (req,res) => {
         try {
             await service.deleteProduct(req.params.id, req.params.id_prod);
             const customRes = {method: 'deleteCartProduct', message: `Product with ID '${req.params.id_prod}' deleted of Cart withID '${req.params.id}'!!!`};

@@ -1,12 +1,13 @@
 /* =================================== MODULES =================================== */
 import { Schema, model } from "mongoose";
 /* =================================== MODELS  =================================== */
-const CartSchema = Schema({
-    username:   { type: String, required: true },
+const TicketSchema = Schema({
+    email:      { type: String, required: true },
+    status:     { type: String, required: true },
     products:   { type: Array,  required: true },
     timestamp:  { type: String, required: true },
 });
 
-const CartModel = model('carts', CartSchema);
+const TicketModel = model('tickets', TicketSchema);
 /* ====================== MODULOS EXPORTADOS ======================== */
-export default CartModel;
+export default TicketModel;

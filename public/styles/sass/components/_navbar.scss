@@ -3,3 +3,37 @@
 
 /*  --------------------------- > BASE < ---------------------------  */
 // ver los productos totales con los filtros que se hayan implementado y su propio carrito de compras e información propia (datos de registro con la foto). Además, dispondrá de una opción para desloguearse del sistema
+.navbar{
+    a:hover{
+        // color: none !important;
+        text-decoration: none;
+    }
+    .cart_icon{
+        // position: absolute;
+        // top: -5px;
+        // right: 42px;
+        .fa{}
+        .counter {
+            position: absolute;
+            top: 35px;
+            right: 75px;
+            height: 23px;
+            width: 23px;
+            text-align: center;
+            border-radius: 50%;
+            background-color: rgba(#ffc107, 0.7);
+            color: #ffffff;
+        }
+    
+    }
+    
+}
+@media (min-width: 768px) {
+    .navbar{
+        .cart_icon{
+            .counter {
+                right: 175px;
+            }
+        }
+    }
+}

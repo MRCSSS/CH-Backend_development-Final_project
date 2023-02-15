@@ -8,9 +8,10 @@ viewsRoutes.get('/',          controller.getRoot);
 viewsRoutes.get('/cart',      controller.getCart);
 viewsRoutes.get('/chat',      controller.getChat);
 viewsRoutes.get('/login',     controller.getLogin);
-viewsRoutes.get('/products',  controller.getProducts);
+viewsRoutes.get('/product/:id', controller.getProduct);
+viewsRoutes.get('/products',  controller.getAllProducts);
 viewsRoutes.get('/products/:category', controller.getCatProducts);
 viewsRoutes.get('/register',  controller.getRegister);
-viewsRoutes.get('/tickets',   controller.getTickets);
+viewsRoutes.get('/ticket/:id',   controller.getTicket);
 /* ====================== MODULOS EXPORTADOS ======================== */
 export default viewsRoutes;
