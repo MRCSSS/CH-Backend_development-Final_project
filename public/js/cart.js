@@ -22,13 +22,22 @@
         document.getElementsByClassName("cart_icon")[0].innerHTML += html;
         document.getElementsByClassName("cart_icon")[1].innerHTML += html;
 
-        await renderCart(res.cart)
+        await renderCart(res.cart);
     })
-    .catch(error => console.error('error =>', error))
+    .catch(error => console.error('error =>', error));
 })();
 /* ================================== FUNCTIONS ================================== */
+function collapse(menu){
+    if (menu == 'menu'){
+        $("#navbarUserContent").collapse('hide');
+    } else if (menu == 'user'){
+        $("#navbarSupportedContent").collapse('hide');
+    }
+}
+
 async function renderCart(cart){
     let html = '';
+    console.log('cart.products.length => ', cart.products.length)
     if(cart.products.length > 0){
         for(let i=0; cart.products.length>i; i++){
             await fetch(`/apiV1/products/${cart.products[i].productId}`, { method: 'GET' })
@@ -56,25 +65,23 @@ async function renderCart(cart){
                     <td id="sub_${prod.id}">$ ${subProduct}</td>
                 </tr>
                 `;
-            })
+            });
         }
         document.getElementById("cartInner").innerHTML = html;
         const div = document.createElement("div");
         div.innerHTML = `<button id="toPay" onclick="goToPay('${cart.id}')" class="btn btn-dark">CONTINUAR CON LA COMPRA</button>`;
-        const cartCont = document.getElementById("cart_container");
+        const cartCont = document.getElementById("cart_jumbotron");
         cartCont.append(div)
     } else {
         html = `
-        <div class="jumbotron" style="background-color: gray;color: white;text-align:center;">
+        <div class="jumbotron m-0" style="background-color: gray;color: white;text-align:center;">
             <h2 style="color: white;text-align:center;">Carrito vacío!!</h2>
             <p style="color: white;text-align:center;">Aquí parecerá la lista de productos en el carrito cuando se agreguen</p>
-            <button href="/products" class="btn btn-warning my-5" style="text-align:center;">IR A COMPRAR</button>
+            <a href="/products" class="btn btn-warning mt-5" style="text-align:center;">IR A COMPRAR</a>
         </div>
         `;
-        document.getElementById("footer_cartTable").classList.remove("d-flex");
-        document.getElementById("footer_cartTable").classList.add("d-none");
 
-        document.getElementById("cartTable").innerHTML = html;
+        document.getElementById("cart_container").innerHTML = html;
 
     }
 }

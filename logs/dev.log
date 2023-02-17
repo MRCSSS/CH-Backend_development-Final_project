@@ -10118,3 +10118,1494 @@ Z„¼(•j¼&Ö¼  €1P(ˆ¼  €1  €1  €1  €1œÏ¼øxu<Ðé4¼ …¼Ûí˜¼z<V¼|¹l<><étÂ¼j¼  €1ì
 [2023-02-15T22:38:10.880Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
 [2023-02-15T22:38:10.881Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
 [2023-02-15T22:43:50.191Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T06:03:37.653Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T06:05:21.470Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-16T06:05:21.549Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-16T06:05:29.975Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T06:05:30.308Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T06:05:30.995Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-16T06:05:31.073Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T06:05:32.034Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T06:05:32.034Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T06:05:32.432Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T06:05:32.432Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T06:05:32.432Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T06:05:32.432Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T06:05:32.433Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T06:05:32.433Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T06:06:46.492Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T06:06:47.502Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T06:06:47.502Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T06:06:47.890Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T06:06:47.891Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T06:06:47.891Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T06:06:47.891Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T06:06:47.891Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T06:06:47.891Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T06:07:27.677Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T06:07:28.616Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T06:07:28.616Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T06:07:28.997Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T06:07:28.997Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T06:07:28.997Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T06:07:28.997Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T06:07:28.998Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T06:07:28.998Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T06:33:16.560Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T06:33:34.248Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T06:33:34.330Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-16T06:33:34.410Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-16T06:33:39.067Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T06:33:39.399Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T06:33:40.088Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-16T06:33:40.164Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T06:33:41.337Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T06:33:41.337Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T06:33:41.724Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T06:33:41.724Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T06:33:41.724Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T06:33:41.724Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T06:33:41.724Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T06:33:41.725Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T06:33:44.046Z][dev:info] { status: '200', route: 'GET  /product/63e46b1b7a19ba2cf67ccc52' }
+[2023-02-16T06:33:45.205Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T06:33:45.205Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T06:33:45.593Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T06:33:45.593Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T06:33:45.593Z][dev:info] message: 'Product with ID '63e46b1b7a19ba2cf67ccc52' found!!'
+[2023-02-16T06:33:45.593Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T06:33:45.593Z][dev:info] status: 200, route: 'GET /apiV1/products/63e46b1b7a19ba2cf67ccc52', {"method":"getProduct","message":"Product found!!!","data":{"id":"63e46b1b7a19ba2cf67ccc52","name":"Producto 1","description":"Producto ejemplo para pruebas de desarrollo","categories":["Categoria1"],"price":1234,"prodImg":"img_test.png"}}
+[2023-02-16T06:33:45.594Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T06:34:31.825Z][dev:info] { status: '200', route: 'GET  /product/63e46b1b7a19ba2cf67ccc52' }
+[2023-02-16T06:34:33.043Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T06:34:33.043Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T06:34:33.433Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T06:34:33.433Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T06:34:33.433Z][dev:info] message: 'Product with ID '63e46b1b7a19ba2cf67ccc52' found!!'
+[2023-02-16T06:34:33.433Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T06:34:33.433Z][dev:info] status: 200, route: 'GET /apiV1/products/63e46b1b7a19ba2cf67ccc52', {"method":"getProduct","message":"Product found!!!","data":{"id":"63e46b1b7a19ba2cf67ccc52","name":"Producto 1","description":"Producto ejemplo para pruebas de desarrollo","categories":["Categoria1"],"price":1234,"prodImg":"img_test.png"}}
+[2023-02-16T06:34:33.434Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T06:34:35.141Z][dev:info] { status: '200', route: 'GET  /tickets' }
+[2023-02-16T06:35:15.703Z][dev:info] { status: '200', route: 'GET  /tickets' }
+[2023-02-16T06:35:35.173Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T06:35:59.419Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T07:52:53.941Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-16T07:52:54.023Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-16T07:53:06.856Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T07:53:07.179Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T07:53:07.865Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-16T07:53:07.944Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T07:53:09.132Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T07:53:09.133Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T07:53:09.518Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T07:53:09.518Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T07:53:09.518Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T07:53:09.519Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T07:53:09.519Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T07:53:09.519Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T07:54:17.168Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T07:56:29.191Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T07:56:30.492Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T07:56:30.493Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T07:56:30.886Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T07:56:30.886Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T07:56:30.886Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T07:56:30.886Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T07:56:30.886Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T07:56:30.887Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T07:56:31.814Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T07:56:32.136Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T07:56:32.136Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T07:56:32.136Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T07:56:44.459Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T07:56:45.607Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T07:56:45.608Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T07:56:45.986Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T07:56:45.986Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T07:56:45.987Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T07:56:45.987Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T07:56:45.987Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T07:56:45.988Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T07:56:46.904Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T07:56:47.215Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T07:56:47.215Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T07:56:47.215Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T07:56:58.182Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T07:56:59.345Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T07:56:59.345Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T07:56:59.736Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T07:56:59.736Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T07:56:59.736Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T07:56:59.736Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T07:56:59.736Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T07:56:59.737Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T07:57:00.654Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T07:57:00.966Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T07:57:00.966Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T07:57:00.966Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T07:57:14.670Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T07:57:15.835Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T07:57:15.835Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T07:57:16.220Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T07:57:16.220Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T07:57:16.220Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T07:57:16.220Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T07:57:16.220Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T07:57:16.220Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T07:57:17.136Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T07:57:17.444Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T07:57:17.445Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T07:57:17.445Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T07:58:30.150Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T07:58:31.434Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T07:58:31.434Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T07:58:31.824Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T07:58:31.824Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T07:58:31.824Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T07:58:31.825Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T07:58:31.825Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T07:58:31.825Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T07:58:32.733Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T07:58:33.041Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T07:58:33.041Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T07:58:33.041Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T07:59:46.058Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T07:59:47.282Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T07:59:47.282Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T07:59:47.662Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T07:59:47.662Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T07:59:47.662Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T07:59:47.662Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T07:59:47.662Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T07:59:47.663Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T07:59:48.565Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T07:59:48.879Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T07:59:48.879Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T07:59:48.879Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:01:02.125Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:01:03.381Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:01:03.381Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:01:03.763Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:01:03.763Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:01:03.763Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:01:03.763Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:01:03.763Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:01:03.763Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:01:04.674Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:01:04.982Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:01:04.983Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:01:04.983Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:02:34.651Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:02:35.899Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:02:35.900Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:02:36.289Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:02:36.289Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:02:36.289Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:02:36.289Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:02:36.289Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:02:36.289Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:02:37.188Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:02:37.498Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:02:37.498Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:02:37.499Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:02:57.600Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:02:58.757Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:02:58.758Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:02:59.139Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:02:59.139Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:02:59.139Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:02:59.139Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:02:59.140Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:02:59.140Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:03:00.049Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:03:00.371Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:03:00.371Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:03:00.371Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:03:16.862Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:03:18.016Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:03:18.016Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:03:18.398Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:03:18.398Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:03:18.398Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:03:18.398Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:03:18.398Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:03:18.399Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:03:19.310Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:03:19.624Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:03:19.624Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:03:19.624Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:04:13.838Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:04:15.122Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:04:15.122Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:04:15.512Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:04:15.512Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:04:15.512Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:04:15.512Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:04:15.512Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:04:15.512Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:04:16.425Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:04:16.735Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:04:16.736Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:04:16.736Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:04:31.170Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:04:32.311Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:04:32.311Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:04:32.706Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:04:32.706Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:04:32.706Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:04:32.706Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:04:32.706Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:04:32.706Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:04:33.621Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:04:33.932Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:04:33.933Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:04:33.933Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:06:54.619Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:06:55.874Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:06:55.874Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:06:56.262Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:06:56.262Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:06:56.262Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:06:56.262Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:06:56.262Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:06:56.263Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:06:57.174Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:06:57.496Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:06:57.496Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:06:57.496Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:07:28.080Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:07:29.237Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:07:29.237Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:07:29.627Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:07:29.627Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:07:29.627Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:07:29.627Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:07:29.627Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:07:29.628Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:07:30.536Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:07:30.848Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:07:30.849Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:07:30.849Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:07:37.481Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:07:38.626Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:07:38.626Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:07:39.010Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:07:39.010Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:07:39.010Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:07:39.011Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:07:39.011Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:07:39.011Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:07:39.918Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:07:40.228Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:07:40.228Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:07:40.228Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:08:01.528Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:08:02.755Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:08:02.755Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:08:03.136Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:08:03.137Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:08:03.137Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:08:03.137Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:08:03.137Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:08:03.137Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:08:04.058Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:08:04.371Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:08:04.371Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:08:04.371Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:09:57.771Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:09:58.986Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:09:58.986Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:09:59.370Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:09:59.370Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:09:59.370Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:09:59.370Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:09:59.370Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:09:59.371Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:10:00.292Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:10:00.612Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:10:00.612Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:10:00.612Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:10:16.435Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:10:17.577Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:10:17.577Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:10:17.960Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:10:17.960Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:10:17.960Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:10:17.960Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:10:17.960Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:10:17.960Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:10:18.872Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:10:19.184Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:10:19.184Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:10:19.184Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:11:28.209Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:11:29.435Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:11:29.435Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:11:29.820Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:11:29.821Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:11:29.821Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:11:29.821Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:11:29.821Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:11:29.821Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:11:30.733Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:11:31.053Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:11:31.053Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:11:31.054Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:12:10.990Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:12:12.176Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:12:12.176Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:12:12.559Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:12:12.559Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:12:12.559Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:12:12.559Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:12:12.559Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:12:12.560Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:12:13.474Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:12:13.789Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:12:13.789Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:12:13.789Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:12:50.795Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:12:52.155Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:12:52.156Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:12:52.535Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:12:52.536Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:12:52.536Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:12:52.536Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:12:52.536Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:12:52.536Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:12:53.453Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:12:53.763Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:12:53.764Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:12:53.764Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:12:57.859Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:12:59.029Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:12:59.029Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:12:59.410Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:12:59.410Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:12:59.411Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:12:59.411Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:12:59.411Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:12:59.411Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:13:00.318Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:13:00.647Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:13:00.647Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:13:00.647Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:13:16.895Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:13:18.060Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:13:18.060Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:13:18.444Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:13:18.444Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:13:18.444Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:13:18.444Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:13:18.444Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:13:18.444Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:13:19.362Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:13:19.681Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:13:19.681Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:13:19.681Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:13:41.993Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:13:43.131Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:13:43.131Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:13:43.510Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:13:43.510Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:13:43.510Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:13:43.510Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:13:43.510Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:13:43.510Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:13:44.416Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:13:44.744Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:13:44.744Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:13:44.745Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:14:04.751Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:14:06.044Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:14:06.044Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:14:06.434Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:14:06.434Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:14:06.434Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:14:06.434Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:14:06.434Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:14:06.434Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:14:07.354Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:14:07.671Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:14:07.672Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:14:07.672Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:14:49.312Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:14:50.504Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:14:50.504Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:14:50.892Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:14:50.892Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:14:50.893Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:14:50.893Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:14:50.893Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:14:50.893Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:14:51.806Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:14:52.127Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:14:52.127Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:14:52.127Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:17:44.073Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:17:45.343Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:17:45.343Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:17:45.737Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:17:45.737Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:17:45.737Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:17:45.737Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:17:45.737Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:17:45.738Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:17:46.646Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:17:46.967Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:17:46.967Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:17:46.967Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:23:03.785Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:23:05.136Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:23:05.137Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:23:05.524Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:23:05.524Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:23:05.524Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:23:05.525Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:23:05.525Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:23:05.525Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:23:06.435Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:23:06.761Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:23:06.761Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:23:06.761Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:23:50.886Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:23:52.102Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:23:52.102Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:23:52.490Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:23:52.490Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:23:52.491Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:23:52.491Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:23:52.491Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:23:52.491Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:23:53.403Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:23:53.719Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:23:53.720Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:23:53.720Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:25:21.797Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:25:23.062Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:25:23.062Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:25:23.445Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:25:23.445Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:25:23.445Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:25:23.445Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:25:23.445Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:25:23.446Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:25:24.359Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:25:24.677Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:25:24.677Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:25:24.677Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:25:57.957Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:25:59.093Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:25:59.093Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:25:59.473Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:25:59.473Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:25:59.473Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:25:59.473Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:25:59.473Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:25:59.473Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:26:00.385Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:26:00.698Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:26:00.698Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:26:00.698Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:26:39.368Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:26:40.592Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:26:40.592Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:26:40.972Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:26:40.973Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:26:40.973Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:26:40.973Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:26:40.973Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:26:40.973Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:26:41.884Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:26:42.195Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:26:42.195Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:26:42.195Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:27:44.361Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:27:45.610Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:27:45.610Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:27:45.993Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:27:45.993Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:27:45.993Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:27:45.993Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:27:45.993Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:27:45.993Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:27:46.901Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:27:47.238Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:27:47.238Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:27:47.238Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:30:12.969Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:30:14.231Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:30:14.231Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:30:14.609Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:30:14.610Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:30:14.610Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:30:14.610Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:30:14.610Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:30:14.610Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:30:15.522Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:30:15.834Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:30:15.834Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:30:15.834Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:31:47.389Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:31:48.630Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:31:48.630Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:31:49.015Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:31:49.015Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:31:49.015Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:31:49.015Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:31:49.015Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:31:49.015Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:31:49.923Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:31:50.242Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:31:50.242Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:31:50.242Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:32:08.481Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:32:09.577Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:32:09.577Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:32:09.958Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:32:09.958Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:32:09.958Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:32:09.958Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:32:09.958Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:32:09.958Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:32:10.873Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:32:11.190Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:32:11.191Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:32:11.191Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:33:47.756Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:33:48.994Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:33:48.995Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:33:49.390Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:33:49.390Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:33:49.390Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:33:49.409Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:33:49.409Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:33:49.410Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:33:50.314Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:33:50.626Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:33:50.626Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:33:50.626Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:34:46.623Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:34:47.776Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:34:47.776Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:34:48.168Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:34:48.168Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:34:48.168Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:34:48.168Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:34:48.168Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:34:48.169Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:34:49.075Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:34:49.384Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:34:49.384Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:34:49.384Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:36:21.099Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:36:22.315Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:36:22.315Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:36:22.703Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:36:22.703Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:36:22.703Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:36:22.704Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:36:22.704Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:36:22.704Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:36:23.611Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:36:23.929Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:36:23.929Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:36:23.929Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:36:36.161Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:36:37.300Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:36:37.300Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:36:37.688Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:36:37.688Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:36:37.688Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:36:37.688Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:36:37.688Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:36:37.689Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:36:38.598Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:36:38.917Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:36:38.917Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:36:38.917Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:38:23.736Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:38:25.073Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:38:25.073Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:38:25.455Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:38:25.456Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:38:25.456Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:38:25.456Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:38:25.456Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:38:25.456Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:38:26.388Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:38:26.697Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:38:26.697Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:38:26.697Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:38:34.294Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:38:35.446Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:38:35.446Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:38:35.835Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:38:35.835Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:38:35.835Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:38:35.835Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:38:35.836Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:38:35.836Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:38:36.746Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:38:37.063Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:38:37.064Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:38:37.064Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:44:27.046Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:44:28.397Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:44:28.397Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:44:28.786Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:44:28.786Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:44:28.786Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:44:28.786Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:44:28.786Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:44:28.786Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:44:29.698Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:44:30.017Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:44:30.017Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:44:30.017Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:46:07.359Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:46:08.556Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:46:08.556Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:46:08.939Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:46:08.940Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:46:08.940Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:46:08.940Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:46:08.940Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:46:08.940Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:46:09.854Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:46:10.171Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:46:10.171Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:46:10.171Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:46:38.229Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:46:39.248Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:46:39.249Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:46:39.639Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:46:39.639Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:46:39.639Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:46:39.639Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:46:39.639Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:46:39.640Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:46:40.476Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:46:40.550Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:46:40.729Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:46:40.730Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:46:40.937Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:46:40.937Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:46:40.937Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:46:40.937Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:46:40.937Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:46:40.937Z][dev:error] status: 500, route: 'GET /apiV1/products/all', MongoDBContainer: getAll(): 'Cannot use a session that has ended' 
+[2023-02-16T08:46:40.938Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:46:40.938Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:46:42.169Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:46:42.489Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:46:42.489Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:46:42.489Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:46:44.810Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:46:45.813Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:46:45.813Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:46:46.201Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:46:46.201Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:46:46.201Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:46:46.201Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:46:46.201Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:46:46.202Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:46:47.114Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:46:47.430Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:46:47.430Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:46:47.430Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:51:24.469Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:51:25.801Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:51:25.801Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:51:26.184Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:51:26.184Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:51:26.184Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:51:26.184Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:51:26.184Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:51:26.185Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:51:27.095Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:51:27.408Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:51:27.409Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:51:27.409Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:54:42.690Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:54:44.018Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:54:44.018Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:54:44.406Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:54:44.406Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:54:44.406Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:54:44.406Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:54:44.407Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:54:44.407Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:54:45.314Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:54:45.627Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:54:45.627Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:54:45.627Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:55:22.565Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:55:23.819Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:55:23.819Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:55:24.202Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:55:24.202Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:55:24.202Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:55:24.202Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:55:24.202Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:55:24.202Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:55:25.105Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:55:25.409Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:55:25.410Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:55:25.410Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:55:29.447Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:55:30.695Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:55:30.695Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:55:31.079Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:55:31.079Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:55:31.079Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:55:31.079Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:55:31.079Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:55:31.080Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:55:31.990Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:55:32.310Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:55:32.310Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:55:32.310Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:56:24.518Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:56:25.804Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:56:25.804Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:56:26.184Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:56:26.185Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:56:26.185Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:56:26.185Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:56:26.185Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:56:26.185Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:56:27.094Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:56:27.402Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:56:27.403Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:56:27.403Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:56:30.461Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:56:31.716Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:56:31.716Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:56:32.097Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:56:32.097Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:56:32.097Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:56:32.097Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:56:32.097Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:56:32.097Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:56:33.008Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:56:33.324Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:56:33.324Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:56:33.324Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:56:36.481Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:56:37.757Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:56:37.757Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:56:38.137Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:56:38.137Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:56:38.137Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:56:38.137Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:56:38.137Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:56:38.138Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:56:39.048Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:56:39.358Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:56:39.358Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:56:39.358Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:56:44.981Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:56:46.201Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:56:46.201Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:56:46.585Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:56:46.585Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:56:46.585Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:56:46.585Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:56:46.585Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:56:46.585Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:56:47.505Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:56:47.817Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:56:47.817Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:56:47.817Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:57:04.145Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T08:57:05.360Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:57:05.360Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:57:05.748Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:57:05.748Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:57:05.748Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T08:57:05.748Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:57:05.748Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T08:57:05.749Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T08:57:06.661Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T08:57:07.041Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T08:57:07.042Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T08:57:07.042Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:00:07.808Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T09:00:09.148Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:00:09.148Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:00:09.529Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:00:09.530Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:00:09.530Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:00:09.530Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T09:00:09.530Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:00:09.530Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T09:00:10.440Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:00:10.751Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:00:10.751Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:00:10.751Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:00:28.462Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T09:00:29.689Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:00:29.689Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:00:30.071Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:00:30.071Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:00:30.071Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T09:00:30.071Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:00:30.071Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T09:00:30.071Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:00:30.981Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:00:31.292Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:00:31.293Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:00:31.293Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:20:55.970Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-16T09:20:56.049Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-16T09:21:01.832Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:21:02.149Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:21:02.434Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-16T09:21:02.515Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T09:21:03.749Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:21:03.749Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:21:04.136Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:21:04.136Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:21:04.136Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T09:21:04.136Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:21:04.136Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T09:21:04.136Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:21:05.050Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:21:05.370Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:21:05.370Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:21:05.370Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:25:02.517Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T09:25:03.784Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:25:03.784Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:25:04.175Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:25:04.175Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:25:04.175Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:25:04.176Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:25:04.176Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T09:25:04.176Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T09:25:05.084Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:25:05.392Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:25:05.392Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:25:05.392Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:29:03.898Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-16T09:29:03.975Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T09:29:05.186Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:29:05.186Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:29:05.569Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:29:05.569Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:29:05.569Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T09:29:05.569Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:29:05.569Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T09:29:05.570Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:29:06.482Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:29:06.793Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:29:06.794Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:29:06.794Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:35:28.619Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T09:35:29.696Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:35:29.696Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:35:30.090Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:35:30.090Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:35:30.091Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T09:35:30.091Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:35:30.091Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T09:35:30.091Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:35:31.006Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:35:31.316Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:35:31.316Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:35:31.316Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:35:43.151Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T09:35:44.094Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:35:44.094Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:35:44.483Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:35:44.483Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:35:44.483Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:35:44.483Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T09:35:44.483Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:35:44.484Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T09:35:45.394Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:35:45.712Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:35:45.712Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:35:45.712Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:35:53.825Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T09:35:54.828Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:35:54.828Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:35:55.219Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:35:55.220Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:35:55.220Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T09:35:55.220Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:35:55.220Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T09:35:55.221Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:35:56.131Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:35:56.443Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:35:56.443Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:35:56.443Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:36:02.142Z][dev:info] { status: '200', route: 'GET  /product/63e46b1b7a19ba2cf67ccc52' }
+[2023-02-16T09:36:03.089Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:36:03.089Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:36:03.481Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:36:03.482Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:36:03.482Z][dev:info] message: 'Product with ID '63e46b1b7a19ba2cf67ccc52' found!!'
+[2023-02-16T09:36:03.482Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:36:03.482Z][dev:info] status: 200, route: 'GET /apiV1/products/63e46b1b7a19ba2cf67ccc52', {"method":"getProduct","message":"Product found!!!","data":{"id":"63e46b1b7a19ba2cf67ccc52","name":"Producto 1","description":"Producto ejemplo para pruebas de desarrollo","categories":["Categoria1"],"price":1234,"prodImg":"img_test.png"}}
+[2023-02-16T09:36:03.482Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:36:04.398Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:36:04.707Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:36:04.707Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:36:04.707Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:36:07.024Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-16T09:36:07.101Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T09:36:08.103Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:36:08.103Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:36:08.492Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:36:08.492Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:36:08.492Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:36:08.492Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T09:36:08.492Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:36:08.493Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T09:36:09.401Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:36:09.747Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:36:09.748Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:36:09.748Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:37:18.990Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T09:37:20.020Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:37:20.020Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:37:20.401Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:37:20.401Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:37:20.401Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:37:20.401Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T09:37:20.401Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:37:20.402Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T09:37:21.328Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:37:21.637Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:37:21.637Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:37:21.638Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:37:48.051Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-16T09:37:48.126Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T09:37:49.119Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:37:49.119Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:37:49.493Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:37:49.493Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:37:49.493Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:37:49.493Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T09:37:49.493Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:37:49.493Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T09:37:50.411Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:37:50.723Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:37:50.723Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:37:50.723Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:37:56.282Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T09:37:57.225Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:37:57.225Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:37:57.601Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:37:57.601Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:37:57.601Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T09:37:57.601Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:37:57.601Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T09:37:57.602Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:37:58.512Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:37:58.827Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:37:58.827Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:37:58.827Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:39:58.456Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T09:39:59.464Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:39:59.464Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:39:59.855Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:39:59.855Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:39:59.855Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T09:39:59.855Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:39:59.855Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T09:39:59.855Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:40:00.766Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:40:01.077Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:40:01.077Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:40:01.077Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:40:59.569Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T09:41:00.803Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:41:00.803Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:41:01.196Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:41:01.196Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:41:01.196Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T09:41:01.196Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:41:01.196Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T09:41:01.196Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:41:02.107Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:41:02.420Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:41:02.420Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:41:02.421Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:46:09.897Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T09:46:13.408Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T09:46:14.541Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:46:14.543Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:46:14.932Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:46:14.932Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:46:14.932Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:46:14.932Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T09:46:14.932Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:46:14.933Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T09:46:15.847Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:46:16.191Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:46:16.191Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:46:16.191Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:46:42.875Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T09:46:45.042Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T09:46:46.039Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:46:46.382Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:46:46.383Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:46:46.383Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:46:47.301Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:46:47.616Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:46:47.616Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:46:47.617Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:46:50.605Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-16T09:46:51.074Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T09:46:52.080Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:46:52.080Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:46:52.477Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:46:52.478Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:46:52.478Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T09:46:52.478Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:46:52.478Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T09:46:52.478Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:46:53.390Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:46:53.712Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:46:53.713Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:46:53.713Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:46:55.487Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T09:46:56.492Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:46:56.802Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:46:56.802Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:46:56.803Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:46:57.727Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:46:58.043Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:46:58.043Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:46:58.043Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:47:36.840Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T09:47:43.300Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T09:47:44.624Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:47:44.947Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:47:44.947Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:47:44.947Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:47:45.869Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:47:46.188Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:47:46.189Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:47:46.189Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:48:27.774Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T09:48:29.135Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T09:48:30.431Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:48:30.750Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:48:30.750Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:48:30.750Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:50:05.974Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T09:50:06.927Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T09:50:08.231Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:50:08.551Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:50:08.551Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:50:08.551Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:51:25.444Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T09:53:59.763Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-16T09:54:00.230Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T09:54:01.609Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:54:01.610Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:54:02.003Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:54:02.003Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:54:02.003Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T09:54:02.003Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:54:02.004Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T09:54:02.004Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:54:02.921Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:54:03.240Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:54:03.241Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:54:03.241Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:54:19.540Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T09:54:27.846Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T09:54:29.197Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:54:29.518Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:54:29.518Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:54:29.519Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:56:17.754Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T09:56:18.727Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T09:56:20.140Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:56:20.463Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:56:20.463Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:56:20.463Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:56:53.943Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T09:56:55.439Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T09:56:56.840Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:56:57.160Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:56:57.161Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:56:57.161Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:57:29.797Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T09:57:31.539Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T09:57:32.983Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:57:33.315Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:57:33.315Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:57:33.315Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:58:22.277Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T09:58:23.216Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T09:58:24.506Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:58:24.829Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:58:24.829Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:58:24.829Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T09:59:54.184Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T09:59:55.186Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T09:59:56.146Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T09:59:57.449Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T09:59:57.770Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T09:59:57.771Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T09:59:57.771Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:00:51.034Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T10:00:52.361Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:00:52.674Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:00:52.674Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:00:52.674Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:01:07.019Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T10:01:08.078Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T10:01:09.503Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:01:09.818Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:01:09.819Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:01:09.819Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:01:11.253Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T10:01:12.508Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:01:12.508Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:01:12.895Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:01:12.895Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:01:12.895Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T10:01:12.895Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:01:12.896Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T10:01:12.896Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:01:13.807Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:01:14.121Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:01:14.121Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:01:14.121Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:01:20.979Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-16T10:01:21.059Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T10:01:22.274Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:01:22.275Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:01:22.666Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:01:22.666Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:01:22.666Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T10:01:22.667Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:01:22.667Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T10:01:22.667Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:01:23.146Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T10:01:23.576Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:01:23.892Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:01:23.892Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:01:23.892Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:01:24.664Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:01:24.978Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:01:24.979Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:01:24.979Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:02:34.469Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T10:02:36.220Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T10:02:37.526Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:02:37.851Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:02:37.852Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:02:37.852Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:02:39.359Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T10:02:40.595Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:02:40.596Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:02:40.979Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:02:40.979Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:02:40.980Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T10:02:40.980Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:02:40.980Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T10:02:40.980Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:02:41.895Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:02:42.215Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:02:42.216Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:02:42.216Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:02:42.711Z][dev:info] { status: '200', route: 'GET  /product/63e46b1b7a19ba2cf67ccc52' }
+[2023-02-16T10:02:43.867Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:02:43.868Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:02:44.259Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:02:44.259Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:02:44.259Z][dev:info] message: 'Product with ID '63e46b1b7a19ba2cf67ccc52' found!!'
+[2023-02-16T10:02:44.259Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:02:44.260Z][dev:info] status: 200, route: 'GET /apiV1/products/63e46b1b7a19ba2cf67ccc52', {"method":"getProduct","message":"Product found!!!","data":{"id":"63e46b1b7a19ba2cf67ccc52","name":"Producto 1","description":"Producto ejemplo para pruebas de desarrollo","categories":["Categoria1"],"price":1234,"prodImg":"img_test.png"}}
+[2023-02-16T10:02:44.260Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:02:45.164Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:02:45.480Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:02:45.480Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:02:45.480Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:02:47.707Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:02:48.105Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:02:48.105Z][dev:info] message: 'Cart with ID '63ed586b37cb591078058266' updated!!'
+[2023-02-16T10:02:48.105Z][dev:info] status: 200, route: 'POST /apiV1/cart/63ed586b37cb591078058266/products', {"method":"updateCartProducts","message":"Products in Cart updated successfully!!!"}
+[2023-02-16T10:02:49.545Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T10:02:50.815Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:02:51.127Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:02:51.128Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:02:51.128Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[{"productId":"63e46b1b7a19ba2cf67ccc52","qty":3}],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:02:52.041Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:02:52.354Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:02:52.354Z][dev:info] message: 'Product with ID '63e46b1b7a19ba2cf67ccc52' found!!'
+[2023-02-16T10:02:52.354Z][dev:info] status: 200, route: 'GET /apiV1/products/63e46b1b7a19ba2cf67ccc52', {"method":"getProduct","message":"Product found!!!","data":{"id":"63e46b1b7a19ba2cf67ccc52","name":"Producto 1","description":"Producto ejemplo para pruebas de desarrollo","categories":["Categoria1"],"price":1234,"prodImg":"img_test.png"}}
+[2023-02-16T10:03:22.789Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T10:03:23.985Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:03:24.309Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:03:24.310Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:03:24.310Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[{"productId":"63e46b1b7a19ba2cf67ccc52","qty":3}],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:03:25.227Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:03:25.540Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:03:25.540Z][dev:info] message: 'Product with ID '63e46b1b7a19ba2cf67ccc52' found!!'
+[2023-02-16T10:03:25.540Z][dev:info] status: 200, route: 'GET /apiV1/products/63e46b1b7a19ba2cf67ccc52', {"method":"getProduct","message":"Product found!!!","data":{"id":"63e46b1b7a19ba2cf67ccc52","name":"Producto 1","description":"Producto ejemplo para pruebas de desarrollo","categories":["Categoria1"],"price":1234,"prodImg":"img_test.png"}}
+[2023-02-16T10:03:30.601Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T10:03:31.881Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:03:32.200Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:03:32.200Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:03:32.200Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[{"productId":"63e46b1b7a19ba2cf67ccc52","qty":3}],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:03:33.119Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:03:33.431Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:03:33.431Z][dev:info] message: 'Product with ID '63e46b1b7a19ba2cf67ccc52' found!!'
+[2023-02-16T10:03:33.431Z][dev:info] status: 200, route: 'GET /apiV1/products/63e46b1b7a19ba2cf67ccc52', {"method":"getProduct","message":"Product found!!!","data":{"id":"63e46b1b7a19ba2cf67ccc52","name":"Producto 1","description":"Producto ejemplo para pruebas de desarrollo","categories":["Categoria1"],"price":1234,"prodImg":"img_test.png"}}
+[2023-02-16T10:03:41.948Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T10:03:43.198Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:03:43.520Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:03:43.520Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:03:43.521Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[{"productId":"63e46b1b7a19ba2cf67ccc52","qty":3}],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:03:44.434Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:03:44.747Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:03:44.747Z][dev:info] message: 'Product with ID '63e46b1b7a19ba2cf67ccc52' found!!'
+[2023-02-16T10:03:44.747Z][dev:info] status: 200, route: 'GET /apiV1/products/63e46b1b7a19ba2cf67ccc52', {"method":"getProduct","message":"Product found!!!","data":{"id":"63e46b1b7a19ba2cf67ccc52","name":"Producto 1","description":"Producto ejemplo para pruebas de desarrollo","categories":["Categoria1"],"price":1234,"prodImg":"img_test.png"}}
+[2023-02-16T10:03:53.379Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T10:03:54.634Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:03:54.948Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:03:54.948Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:03:54.948Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[{"productId":"63e46b1b7a19ba2cf67ccc52","qty":3}],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:03:55.866Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:03:56.182Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:03:56.182Z][dev:info] message: 'Product with ID '63e46b1b7a19ba2cf67ccc52' found!!'
+[2023-02-16T10:03:56.182Z][dev:info] status: 200, route: 'GET /apiV1/products/63e46b1b7a19ba2cf67ccc52', {"method":"getProduct","message":"Product found!!!","data":{"id":"63e46b1b7a19ba2cf67ccc52","name":"Producto 1","description":"Producto ejemplo para pruebas de desarrollo","categories":["Categoria1"],"price":1234,"prodImg":"img_test.png"}}
+[2023-02-16T10:03:59.686Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T10:04:00.958Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:04:01.296Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:04:01.296Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:04:01.296Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[{"productId":"63e46b1b7a19ba2cf67ccc52","qty":3}],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:04:02.210Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:04:02.531Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:04:02.531Z][dev:info] message: 'Product with ID '63e46b1b7a19ba2cf67ccc52' found!!'
+[2023-02-16T10:04:02.531Z][dev:info] status: 200, route: 'GET /apiV1/products/63e46b1b7a19ba2cf67ccc52', {"method":"getProduct","message":"Product found!!!","data":{"id":"63e46b1b7a19ba2cf67ccc52","name":"Producto 1","description":"Producto ejemplo para pruebas de desarrollo","categories":["Categoria1"],"price":1234,"prodImg":"img_test.png"}}
+[2023-02-16T10:04:11.880Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T10:04:13.123Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:04:13.440Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:04:13.440Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:04:13.440Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[{"productId":"63e46b1b7a19ba2cf67ccc52","qty":3}],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:04:14.351Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:04:14.662Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:04:14.662Z][dev:info] message: 'Product with ID '63e46b1b7a19ba2cf67ccc52' found!!'
+[2023-02-16T10:04:14.663Z][dev:info] status: 200, route: 'GET /apiV1/products/63e46b1b7a19ba2cf67ccc52', {"method":"getProduct","message":"Product found!!!","data":{"id":"63e46b1b7a19ba2cf67ccc52","name":"Producto 1","description":"Producto ejemplo para pruebas de desarrollo","categories":["Categoria1"],"price":1234,"prodImg":"img_test.png"}}
+[2023-02-16T10:04:38.022Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-16T10:04:38.100Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-16T10:04:39.387Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:04:39.388Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:04:39.765Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:04:39.765Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:04:39.765Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-16T10:04:39.765Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:04:39.765Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-16T10:04:39.765Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[{"productId":"63e46b1b7a19ba2cf67ccc52","qty":3}],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:04:40.677Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:04:40.991Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:04:40.991Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:04:40.991Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[{"productId":"63e46b1b7a19ba2cf67ccc52","qty":3}],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:05:37.906Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T10:07:19.958Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T10:07:20.983Z][dev:info] { status: '200', route: 'GET  /product/63e46b1b7a19ba2cf67ccc52' }
+[2023-02-16T10:07:22.322Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:07:22.324Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:07:22.718Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:07:22.718Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:07:22.718Z][dev:info] message: 'Product with ID '63e46b1b7a19ba2cf67ccc52' found!!'
+[2023-02-16T10:07:22.718Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:07:22.718Z][dev:info] status: 200, route: 'GET /apiV1/products/63e46b1b7a19ba2cf67ccc52', {"method":"getProduct","message":"Product found!!!","data":{"id":"63e46b1b7a19ba2cf67ccc52","name":"Producto 1","description":"Producto ejemplo para pruebas de desarrollo","categories":["Categoria1"],"price":1234,"prodImg":"img_test.png"}}
+[2023-02-16T10:07:22.719Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[{"productId":"63e46b1b7a19ba2cf67ccc52","qty":3}],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:13:02.443Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T10:14:19.458Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T10:14:26.512Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T10:14:32.798Z][dev:info] { status: '200', route: 'GET  /product/63e46b1b7a19ba2cf67ccc52' }
+[2023-02-16T10:14:34.176Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:14:34.177Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:14:34.566Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:14:34.566Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:14:34.566Z][dev:info] message: 'Product with ID '63e46b1b7a19ba2cf67ccc52' found!!'
+[2023-02-16T10:14:34.566Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:14:34.566Z][dev:info] status: 200, route: 'GET /apiV1/products/63e46b1b7a19ba2cf67ccc52', {"method":"getProduct","message":"Product found!!!","data":{"id":"63e46b1b7a19ba2cf67ccc52","name":"Producto 1","description":"Producto ejemplo para pruebas de desarrollo","categories":["Categoria1"],"price":1234,"prodImg":"img_test.png"}}
+[2023-02-16T10:14:34.567Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[{"productId":"63e46b1b7a19ba2cf67ccc52","qty":3}],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:14:38.024Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:14:38.423Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:14:38.424Z][dev:info] message: 'Cart with ID '63ed586b37cb591078058266' updated!!'
+[2023-02-16T10:14:38.424Z][dev:info] status: 200, route: 'POST /apiV1/cart/63ed586b37cb591078058266/products', {"method":"updateCartProducts","message":"Products in Cart updated successfully!!!"}
+[2023-02-16T10:15:19.235Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T10:15:20.214Z][dev:info] { status: '200', route: 'GET  /product/63e46b1b7a19ba2cf67ccc52' }
+[2023-02-16T10:15:21.511Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:15:21.512Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:15:21.901Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:15:21.901Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:15:21.901Z][dev:info] message: 'Product with ID '63e46b1b7a19ba2cf67ccc52' found!!'
+[2023-02-16T10:15:21.901Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:15:21.901Z][dev:info] status: 200, route: 'GET /apiV1/products/63e46b1b7a19ba2cf67ccc52', {"method":"getProduct","message":"Product found!!!","data":{"id":"63e46b1b7a19ba2cf67ccc52","name":"Producto 1","description":"Producto ejemplo para pruebas de desarrollo","categories":["Categoria1"],"price":1234,"prodImg":"img_test.png"}}
+[2023-02-16T10:15:21.902Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[{"productId":"63e46b1b7a19ba2cf67ccc52","qty":4}],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:15:27.060Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:15:27.451Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:15:27.452Z][dev:info] message: 'Cart with ID '63ed586b37cb591078058266' updated!!'
+[2023-02-16T10:15:27.452Z][dev:info] status: 200, route: 'POST /apiV1/cart/63ed586b37cb591078058266/products', {"method":"updateCartProducts","message":"Products in Cart updated successfully!!!"}
+[2023-02-16T10:16:00.166Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T10:16:05.889Z][dev:info] { status: '200', route: 'GET  /product/63e46b1b7a19ba2cf67ccc52' }
+[2023-02-16T10:16:07.159Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:16:07.160Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:16:07.558Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:16:07.559Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:16:07.559Z][dev:info] message: 'Product with ID '63e46b1b7a19ba2cf67ccc52' found!!'
+[2023-02-16T10:16:07.559Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:16:07.559Z][dev:info] status: 200, route: 'GET /apiV1/products/63e46b1b7a19ba2cf67ccc52', {"method":"getProduct","message":"Product found!!!","data":{"id":"63e46b1b7a19ba2cf67ccc52","name":"Producto 1","description":"Producto ejemplo para pruebas de desarrollo","categories":["Categoria1"],"price":1234,"prodImg":"img_test.png"}}
+[2023-02-16T10:16:07.559Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[{"productId":"63e46b1b7a19ba2cf67ccc52","qty":5}],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:16:12.344Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:16:12.746Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:16:12.746Z][dev:info] message: 'Cart with ID '63ed586b37cb591078058266' updated!!'
+[2023-02-16T10:16:12.746Z][dev:info] status: 200, route: 'POST /apiV1/cart/63ed586b37cb591078058266/products', {"method":"updateCartProducts","message":"Products in Cart updated successfully!!!"}
+[2023-02-16T10:17:02.722Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T10:17:04.881Z][dev:info] { status: '200', route: 'GET  /product/63e46b1b7a19ba2cf67ccc52' }
+[2023-02-16T10:17:06.148Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:17:06.149Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:17:06.547Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:17:06.548Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:17:06.548Z][dev:info] message: 'Product with ID '63e46b1b7a19ba2cf67ccc52' found!!'
+[2023-02-16T10:17:06.548Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:17:06.548Z][dev:info] status: 200, route: 'GET /apiV1/products/63e46b1b7a19ba2cf67ccc52', {"method":"getProduct","message":"Product found!!!","data":{"id":"63e46b1b7a19ba2cf67ccc52","name":"Producto 1","description":"Producto ejemplo para pruebas de desarrollo","categories":["Categoria1"],"price":1234,"prodImg":"img_test.png"}}
+[2023-02-16T10:17:06.549Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[{"productId":"63e46b1b7a19ba2cf67ccc52","qty":6}],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:17:09.648Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:17:10.056Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:17:10.056Z][dev:info] message: 'Cart with ID '63ed586b37cb591078058266' updated!!'
+[2023-02-16T10:17:10.057Z][dev:info] status: 200, route: 'POST /apiV1/cart/63ed586b37cb591078058266/products', {"method":"updateCartProducts","message":"Products in Cart updated successfully!!!"}
+[2023-02-16T10:17:20.035Z][dev:info] { status: '200', route: 'GET  /cart' }
+[2023-02-16T10:17:21.321Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:17:21.647Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:17:21.648Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:17:21.648Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ed586b37cb591078058266","username":"marcossolis49@gmail.com","products":[{"productId":"63e46b1b7a19ba2cf67ccc52","qty":7}],"timestamp":"Wed Feb 15 2023 16:10:51 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:17:22.569Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:17:22.893Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:17:22.893Z][dev:info] message: 'Product with ID '63e46b1b7a19ba2cf67ccc52' found!!'
+[2023-02-16T10:17:22.893Z][dev:info] status: 200, route: 'GET /apiV1/products/63e46b1b7a19ba2cf67ccc52', {"method":"getProduct","message":"Product found!!!","data":{"id":"63e46b1b7a19ba2cf67ccc52","name":"Producto 1","description":"Producto ejemplo para pruebas de desarrollo","categories":["Categoria1"],"price":1234,"prodImg":"img_test.png"}}
+[2023-02-16T10:17:30.700Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:17:31.016Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:17:31.016Z][dev:info] message: 'Products of Cart with ID '63ed586b37cb591078058266' found!!'
+[2023-02-16T10:17:31.016Z][dev:info] status: 200, route: 'GET /apiV1/cart/63ed586b37cb591078058266/products', {"method":"getAllCarts","products":1}
+[2023-02-16T10:17:31.935Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:17:32.418Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:17:32.418Z][dev:info] message: 'Cart with ID '63ed586b37cb591078058266' updated!!'
+[2023-02-16T10:17:32.418Z][dev:info] status: 200, route: 'PUT /apiV1/cart/63ed586b37cb591078058266/products', {"method":"updateCart","message":"Cart updated successfully!!!"}
+[2023-02-16T10:17:33.250Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:17:33.559Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:17:34.329Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:17:34.724Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:17:34.724Z][dev:info] message: 'Cart with ID '63ed586b37cb591078058266' deleted!!!'
+[2023-02-16T10:17:35.490Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:17:35.818Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:17:35.818Z][dev:info] message: 'Ticket with ID '63ee02bf28c4dd223c81fcd5' registered!!!'
+[2023-02-16T10:17:35.818Z][dev:info] status: 201, route: 'POST /apiV1/ticket/', {"method":"createTicket","message":"Ticket created successfully!!!","ticket_id":"63ee02bf28c4dd223c81fcd5"}
+[2023-02-16T10:17:35.977Z][dev:info] { status: '200', route: 'GET  /ticket/63ee02bf28c4dd223c81fcd5' }
+[2023-02-16T10:17:37.138Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:17:37.455Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:17:37.456Z][dev:info] message: 'Cart of marcossolis49@gmail.com not found!!'
+[2023-02-16T10:17:38.221Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:17:38.549Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:17:38.550Z][dev:info] message: 'Cart with ID '63ee02c228c4dd223c81fcd8' registered!!!'
+[2023-02-16T10:17:39.312Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:17:39.626Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:17:39.627Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:17:39.627Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ee02c228c4dd223c81fcd8","username":"marcossolis49@gmail.com","products":[],"timestamp":"Thu Feb 16 2023 04:17:38 GMT-0600 (hora estÃ¡ndar central)"}}
+[2023-02-16T10:17:40.465Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:17:40.788Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:17:40.788Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:17:40.788Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ee02c228c4dd223c81fcd8","username":"marcossolis49@gmail.com","products":[],"timestamp":"Thu Feb 16 2023 04:17:38 GMT-0600 (hora estÃ¡ndar central)"}}
+[2023-02-16T10:17:41.708Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:17:42.041Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:17:42.041Z][dev:info] message: 'Ticket with ID '63ee02bf28c4dd223c81fcd5' found!!'
+[2023-02-16T10:17:42.042Z][dev:info] status: 200, route: 'GET /apiV1/ticket/63ee02bf28c4dd223c81fcd5', {"method":"getTicket","message":"Ticket found!!","ticket":{"id":"63ee02bf28c4dd223c81fcd5","email":"marcossolis49@gmail.com","products":[{"name":"Producto 1","price":1234,"qty":1}],"timestamp":"Thu Feb 16 2023 04:17:35 GMT-0600 (hora estÃ¡ndar central)"}}
+[2023-02-16T10:20:21.613Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T10:20:23.643Z][dev:info] { status: '200', route: 'GET  /ticket/63ee02bf28c4dd223c81fcd5' }
+[2023-02-16T10:20:24.938Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:20:24.939Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:20:25.340Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:20:25.340Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:20:25.340Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ee02c228c4dd223c81fcd8","username":"marcossolis49@gmail.com","products":[],"timestamp":"Thu Feb 16 2023 04:17:38 GMT-0600 (hora estÃ¡ndar central)"}}
+[2023-02-16T10:20:25.342Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:20:25.342Z][dev:info] message: 'Ticket with ID '63ee02bf28c4dd223c81fcd5' found!!'
+[2023-02-16T10:20:25.342Z][dev:info] status: 200, route: 'GET /apiV1/ticket/63ee02bf28c4dd223c81fcd5', {"method":"getTicket","message":"Ticket found!!","ticket":{"id":"63ee02bf28c4dd223c81fcd5","email":"marcossolis49@gmail.com","products":[{"name":"Producto 1","price":1234,"qty":1}],"timestamp":"Thu Feb 16 2023 04:17:35 GMT-0600 (hora estÃ¡ndar central)"}}
+[2023-02-16T10:21:01.215Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T10:21:02.965Z][dev:info] { status: '200', route: 'GET  /ticket/63ee02bf28c4dd223c81fcd5' }
+[2023-02-16T10:21:04.285Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:21:04.286Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:21:04.676Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:21:04.676Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:21:04.676Z][dev:info] message: 'Ticket with ID '63ee02bf28c4dd223c81fcd5' found!!'
+[2023-02-16T10:21:04.676Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:21:04.676Z][dev:info] status: 200, route: 'GET /apiV1/ticket/63ee02bf28c4dd223c81fcd5', {"method":"getTicket","message":"Ticket found!!","ticket":{"id":"63ee02bf28c4dd223c81fcd5","email":"marcossolis49@gmail.com","products":[{"name":"Producto 1","price":1234,"qty":1}],"timestamp":"Thu Feb 16 2023 04:17:35 GMT-0600 (hora estÃ¡ndar central)"}}
+[2023-02-16T10:21:04.677Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ee02c228c4dd223c81fcd8","username":"marcossolis49@gmail.com","products":[],"timestamp":"Thu Feb 16 2023 04:17:38 GMT-0600 (hora estÃ¡ndar central)"}}
+[2023-02-16T10:21:20.520Z][dev:info] { status: '200', route: 'GET  /ticket/63ee02bf28c4dd223c81fcd5' }
+[2023-02-16T10:21:21.835Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:21:21.835Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:21:22.221Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:21:22.222Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:21:22.222Z][dev:info] message: 'Ticket with ID '63ee02bf28c4dd223c81fcd5' found!!'
+[2023-02-16T10:21:22.222Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:21:22.222Z][dev:info] status: 200, route: 'GET /apiV1/ticket/63ee02bf28c4dd223c81fcd5', {"method":"getTicket","message":"Ticket found!!","ticket":{"id":"63ee02bf28c4dd223c81fcd5","email":"marcossolis49@gmail.com","products":[{"name":"Producto 1","price":1234,"qty":1}],"timestamp":"Thu Feb 16 2023 04:17:35 GMT-0600 (hora estÃ¡ndar central)"}}
+[2023-02-16T10:21:22.223Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ee02c228c4dd223c81fcd8","username":"marcossolis49@gmail.com","products":[],"timestamp":"Thu Feb 16 2023 04:17:38 GMT-0600 (hora estÃ¡ndar central)"}}
+[2023-02-16T10:21:53.162Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T10:23:34.393Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T10:24:04.870Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T10:25:19.650Z][dev:info] { status: '200', route: 'GET  /ticket/63ee02bf28c4dd223c81fcd5' }
+[2023-02-16T10:25:20.952Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:25:20.953Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:25:21.346Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:25:21.347Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:25:21.347Z][dev:info] message: 'Ticket with ID '63ee02bf28c4dd223c81fcd5' found!!'
+[2023-02-16T10:25:21.347Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:25:21.347Z][dev:info] status: 200, route: 'GET /apiV1/ticket/63ee02bf28c4dd223c81fcd5', {"method":"getTicket","message":"Ticket found!!","ticket":{"id":"63ee02bf28c4dd223c81fcd5","email":"marcossolis49@gmail.com","products":[{"name":"Producto 1","price":1234,"qty":1}],"timestamp":"Thu Feb 16 2023 04:17:35 GMT-0600 (hora estÃ¡ndar central)"}}
+[2023-02-16T10:25:21.348Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ee02c228c4dd223c81fcd8","username":"marcossolis49@gmail.com","products":[],"timestamp":"Thu Feb 16 2023 04:17:38 GMT-0600 (hora estÃ¡ndar central)"}}
+[2023-02-16T10:25:22.266Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:25:22.584Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:25:22.584Z][dev:info] message: 'User with ID '63eaa9e00350490ef31b1637' found!!'
+[2023-02-16T10:25:22.584Z][dev:info] status: 200, route: 'GET /apiV1/user/63eaa9e00350490ef31b1637', {"method":"getUser","message":"User found!!!","data":{"id":"63eaa9e00350490ef31b1637","name":"Marcos SolÃ­s Santiago","username":"marcossolis49@gmail.com","phone":"5549110299","timestamp":"Mon Feb 13 2023 15:21:36 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:26:39.075Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T10:26:48.816Z][dev:info] { status: '200', route: 'GET  /ticket/63ee02bf28c4dd223c81fcd5' }
+[2023-02-16T10:26:50.135Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:26:50.136Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:26:50.525Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:26:50.525Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:26:50.526Z][dev:info] message: 'Ticket with ID '63ee02bf28c4dd223c81fcd5' found!!'
+[2023-02-16T10:26:50.526Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-16T10:26:50.526Z][dev:info] status: 200, route: 'GET /apiV1/ticket/63ee02bf28c4dd223c81fcd5', {"method":"getTicket","message":"Ticket found!!","ticket":{"id":"63ee02bf28c4dd223c81fcd5","email":"marcossolis49@gmail.com","products":[{"name":"Producto 1","price":1234,"qty":1}],"timestamp":"Thu Feb 16 2023 04:17:35 GMT-0600 (hora estÃ¡ndar central)"}}
+[2023-02-16T10:26:50.527Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ee02c228c4dd223c81fcd8","username":"marcossolis49@gmail.com","products":[],"timestamp":"Thu Feb 16 2023 04:17:38 GMT-0600 (hora estÃ¡ndar central)"}}
+[2023-02-16T10:26:51.449Z][dev:info] Mongo DB Client connected!!
+[2023-02-16T10:26:51.766Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-16T10:26:51.766Z][dev:info] message: 'User with ID '63eaa9e00350490ef31b1637' found!!'
+[2023-02-16T10:26:51.767Z][dev:info] status: 200, route: 'GET /apiV1/user/63eaa9e00350490ef31b1637', {"method":"getUser","message":"User found!!!","data":{"id":"63eaa9e00350490ef31b1637","name":"Marcos SolÃ­s Santiago","username":"marcossolis49@gmail.com","phone":"5549110299","timestamp":"Mon Feb 13 2023 15:21:36 GMT-0600 (Central Standard Time)"}}
+[2023-02-16T10:29:03.411Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T10:31:28.154Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T10:31:43.806Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T10:36:01.858Z][dev:info] Server listening at PORT: 4001
+[2023-02-16T10:37:31.923Z][dev:info] { status: '200', route: 'GET  /ticket/63ee02bf28c4dd223c81fcd5' }
+[2023-02-16T10:37:32.002Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-16T10:37:32.082Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-16T10:41:00.090Z][dev:info] Server listening at PORT: 4001
+[2023-02-17T05:46:45.087Z][dev:info] { status: '200', route: 'GET  /login' }
+[2023-02-17T05:46:53.378Z][dev:info] Mongo DB Client connected!!
+[2023-02-17T05:46:53.726Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-17T05:46:54.430Z][dev:info] { status: '200', route: 'GET  /' }
+[2023-02-17T05:46:54.513Z][dev:info] { status: '200', route: 'GET  /products' }
+[2023-02-17T05:46:55.565Z][dev:info] Mongo DB Client connected!!
+[2023-02-17T05:46:55.565Z][dev:info] Mongo DB Client connected!!
+[2023-02-17T05:46:55.960Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-17T05:46:55.960Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-17T05:46:55.960Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ee02c228c4dd223c81fcd8","username":"marcossolis49@gmail.com","products":[],"timestamp":"Thu Feb 16 2023 04:17:38 GMT-0600 (hora estÃ¡ndar central)"}}
+[2023-02-17T05:46:55.964Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-17T05:46:55.964Z][dev:info] message: 'Quantity of Products: 2'
+[2023-02-17T05:46:55.964Z][dev:info] status: 200, route: 'GET /apiV1/products/all', {"method":"getAllProducts","products":2}
+[2023-02-17T05:46:56.884Z][dev:info] Mongo DB Client connected!!
+[2023-02-17T05:46:57.212Z][dev:info] Mongo DB Client disconnected!!
+[2023-02-17T05:46:57.213Z][dev:info] message: 'Cart of marcossolis49@gmail.com found!!'
+[2023-02-17T05:46:57.213Z][dev:info] status: 200, route: 'GET /apiV1/cart/marcossolis49@gmail.com', {"method":"getUserCart","message":"Cart found!!","cart":{"id":"63ee02c228c4dd223c81fcd8","username":"marcossolis49@gmail.com","products":[],"timestamp":"Thu Feb 16 2023 04:17:38 GMT-0600 (hora estÃ¡ndar central)"}}

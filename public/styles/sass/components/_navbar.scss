@@ -8,6 +8,15 @@
         // color: none !important;
         text-decoration: none;
     }
+    .btn-outline-secondary{
+        color: transparent;
+        border-color: transparent;
+    }
+    .btn-outline-secondary:hover{
+        color: transparent;
+        border-color: transparent;
+        background-color: transparent;
+    }
     .cart_icon{
         // position: absolute;
         // top: -5px;
@@ -16,7 +25,7 @@
         .counter {
             position: absolute;
             top: 35px;
-            right: 75px;
+            right: 130px;
             height: 23px;
             width: 23px;
             text-align: center;
@@ -30,6 +39,9 @@
 }
 @media (min-width: 768px) {
     .navbar{
+        #navbarUserContent{
+            display: none !important;
+        }
         .cart_icon{
             .counter {
                 right: 175px;

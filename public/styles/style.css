@@ -3,11 +3,11 @@
 /* =========================  >  RESETS  <  ========================= */
 /*  --------------------------- > BASE < ---------------------------  */
 body {
-  background-color: #1b1b1b !important;
+  background-color: rgb(27, 27, 27) !important;
 }
 
 body .jumbotron {
-  background-color: #9b9b9b;
+  background-color: rgb(155, 155, 155);
 }
 
 textarea {
@@ -19,7 +19,7 @@ textarea {
 }
 
 ::-webkit-scrollbar-track {
-  background: #272727 !important;
+  background: rgb(39, 39, 39) !important;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -51,10 +51,19 @@ textarea {
 .navbar a:hover {
   text-decoration: none;
 }
+.navbar .btn-outline-secondary {
+  color: transparent;
+  border-color: transparent;
+}
+.navbar .btn-outline-secondary:hover {
+  color: transparent;
+  border-color: transparent;
+  background-color: transparent;
+}
 .navbar .cart_icon .counter {
   position: absolute;
   top: 35px;
-  right: 75px;
+  right: 130px;
   height: 23px;
   width: 23px;
   text-align: center;
@@ -64,6 +73,9 @@ textarea {
 }
 
 @media (min-width: 768px) {
+  .navbar #navbarUserContent {
+    display: none !important;
+  }
   .navbar .cart_icon .counter {
     right: 175px;
   }
@@ -71,7 +83,7 @@ textarea {
 /* ==========================  >  CARD  <  ========================== */
 /*  --------------------------- > BASE < ---------------------------  */
 .card a:hover {
-  color: #4b4b4b;
+  color: rgb(75, 75, 75);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,40 +1,15 @@
 /* ==================================== LOGIC ==================================== */
-(() => {
-    const email = document.getElementsByTagName('title')[0].innerHTML.split(' - ')[1];
-    const queryString = window.location.pathname;
-    const ticketId = queryString.split('/')[2];
+(async () => {
+    const ticketId = (window.location.pathname).split('/')[2];
 
-    fetch(`/apiV1/cart/${email}`, { method: 'GET' })
-    .then(res => res.json())
-    .then(async res => {
-        let html ;
-        let qty = 0;
-
-        for(let i = 0; i < res.cart.products.length; i++){
-            qty = qty + parseInt(res.cart.products[i].qty)
-        }
-
-        if(qty < 1){
-            html = `<span id="counter_${res.cart.id}" class="counter d-none" data-placement="bottom"></span>`;
-        } else {
-            html = `<span id="counter_${res.cart.id}" class="counter d-block" data-placement="bottom">
-            ${qty}
-            </span>`;
-        }
-        document.getElementsByClassName("cart_icon")[0].innerHTML += html;
-        document.getElementsByClassName("cart_icon")[1].innerHTML += html;
-
-        await renderTicket(ticketId)
-    })
-    .catch(error => console.error('error =>', error))
+    await renderTicket(ticketId);
 })();
 /* ================================== FUNCTIONS ================================== */
 async function renderTicket(ticketId){
     await fetch(`/apiV1/ticket/${ticketId}`, { method: 'GET' })
     .then(res => res.json())
     .then(async (res) => {
-        const ticket = res.ticket;
-        const {id, products} = ticket;
+        const products = res.ticket.products;
         const userID = document.getElementById("usrID").innerHTML;
         await fetch(`/apiV1/user/${userID}`, { method: 'GET' })
         .then(res => res.json())
@@ -46,7 +21,7 @@ async function renderTicket(ticketId){
                     <tbody id="usrDataInner" >
                         <tr>
                             <td>ID: </td>
-                            <td id="userId">${user.id}</td>
+                            <td>${user.id}</td>
                         </tr>
                         <tr>
                             <td>Comprador: </td>
